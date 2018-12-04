@@ -1,0 +1,34 @@
+# these are the dependencies - one per line
+# format is <package> <version> <dependency>:<version>
+
+root 5.34.21-x86_64-slc6-gcc47-opt gccxml:0.9.0_20120309p2-x86_64-slc6-gcc47-opt
+root 5.34.21-x86_64-slc6-gcc48-opt gccxml:0.9.0_20120309p2-x86_64-slc6-gcc48-opt
+root 5.34.22-x86_64-slc6-gcc48-opt gccxml:0.9.0_20120309p2-x86_64-slc6-gcc48-opt
+root 5.34.24-x86_64-slc6-gcc48-opt gccxml:0.9.0_20120309p2-x86_64-slc6-gcc48-opt
+root 5.34.25-x86_64-slc6-gcc48-opt gccxml:0.9.0_20120309p2-x86_64-slc6-gcc48-opt
+root 5.34.32-HiggsComb-x86_64-slc6-gcc48-opt gccxml:0.9.0_20120309p2-x86_64-slc6-gcc48-opt
+root 5.34.32-HiggsComb-p1-x86_64-slc6-gcc48-opt gccxml:0.9.0_20120309p2-x86_64-slc6-gcc48-opt
+root 5.34.32-HiggsComb-x86_64-slc6-gcc48-opt gsl:1.10-x86_64-slc6-gcc48-opt
+root 5.34.32-HiggsComb-p1-x86_64-slc6-gcc48-opt gsl:1.10-x86_64-slc6-gcc48-opt
+root 5.34.32-HiggsComb-x86_64-slc6-gcc48-opt fftw:3.1.2-x86_64-slc6-gcc48-opt
+root 5.34.32-HiggsComb-p1-x86_64-slc6-gcc48-opt fftw:3.1.2-x86_64-slc6-gcc48-opt
+root 5.34.21-x86_64-slc6-gcc48-opt xrootd:3.3.6.p1-x86_64-slc6-gcc48-opt
+root 5.34.22-x86_64-slc6-gcc48-opt xrootd:3.3.6.p1-x86_64-slc6-gcc48-opt
+root 5.34.24-x86_64-slc6-gcc48-opt xrootd:3.3.6.p1-x86_64-slc6-gcc48-opt
+root 5.34.25-x86_64-slc6-gcc48-opt xrootd:3.3.6.p1-x86_64-slc6-gcc48-opt
+root 6.02.00-x86_64-slc6-gcc48-opt xrootd:3.3.6.p1-x86_64-slc6-gcc48-opt
+root 6.02.01-x86_64-slc6-gcc48-opt xrootd:3.3.6.p1-x86_64-slc6-gcc48-opt
+root 6.02.02-x86_64-slc6-gcc48-opt xrootd:3.3.6.p1-x86_64-slc6-gcc48-opt
+root 6.02.03-x86_64-slc6-gcc48-opt xrootd:3.3.6.p1-x86_64-slc6-gcc48-opt
+root 6.02.04-x86_64-slc6-gcc48-opt xrootd:3.3.6.p1-x86_64-slc6-gcc48-opt
+root 6.02.05-x86_64-slc6-gcc48-opt xrootd:3.3.6.p1-x86_64-slc6-gcc48-opt
+root 6.02.10-x86_64-slc6-gcc48-opt xrootd:3.3.6.p1-x86_64-slc6-gcc48-opt
+root 6.02.12-x86_64-slc6-gcc48-opt xrootd:3.3.6.p1-x86_64-slc6-gcc48-opt
+root 6.04.02-x86_64-slc6-gcc48-opt xrootd:3.3.6.p1-x86_64-slc6-gcc48-opt
+root 6.10.04-x86_64-slc6-gcc62-opt png:1.6.17-x86_64_slc6_gcc62_opt
+root 6.10.06-x86_64-slc6-gcc62-opt png:1.6.17-x86_64_slc6_gcc62_opt
+root 6.12.04-x86_64-slc6-gcc62-opt png:1.6.17-x86_64_slc6_gcc62_opt
+root 6.12.04-x86_64-slc6-gcc62-opt davix:0.6.7-x86_64-slc6-gcc62-opt
+root 6.10.06-x86_64-slc6-gcc62-opt davix:0.6.7-x86_64-slc6-gcc62-opt
+root 6.12.06-x86_64-slc6-gcc62-opt png:1.6.17-x86_64_slc6_gcc62_opt
+root 6.12.06-x86_64-slc6-gcc62-opt davix:0.6.7-x86_64-slc6-gcc62-opt

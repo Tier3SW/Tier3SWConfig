@@ -1,0 +1,49 @@
+This dir contains the following files:
+
+     	cleanup.sh
+		cleans up items in the ATLASLocalRootBase dirs.
+	
+     	dependencies.txt 
+       		dependencies to override or supplement the tools
+	    
+     	masterConfigs.sh 
+        	default settings for each tool.  This is the starting point.
+
+	motd
+		message of the day
+
+	tools (dir)
+		contains the configurations for every tool.
+
+	latestVersion
+		contains a single line with the tag of this package to use by 
+		default.
+
+        RELEASE.NOTES
+		contains a description of changes.  Please follow the format
+		and include your name and date of changes together with the
+		tag.
+
+To make changes, 	
+
+	checkout the package	
+		export SVNROOT=svn+ssh://svn.cern.ch/reps/atcansupport
+		export SVN_EDITOR=emacs 
+		svn co $SVNROOT/cfgManageTier3SW/default/trunk cfgManageTier3SW/default
+			or
+		svn switch $SVNROOT/cfgManageTier3SW/default/trunk cfgManageTier3SW/default	(if you are not using the trunk)
+
+	edit the changes, do not change the latestVersion file.
+
+	commit the code.
+		svn status --show-updates
+		svn ci -m "Description of changes"  (or omit -m) 
+
+	Give it a private tag (eg. candXXXX) for testing
+		svn cp  $SVNROOT/cfgManageTier3SW/default/trunk  $SVNROOT/cfgManageTier3SW/default/tags/<privateTag>
+	
+
+	When ready for deployment, 
+		edit latestVersion to reflect the new tag (eg. V00-00-05)
+		svn ci -m "latest version"
+		svn cp $SVNROOT/cfgManageTier3SW/default/trunk  $SVNROOT/cfgManageTier3SW/default/tags/<tag>

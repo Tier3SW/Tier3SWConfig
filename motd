@@ -1,0 +1,845 @@
+#! /bin/bash
+#!----------------------------------------------------------------------------
+#!
+#! motd
+#!
+#! Shows the message-of-the-day
+#!
+#! Please change this in cfgManageTier3SW/default
+#!  and it will propagate to sites when the update the Tier3 SW.
+#!
+#! Usage: 
+#!     Not called directly !
+#!
+#! History:
+#!   02Mar12: A. De Silva, First version
+#!
+#!----------------------------------------------------------------------------
+
+# The output should have the format as shown below:
+
+#echo -e "
+#\033[1m\033[4m05 Mar 2012\033[0m
+#  Standalone ROOT version 5.32.01 is available.  
+#    (Usage: showVersions --show=root).
+#  This will be the default version on 12 Mar 2012.   
+#"
+
+# enter the new message below this line.
+
+#echo -e "
+#\033[1m\033[4m05 Mar 2012\033[0m
+#  Standalone ROOT version 5.32.01 is available.  
+#    (Usage: showVersions --show=root).
+#  This will be the default version on 12 Mar 2012.   
+#"
+
+#echo -e "
+#\033[1m\033[4m29 Mar 2012\033[0m
+#  new: localSetupPyAmi; type helpMe for details.
+#"
+
+#echo -e "
+#\033[1m\033[4m08 May 2012\033[0m
+#  new: DQ2Client 2.3.0 is default.  Please report problems.
+#  To use last version: showVersions --show=dq2
+#"
+
+#echo -e "
+#\033[1m\033[4m09 May 2012\033[0m
+#  Standalone ROOT version 5.32.03 is available.  
+#    (Usage: showVersions --show=root).
+#  This will be the default version on 16 May 2012.   
+#"
+
+
+#echo -e "
+#\033[1m\033[4m05 Jun 2012\033[0m
+#  Standalone ROOT version 5.34.00 is available.  
+#    (Usage: showVersions --show=root).
+#  This will be the default version on 13 Jun 2012.   
+#"
+
+#echo -e "
+#\033[1m\033[4m16 Jul 2012\033[0m
+#  Standalone ROOT version 5.34.01 is available.  
+#    (Usage: showVersions --show=root).
+#  This will be the default version on 23 Jul 2012.   
+#  (Also available, 5.32.04)
+#  xrootd updated to 3.1.1
+#"
+
+
+#echo -e "
+#\033[1m\033[4m02 Nov 2012\033[0m
+#  Standalone ROOT version 5.34.02 and 5.34.03 are available.  
+#    (Usage: showVersions --show=root).
+#  5.34.03 will be the default version on 09 Nov 2012.   
+#"
+
+#echo -e "
+#\033[1m\033[4m11 Jan 2013\033[0m
+#  Standalone ROOT version 5.34.04 is available.
+#    (Usage: showVersions --show=root).
+#  5.34.04 will be the default version on 21 Jan 2013.   
+#"
+
+#echo -e "
+#\033[1m\033[4m20 Feb 2013\033[0m
+#  Standalone ROOT version 5.34.05 is available.
+#    (Usage: showVersions --show=root).
+#  5.34.05 will be the default version on 27 Feb 2013.   
+#
+#  Mana is now available.  type helpMe for details.
+#"
+
+#echo -e "
+#\033[1m\033[4m22 Apr 2013\033[0m
+#  Standalone ROOT version 5.34.06 is available.
+#    (Usage: showVersions --show=root).
+#  5.34.06 will be the default version on 29 Apr 2013.   
+#"
+
+#echo -e "
+#\033[1m\033[4m26 Apr 2013\033[0m
+#  ROOT 5.34/06 will NOT be made default because of problems.
+#     https://sft.its.cern.ch/jira/browse/ROOT-5067
+#  We will wait for 5.34/07 for testing.
+#"
+
+#echo -e "
+#\033[1m\033[4m29 Apr 2013\033[0m
+#  Standalone ROOT version 5.34.07 is available.
+#    (Usage: showVersions --show=root).
+#  5.34.07 will be the default version on 06 May 2013.   
+#"
+
+
+#echo -e "
+#\033[1m\033[4m11 Jun 2013\033[0m
+#  1.  Standalone ROOT version 5.34.08 is available.
+#      5.34.08 will be the default version on 18 Jun 2013.   
+#      This is the SL5 version (gcc34, python 2.6)
+#
+#  2.  SL6 version (gcc47, python 2.7) of ROOT 5.34/08 available for testing
+#
+#  (Usage: showVersions --show=root).  
+#
+#"
+
+#echo -e "
+#\033[1m\033[4m17 Jun 2013\033[0m
+#  Standalone ROOT version 5.34/08 will NOT be made default
+#    Testing has uncovered a Proof-lite issue
+#    https://sft.its.cern.ch/jira/browse/ROOT-5280
+#
+#"
+
+#echo -e "
+#\033[1m\033[4m28 Jun 2013\033[0m
+#  1.  Standalone ROOT version 5.34.09 is available.
+#      5.34.09 will be the default version on 08 Jul 2013.   
+#      This is the SL5 version (gcc34, python 2.6)
+#
+#  2.  SL6 version (gcc47, python 2.7) of ROOT 5.34/09 available for testing
+#
+#  (Usage: showVersions --show=root).  
+#
+#"
+
+#echo -e "
+#\033[1m\033[4m2 Jul 2013\033[0m
+#  1.  Standalone ROOT version 5.34.09 is available.
+#      5.34.09 will be NOT be made the default version.   
+#      Testing has uncovered a Proof-lite issue
+#      https://sft.its.cern.ch/jira/browse/ROOT-5280
+#      This is the SL5 version (gcc34, python 2.6)
+#
+#  2.  SL6 version (gcc47, python 2.7) of ROOT 5.34/09 available for testing
+#
+#  (Usage: showVersions --show=root).  
+#
+#"
+
+#echo -e "
+#\033[1m\033[4m29 Jul 2013\033[0m
+#  Note that you can now setup versions of any software without the 
+#    --xxxVersion option; eg:
+#         localSetupROOT 5.34.06-i686-slc5-gcc4.3
+#  
+#  If you do not give an argument, the default will be setup.
+#"
+
+#if [ ! -z $CMTUSERCONTEXT ]; then
+#    echo -e "
+#\033[1m\033[4m27 Aug 2013\033[0m
+#  CMTUSERCONTEXT is now defined; old slc5 releases can compile on SL6 machines.
+#"
+#fi
+
+#if [ "$ALRB_RHVER" = "6" ]; then
+##if [ ! -z $CMTUSERCONTEXT ]; then
+#    echo -e "
+#\033[1m\033[4m29 Aug 2013\033[0m
+#  CMTUSERCONTEXT is NOT defined by default (minor issues found).
+#  If you want to help test CMTUSERCONTEXT, please do
+#    setupATLAS --test=cmtSL6
+#"
+#fi
+
+#if [ ! -z $CMTUSERCONTEXT ]; then
+#    echo -e "
+#\033[1m\033[4m16 Sep 2013\033[0m
+#  CMTUSERCONTEXT is now defined; old slc5 releases can compile on SL6 machines.
+#"
+#fi
+
+#if [ "$ATLAS_LOCAL_ROOT_ARCH" = "x86_64" ]; then
+#    echo -e "
+#\033[1m\033[4m19 Sep 2013\033[0m
+#  AGIS clients now available.  Type helpMe for links.
+#    (or do, after localSetupAGIS, agis-<tab> to see available commands)
+#"
+#fi
+
+#echo -e "
+#\033[1m\033[4m25 Sep 2013\033[0m
+#  1.  Standalone ROOT version 5.34.10 is available.
+#      5.34.10 will be the default version on 02 Oct 2013.   
+#      This is the SL5 version (gcc34, python 2.6)
+#
+#  2.  SL6 version (gcc47, python 2.7) of ROOT 5.34/10 available for testing
+#
+#  (Usage: showVersions root).  
+#
+#"
+
+
+#echo -e "
+#\033[1m\033[4m08 Oct 2013\033[0m
+#  Obsolete ROOT versions to be removed on Oct 17.
+#  For ROOT >= 5.32, all versions will remain available.
+#  For ROOT < 5.32, only these will be available:
+#    5.28/g, 5.30/06
+#  
+#  (Usage: showVersions root).  
+#
+#"
+
+#echo -e "
+#\033[1m\033[4m05 Nov 2013\033[0m
+#  1.  Standalone ROOT version 5.34.11 is available.
+#      5.34.11 will be the default version on 13 Nov 2013.   
+#      This is the SL5 version (gcc34, python 2.6)
+#
+#  2.  SL6 version (gcc47, python 2.7) of ROOT 5.34/11 available for testing
+#
+#  (Usage: showVersions root).  
+#
+#"
+
+#echo -e "
+#\033[1m\033[4m21 Nov 2013\033[0m
+#  1.  Standalone ROOT version 5.34.12 is available.
+#      5.34.12 will be the default version on 28 Nov 2013.   
+#      This is the SL5 version (gcc34, python 2.6)
+#
+#  2.  SL6 version (gcc47, python 2.7) of ROOT 5.34/12 available for testing
+#
+#  (Usage: showVersions root).  
+#
+#"
+
+#echo -e "
+#\033[1m\033[4m02 Dec 2013\033[0m
+#  1.  Standalone ROOT version 5.34.13 is available.
+#      5.34.13 will be the default version on 09 Dec 2013.   
+#      This is the SL5 version (gcc34, python 2.6)
+#
+#  2.  SL6 version (gcc47, python 2.7) of ROOT 5.34/13 available for testing
+#
+#  (Usage: showVersions root).  
+#
+#"
+
+#echo -e "
+#\033[1m\033[4m16 Dec 2013\033[0m
+#  1.  Standalone ROOT version 5.34.14 is available.
+#      5.34.14 will be the default version on or after 23 Dec 2013.
+#      (Probably after Christmas... sorry!)   
+#      This is the SL5 version (gcc34, python 2.6)
+#
+#  2.  SL6 version (gcc47, python 2.7) of ROOT 5.34/14 available for testing
+#
+#  (Usage: showVersions root).  
+#
+#"
+
+#echo -e "
+#\033[1m\033[4m02 Jan 2014\033[0m
+#  1.  Standalone ROOT version 5.34.14 is available.
+#      5.34.14 will be the default version on or after 09 Jan 2014.
+#      This is the SL5 version (gcc34, python 2.6)
+#
+#  2.  SL6 version (gcc47, python 2.7) of ROOT 5.34/14 available for testing
+#
+#  (Usage: showVersions root).  
+#
+#"
+
+#if [ "$ALRB_RHVER" = "6" ]; then
+#    echo -e "
+#\033[1m\033[4m09 Jan 2014\033[0m
+#  Users on SL6 machines: your default ROOT version when you type
+#   localSetupROOT will be 5.34.14-x86_64-slc6-gcc4.7 (ie gcc47 and python 2.7)
+#"
+#fi
+
+#echo -e "
+#\033[1m\033[4m13 Jan 2014\033[0m
+#  localSetupMana is depreciated and will be removed on Jan 20.
+#"
+
+#echo -e "
+#\033[1m\033[4m27 Jan 2014\033[0m
+#  localSetupPyAMI users:
+#   Please note that voms-proxy-init and voms-proxy-info are available for you.
+#   There are no longer any rucio-* clients automatically setup.
+#   Old behaviour can be obtained by localSetupDQ2Wrappers - only if you need it.
+#
+#  localSetupRucio users:
+#   This is now localSetupDQ2Wrappers to avoud confusion with rucio-clients.
+#"
+
+#echo -e " 
+#\033[1m\033[4m12 Feb 2014\033[0m 
+#  localSetupSFT (new) for advanced users.  For details, look at 
+#   localSetupSFT --help 
+#  and also 
+#   https://twiki.atlas-canada.ca/bin/view/AtlasCanada/LocalSetupSFT
+#"
+
+
+#echo -e "
+#\033[1m\033[4m25 Feb 2014\033[0m 
+#    Standalone ROOT version 5.34.17 is available.
+#    5.34.17 will be the default version on or after 05 Mar 2014.     
+#    There are 
+#      SL5 versions (gcc34, python 2.6) 
+#      SL6 versions (gcc47 and gcc48, python 2.7)
+#
+#  (Usage: showVersions root).  
+#
+#"
+
+#echo -e "
+#\033[1m\033[4m03 Mar 2014\033[0m 
+#    Standalone ROOT version 5.34.17 is available but will NOT be made default.
+#     (problems were found in testing which will be resolved in next verson)
+#"
+
+#echo -e "
+#\033[1m\033[4m17 Mar 2014\033[0m 
+#    Standalone ROOT version 5.34.18 is available.
+#    5.34.18 will be the default version on or after 24 Mar 2014.     
+#    There are 
+#      SL5 versions (gcc43, python 2.6) 
+#      SL6 versions (gcc47 and gcc48, python 2.7)
+#
+#  (Usage: showVersions root).  
+#
+#"
+#
+#echo -e "
+#\033[1m\033[4m19 Mar 2014\033[0m 
+#    FAX users: note that with the new default version 00-00-16, the commands
+#     are fax-* instead of FAX-*.
+#
+#"
+
+#if [ "$ALRB_RHVER" = "6" ]; then
+#    echo -e "
+#\033[1m\033[4m09 Apr 2014\033[0m
+#  New version of grid middleware is available for testing (SL6 only).
+#  To use, log in again and type setupATLAS --test=useEmi3  
+#   Known issues: https://twiki.atlas-canada.ca/bin/view/AtlasCanada/EmiTesting
+##  This version depends on Java so please test it.
+#"
+#fi
+
+# keep these messages (ads, moved to main ALRB code"):
+#if [ "$ALRB_RHVER" = "5" ]; then
+#echo -e "
+#\033[1m\033[4m10 Apr 2014\033[0m
+#  You are running on a SL5 compatible OS which is deprecated.
+#  Please switch to using SL6 machines now (all SL5 releases work on SL6)."
+#  if [ ! -z $ATLAS_LOCAL_ROOT_CERNVM ]; then
+#      echo "  CernVM users: please upgrade to CernVM3; see
+#https://twiki.cern.ch/twiki/bin/view/AtlasComputing/CernVMFS#Setup_Instruction#s_for_CernVM_Us"   
+#  fi 
+#fi
+
+#if [ "$ALRB_RHVER" = "6" ]; then
+#    echo -e "
+#\033[1m\033[4m28 Apr 2014\033[0m
+#  Note: new version of grid middleware (emi3) is now default.
+#"
+#fi
+
+#echo -e "
+#\033[1m\033[4m02 Jun 2014\033[0m 
+#    Standalone ROOT version 6.00.00 is available.
+#    This is experimental and will not be made the default.
+#  (Usage: showVersions root).  
+#"
+
+#if [ "$ALRB_OSTYPE" = "Linux" ]; then
+#    echo -e "
+#\033[1m\033[4m12 Jun 2014\033[0m 
+#    Users are now encouraged to test JEDI; see:
+#      https://twiki.cern.ch/twiki/bin/viewauth/AtlasComputing/JEDIUserTesting
+#"
+
+#    echo -e "
+#\033[1m\033[4m19 Jun 2014\033[0m 
+#    Proof-on-Demand (PoD) 3.16 available.  It will be made default next week.
+#      To use,
+#        showVersions pod
+#"
+
+#fi
+
+#if [ "$ALRB_OSTYPE" = "Linux" ]; then
+#    echo -e "
+#\033[1m\033[4m07 Jul 2014\033[0m 
+#    There may be some voms-proxy errors (voms2.cern.ch and lcg-voms2.cern.ch).
+#     This can be ignored for now as there is a migration to new servers 
+#     which are not yet switched on.  However, at the end of the commands, 
+#     you must see a successful attempt and obtain a valid proxy.
+#"
+#fi
+
+#echo -e "
+#\033[1m\033[4m10 Jul 2014\033[0m 
+#    Standalone ROOT version 5.34.19 is available.
+#    5.34.19 will be the default version on or after 17 Jul 2014.     
+#    There are 
+#      SL5 versions (gcc43, python 2.6) 
+#      SL6 versions (gcc47 and gcc48, python 2.7)
+#      MacOS 10.9 (clang 5.1)
+#
+#    Standalone ROOT version 6.00.02 is available.
+#    This is experimental and will not be made the default.
+#
+#   (Usage: showVersions root).  
+#"
+
+#if [ "$ALRB_OSTYPE" = "Linux" ]; then
+#    echo -e "
+#\033[1m\033[4m05 Aug 2014\033[0m 
+#JEDI is coming on August 12, 2014!
+#
+#JEDI tasks/jobs can be monitored on http://bigpanda.cern.ch/. 
+#Submission to JEDI will be the default setup using Panda/Ganga tools from  CVM#FS
+# from August 12, 2014!
+#
+#In the meantime, you can try out JEDI following instruction on TWiki 
+#   https://twiki.cern.ch/twiki/bin/viewauth/AtlasComputing/JEDIUserTesting
+#"
+#fi
+
+
+#if [ "$ALRB_OSTYPE" = "Linux" ]; then
+#    echo -e "
+#\033[1m\033[4m12 Aug 2014\033[0m 
+#JEDI is here !
+#
+#JEDI tasks/jobs can be monitored on http://bigpanda.cern.ch/. 
+#Submission to JEDI will be the default setup using Panda/Ganga tools from  CVMFS
+# from August 12, 2014!
+#
+#https://twiki.cern.ch/twiki/bin/view/PanDA/PandaJediAnalysis
+#"
+#fi
+
+#echo -e "
+#\033[1m\033[4m15 Aug 2014\033[0m 
+#    Standalone ROOT version 5.34.20 is available.
+#    5.34.20 will be the default version on or after 25 Aug 2014.     
+#    There are 
+#      NO SL5 versions are available.
+#      SL6 versions (gcc47 and gcc48, python 2.7)
+#      MacOS 10.9 (clang 5.1)
+#
+#   (Usage: showVersions root).  
+#"
+
+
+#echo -e "
+#\033[1m\033[4m10 Sep 2014\033[0m 
+#    Standalone ROOT version 5.34.21 is available.
+#    5.34.21 may be the default version on or after 17 Sep 2014.     
+#    There are 
+#      NO SL5 versions are available.
+#      SL6 versions (gcc47 and gcc48, python 2.7)
+#      MacOSX version
+#
+#   (Usage: showVersions root).  
+#
+#   It is important that you test this version and report since it is built 
+#   differently from 5.34.19.
+#"
+
+
+#echo -e "
+#\033[1m\033[4m30 Sep 2014\033[0m 
+#   Standalone ROOT version 6.02.00 is available for Linux and MacOSX.
+#   This is experimental and will not be made the default.
+#   (Usage: showVersions root).  
+#"
+
+#if [ "$ALRB_OSTYPE" = "Linux" ]; then
+#    echo -e "
+#\033[1m\033[4m28 Oct 2014\033[0m 
+#   Standalone ROOT version 5.34.22 and 6.02.01 are available.
+#   These are both gcc48 Linux versions.
+#   (Usage: showVersions root).  
+#
+#   It is important that you test this version and report since it is built 
+#   differently from previous versions.  
+#"
+#fi
+
+#echo -e "
+#\033[1m\033[4m06 Nov 2014\033[0m 
+#   Standalone ROOT version 5.34.22 available for Linux (gcc48) and MacOS.
+#   Standalone ROOT version 6.02.01 available for Linux (gcc48)
+#
+#   (Usage: showVersions root).  
+#
+#   It is important that you test these versions and report since it is built 
+#   differently from previous versions. 
+#
+#   5.34.22 will be made the default ~ Nov 13.
+#"
+
+#echo -e "
+#\033[1m\033[4m10 Nov 2014\033[0m 
+#   Standalone ROOT version 5.34.23 available for Linux (gcc48) and MacOS,
+#   but unlikely to work in some situations. 
+#   Please stick to testing 5.34.22 for now. 
+#"
+
+
+#echo -e "
+#\033[1m\033[4m13 Nov 2014\033[0m 
+#    RootCore users, please upgrade to RootCore-00-04-13 or newer for grid jobs.
+#     For DC14-ers this translates into: 
+#      Please use the recommended Analysis release Base, 2.0.18.
+#      (Or derived releases which are at least at the level of 2.0.16)
+#    Details: http://tinyurl.com/ltw7wje
+#"
+
+#if [ "$ALRB_OSTYPE" = "Linux" ]; then
+#  echo -e "
+#\033[1m\033[4m24 Nov 2014\033[0m 
+#    This week the migration of user analysis output datasets to Rucio will 
+#     start. This means that new datasets will be registered in Rucio instead 
+#     of DQ2. If you use the latest version of DQ2 clients (2.6.x, which is the
+#     default in ATLASLocalRootBase) then you should notice no difference and 
+#     all data will be accessible as normal. In case of any problems please 
+#     check the list of known issues described at
+#
+#     https://twiki.cern.ch/twiki/bin/view/AtlasComputing/DQ2toRucioMigrationKnownIssues
+#
+#     before sending an email to the DAST support list. This page also lists 
+#     the dataset patterns which are already migrated. For more details on 
+#     Rucio see the talk given at the week before last’s ATLAS weekly meeting:
+#
+#     https://indico.cern.ch/event/286488/
+#"
+#fi
+
+#echo -e "
+#\033[1m\033[4m01 Dec 2014\033[0m 
+#   Standalone ROOT version 6.02.02 available for Linux (gcc48).
+#
+#   (Usage: showVersions root).  
+#
+#"
+
+#echo -e "
+#\033[1m\033[4m05 Dec 2014\033[0m 
+#   Standalone ROOT version 6.02.02 available for Linux (gcc48) and for MacOSX.
+#   Now both MacOSX 10.10 and 10.9.
+#   LCG ROOT version 5.34.24 is available for SL6 (gcc48). Please test. It will
+#   be made default by Dec. 19 if all goes well.
+#
+#   (Usage: showVersions root).  
+#
+#"
+
+#echo -e "
+#\033[1m\033[4m19 Jan 2015\033[0m 
+#   Standalone ROOT version 6.02.04 available for Linux (gcc48) and for MacOSX.
+#
+#   Standalone ROOT version 5.34.25 available for Linux (gcc48) and for MacOSX.
+#     If there are no serious issues, 5.34.25 will be made default after Jan 25.
+#
+#   (Usage: showVersions root).  
+#"
+
+
+#if [ "$ALRB_OSTYPE" = "Linux" ]; then
+#    echo -e "
+#\033[1m\033[4m12 Feb 2015\033[0m 
+#  New version of emi is available and will be the default next week.  
+#  If you want to try it, simply do (instead of setupATLAS)
+#    setupATLAS --test=testEmi
+#"
+#fi
+
+#echo -e "
+#\033[1m\033[4m12 Feb 2015\033[0m 
+#   Standalone ROOT version 6.02.05 available for Linux (gcc48) and for MacOSX.
+#   (Usage: showVersions root).  
+#"
+
+#if [ "$ALRB_OSTYPE" = "Linux" ]; then
+#  echo -e "
+#\033[1m\033[4m12 Feb 2015\033[0m 
+#     Rucio/DQ2: Please check the list of known issues described at
+#     https://twiki.cern.ch/twiki/bin/view/AtlasComputing/DQ2toRucioMigrationKnownIssues
+#     before sending an email to the DAST support list.
+#
+#    You are encouraged to try rucio; instead of localSetupDQ2Client, type
+#       localSetupRucioClients.
+#         For usage, see http://rucio.cern.ch/client_howto.html
+#         For tutorial, see http://tinyurl.com/ruciotutorial1
+#"
+#fi
+
+
+if [ "$ALRB_OSTYPE" = "MacOSX" ]; then
+    alrb_result=`xcodebuild -version 2>&1`
+    if [ $? -eq 0 ]; then
+	alrb_xcodeVer=`\echo $alrb_result | \grep -i Xcode | \cut -f 2 -d " "`
+	let alrb_xcodeVerN=`$ATLAS_LOCAL_ROOT_BASE/utilities/convertToDecimal.sh $alrb_xcodeVer 2`
+	if [ $alrb_xcodeVerN -lt 603 ]; then
+	    alrb_msg="6.02.05 and older"
+	else
+	    alrb_msg="6.02.10 and newer"
+	fi
+  \echo -e " 
+\033[1m\033[4m09 Jun 2015\033[0m 
+
+Your xcode version is $alrb_xcodeVer
+  Please use root versions $alrb_msg
+"
+    fi
+fi
+
+#echo -e "
+#\033[1m\033[4m10 Jun 2015\033[0m 
+#   Standalone ROOT version 6.02.10 available for Linux (gcc48) and for MacOSX.
+#
+#   If there are no problems, these will be made the default on 29 Jun 2015.
+#
+#   (Usage: showVersions root).  
+#"
+
+
+#if [ "$ALRB_OSTYPE" = "Linux" ]; then
+#    if [ -z $ALRB_useALRBv2 ]; then
+#	alrb_rucioCmd="localSetupRucioClients"
+#    else
+#	alrb_rucioCmd="lsetup rucio"
+#    fi
+#    \echo -e "
+#\033[1m\033[4m19 Jun 2015\033[0m 
+#  You are encouraged to use rucio instead of DQ2 clients, type
+#       $alrb_rucioCmd
+#     For more info: https://twiki.cern.ch/twiki/bin/view/AtlasComputing/RucioClientsHowTo
+#"
+#fi
+
+#echo -e "
+#\033[1m\033[4m16 Jul 2015\033[0m 
+#   Standalone ROOT version 6.04.02 available for Linux (gcc48) and for MacOSX.
+#
+#   (Usage: showVersions root).  
+#"
+
+
+#if [ -z $ALRB_useALRBv2 ]; then
+#    echo -e "
+#\033[1m\033[4m30 Sep 2015\033[0m 
+#\033[1m
+#   lsetup (for localsetup) is available.
+#   This will be the default ~Oct 5, 2015
+#\033[0m 
+#  Try it out:
+#      setupATLAS --test=alrbV2
+#   See:    
+#     https://twiki.atlas-canada.ca/bin/view/AtlasCanada/ATLASLocalRootBase2
+#"
+#else
+#    echo -e "
+#\033[1m\033[4m30 Sep 2015\033[0m 
+#   You are using the new ATLAS UI; for more information:
+#      lsetup -h 
+#      https://twiki.atlas-canada.ca/bin/view/AtlasCanada/ATLASLocalRootBase2
+#   This will be the default ~Oct 5, 2015
+#"
+#fi
+
+#echo -e "
+#\033[1m\033[4m21 Oct 2015\033[0m 
+#   Standalone ROOT version 6.04.06 available for Linux (gcc48) and for MacOSX.
+
+#   (Usage: showVersions root).  
+#"
+
+#echo -e "
+#\033[1m\033[4m23 Nov 2015\033[0m 
+#   Standalone ROOT version 6.04.10 available for Linux (gcc48) and for MacOSX.
+#
+#   (Usage: showVersions root).  
+#"
+
+#echo -e "
+#\033[1m\033[4m12 Jan 2016\033[0m 
+#  Standalone ROOT version 6.04.12 available for Linux (gcc49) and for MacOSX.
+#   (Usage: showVersions root).  
+#"
+
+#if [ "$ALRB_OSTYPE" = "Linux" ]; then
+#    \echo -e "
+#\033[1m\033[4m19 Jan 2016\033[0m 
+#  DQ2 clients are deprecated and no longer supported. 
+#   Soon they will be completely removed from the ALRB setup. 
+#   Please use Rucio instead:
+#       lsetup rucio
+#   For more info: https://twiki.cern.ch/twiki/bin/view/AtlasComputing/RucioClientsHowTo
+#"
+#fi
+
+
+#if [ "$ALRB_OSTYPE" = "Linux" ]; then
+#    echo -e "
+#\033[1m\033[4m20 Jan 2016\033[0m 
+#  New version of emi is available and will be the default next week.  
+#   If you want to try it, simply do (instead of setupATLAS)
+#    setupATLAS --test=testEmi
+#"
+#fi
+
+#echo -e "
+#\033[1m\033[4m04 Feb 2016\033[0m 
+#  Standalone ROOT version 6.04.14 available for Linux (gcc49) and for MacOSX.
+#   (Usage: showVersions root).  
+#"
+
+#echo -e "
+#\033[1m\033[4m11 Mar 2016\033[0m 
+#  Standalone ROOT version 6.06.02 available for Linux (gcc48, gcc49) and for MacOSX.
+#   (Usage: showVersions root).  
+#"
+
+#echo -e "
+#\033[1m\033[4m18 Mar 2016\033[0m 
+#  Standalone ROOT version 6.04.16 available for Linux (gcc49) and for MacOSX.
+#   (Usage: showVersions root).  
+#"
+
+#echo -e "
+#\033[1m\033[4m24 Jun 2016\033[0m 
+#  Standalone ROOT version 6.04.18 available for Linux (gcc49) and for MacOSX.
+#   (Usage: showVersions root).  
+#"
+
+#if [ "$ALRB_OSTYPE" = "Linux" ]; then
+#    \echo -e "
+#\033[1m\033[4m14 Jul 2016\033[0m 
+#  DQ2 clients are deprecated and no longer supported. 
+#   \e[97m\e[101mThey will be removed completely by December 2016.\033[0m
+#   Please use Rucio instead:
+#       lsetup rucio
+#   For more info: https://twiki.cern.ch/twiki/bin/view/AtlasComputing/RucioClientsHowTo
+#"
+
+#    \echo -e "
+#\033[1m\033[4m25 Oct 2016\033[0m 
+#  ROOT versions older than 5.34/10 will be removed on Monday.  
+#    If you still need them, please speak now.
+#"
+
+#fi
+
+if [[ "$ALRB_OSTYPE" = "Linux" ]] && [[ "$ALRB_OSMAJORVER" = "7" ]]; then
+#    \echo -e "
+#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+#You are running on a RHEL7 compatible OS which is not yet fully supported.
+#Please refer to these pages for the status and open issues:
+# For tools:
+#  https://twiki.atlas-canada.ca/bin/view/AtlasCanada/Install_Scientific_Linux7
+# For releases (Athena / ASG), note the tables:
+#  https://twiki.atlas-canada.ca/bin/view/AtlasCanada/SL7Testing
+#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+#"
+    \echo -e "
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+You are running on a RHEL7 compatible OS.
+Please refer to these pages for the status and open issues:
+ For releases:
+  https://twiki.cern.ch/twiki/bin/view/AtlasComputing/CentOS7Readiness#ATLAS_software_status
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+"
+echo -e "
+\033[1m\033[4m16 Feb 2018\033[0m 
+  Note that if you use asetup for a slc6 release, you now need to specify it.
+  eg: instead of asetup AtlasProd1,20.7.5.1.1,here
+              do asetup AtlasProd1,20.7.5.1.1,here,slc6
+"
+fi
+
+
+if [[ "$ALRB_OSTYPE" = "Linux" ]] && [[ "$ALRB_OSMAJORVER" = "6" ]] && [[ "$ALRB_SHELL" = "tcsh" ]]; then
+    which rpm >/dev/null 2>&1
+    if [ $? -eq 0 ]; then
+	rpm -qa | \grep -e tcsh-6.17-35 >/dev/null 2>&1
+	if [ $? -eq 0 ]; then
+	    \echo -e "
+\033[1m\033[4m17 Feb 2017\033[0m 
+  Your version of tcsh has a bug that is not fixed and will cause problems here.
+    https://bugzilla.redhat.com/show_bug.cgi?id=1334751
+    Please use bash instead.
+"
+	fi
+    fi
+fi
+
+#if [[ "$ALRB_SHELL" = "tcsh" ]] && [[ -z "$ALRB_tcshMsg1" ]]; then
+#\echo -e "
+#\033[1m\033[4m05 Jun 2018\033[0m 
+#  You shell is tcsh which we are considering depreciating.  
+#\033[5m  Please contact desilva@cern.ch\033[0m so that we get more information# such as 
+#   how many users still need it and if they can switch to bash.
+#"
+#fi
+
+if [[ "$ALRB_SHELL" = "tcsh" ]] && [[ -z "$ALRB_tcshMsg1" ]]; then
+\echo -e "
+\033[1m\033[4m09 Aug 2018\033[0m 
+  Your shell is tcsh which will stop working on Jan 1, 2019.
+  Plese switch to bash today.
+"
+fi
+
+#echo -e "
+#\033[1m\033[4m31 Oct 2018\033[0m
+#  Standalone ROOT version 6.14.04 is now the Linux default.
+#    (Usage: showVersions root).
+#"
+
+

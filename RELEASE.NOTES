@@ -1,0 +1,8117 @@
+*****************************************************************************
+Note: Do not edit this section.
+
+Please add some information about the changes you are committing to svn.
+The format should be 
+
+<tag version>
+-------------
+date (ddMMMYY): name
+Description of changes.
+
+with the newest changes at the top of the file.
+*****************************************************************************
+
+V00-15-52
+---------
+03Dec18: A. De Silva
+Panda 0.6.12
+
+V00-15-51
+---------
+29Nov18: A. De Silva
+asetup 01-00-13 (testing, was 01-00-12)
+
+V00-15-50
+---------
+29Nov18: A. De Silva
+rucio 1.18.5 testing (previous = default of 1.18.2)
+
+V00-15-49
+---------
+28Nov18: A. De Silva
+cmake 3.13.1 testing (previous tessting 3.13.0)
+
+V00-15-48
+---------
+28Nov18: A. De Silva
+panda 0.6.11 (default, was 0.6.10)
+
+V00-15-47
+---------
+27Nov18: A. De Silva
+panda 0.6.10 (default, was 0.6.9)
+
+V00-15-46
+---------
+27Nov18: I.Trigger
+and force cmake 3.13.0 to reinstall if it installed wrong version
+
+V00-15-45
+---------
+27Nov18: I. Trigger
+cmake 3.13.0 and 3.12.3 now point to the correct versions not each other
+
+V00-15-44
+---------
+22Nov18: I. Trigger
+cmake 3.13.0 (testing)
+
+V00-15-43
+---------
+15Nov18: A. De Silva
+ALRB V00-22-41
+
+V00-15-42
+---------
+14Nov18: A. De Silva
+recommended version introduced
+ALRB V00-22-38
+
+V00-15-41
+---------
+06Nov18: A. De Silva
+davix (default 0.7.1, wa 0.6.8)
+
+V00-15-40
+---------
+06Nov18: A. De Silva
+panda 0.6.9 (default, was 0.6.8)
+
+V00-15-39
+---------
+05Nov18: A. De Silva
+davix (testing 0.7.1, wa 0.6.8)
+
+V00-15-38
+---------
+31Oct18: A. De Silva
+ROOT default changed from 6.10.04-x86_64-slc6-gcc62-opt to 6.14.04-x86_64-slc6-gcc62-opt
+
+V00-15-37
+---------
+31Oct18: A. De Silva
+ALRB V00-22-34
+migration of config files to use http://atlas-tier3-sw.web.cern.ch/atlas-Tier3-SW/repo/ instead of atlas-canada servers.
+macOSX root default changed to 6.12.06-x86_64-mac1013-clang90-opt
+ganga 6.7.4 made to attic
+
+V00-15-36
+---------
+31Oct18: A. De Silva
+acm 0.1.17 made default (this is now from CERN repo !)
+
+V00-15-35
+---------
+30Oct18: A. De Silva
+rucio 1.18.2 default (was 1.17.8.post2)
+
+V00-15-34
+---------
+25Oct18: A. De Silva
+xrootd 4.8.5 made default
+
+V00-15-33
+---------
+24Oct18: A. De Silva
+ALRB V00-22-33
+
+V00-15-32
+---------
+23Oct18: A. De Silva
+asetup 01-00-12 (testing, was 01-00-10)
+
+V00-15-31
+---------
+23Oct18: A. De Silva
+xrootd 4.8.5 testing
+
+V00-15-30
+---------
+22Oct18: A. De Silva
+restored ATLAS Canada backup server so cppcheck fownload from there
+
+V00-15-29
+---------
+22Oct18: A. De Silva
+ALRB V00-22-32
+cppcheck 1.85-x86_64-slc6-gcc62
+
+V00-15-28
+---------
+17Oct18: A. De Silva
+reverting asetup prod version to V00-08-05
+
+V00-15-27
+---------
+17Oct18: A. De Silva
+asetup 01-00-10 default (was 00-08-05)
+
+V00-15-26
+---------
+16Oct18: A. De Silva
+emi centos7 version production is 4.0.3-1v3, was 4.0.3-1_umd4v2"
+
+V00-15-25
+---------
+15Oct18: A. De Silva
+ALRB V00-22-30
+
+V00-15-24
+---------
+15Oct18: A. De Silva
+ALRB V00-22-29
+
+V00-15-23 (not deployed)
+---------
+15Oct18: A. De Silva
+ALRB V00-22-28
+
+V00-15-22
+---------
+15Oct18: A. De Silva
+Panda 0.6.8 prod (was 0.6.6)
+
+V00-15-21
+---------
+12Oct18: A. De Silva
+ALRB V00-22-27
+
+V00-15-20
+---------
+11Oct18: A. De Silva
+asetup 01-00-10 (beta, was 01-00-09)
+
+V00-15-19
+---------
+11Oct18: A. De Silva
+ALRB V00-22-26
+
+V00-15-18
+---------
+09Oct18: A. De Silva
+ALRB V00-22-25
+
+V00-15-17
+---------
+09Oct18: A. De Silva
+ALRB V00-22-24
+
+V00-15-16
+---------
+09Oct18: A. De Silva
+rucio 1.18.2 testing (previous 1.17.8.post2)
+
+V00-15-15
+---------
+08Oct18: A. De Silva
+ALRB V00-22-23
+
+V00-15-14
+---------
+07Oct18: A. De Silva
+rucio 1.18.2
+
+V00-15-13
+---------
+07Oct18: A. De Silva
+ALRB V00-22-22
+
+V00-15-12
+---------
+04Oct18: A. De Silva
+ALRB V00-22-21
+
+V00-15-11
+---------
+03Oct18: A. De Silva
+cmake 3.12.3 testing (previous 3.12.2)
+xrootd 4.8.4 default (previous 4.7.1)
+
+V00-15-10
+---------
+03Oct18: A. De Silva
+rucio 1.17.8.post2 default (was 1.17.8.post1)
+
+V00-15-09
+---------
+03Oct18: A. De Silva
+rucio 1.18.1
+
+V00-15-08
+---------
+02Oct18: A. De Silva
+ALRB V00-22-20
+
+V00-15-07
+---------
+02Oct18: A. De Silva
+art tool added
+ALRB V00-22-19
+
+V00-15-06
+---------
+01Oct18: A. De Silva
+asetup 01-00-09 testing (previous 01-00-08)
+
+V00-15-05
+---------
+29Sep18: A. De Silva
+ALRB V00-22-16
+
+V00-15-04
+---------
+28Sep18: A. De Silva
+rucio 1.17.8.post1 production (was 1.17.8)
+
+V00-15-03
+---------
+26Sep18: A. De Silva
+rucio 1.17.8 production (was 1.16.4)
+
+V00-15-02
+---------
+26Sep18: A. De Silva
+cmake 3.11.0 default (was 3.12.2)
+
+V00-15-01
+---------
+25Sep18: A. De Silva
+root 6.14.04 (redirected setup from lcgenv)
+
+V00-15-00
+---------
+25Sep18: A. De Silva
+cmake 3.12.2 default (was 3.11.0)
+
+V00-14-99
+---------
+24Sep18: A. De Silva
+ALRB V00-22-15
+added root from lcg code
+inotifytools added
+
+V00-14-98
+---------
+17Sep18: A. De Silva
+ALRB V00-22-08
+
+V00-14-97
+---------
+17Sep18: A. De Silva
+ALRB V00-22-07
+
+V00-14-96
+---------
+13Sep18: A. De Silva
+asetup 00-08-05 (prod, was 00-08-04)
+
+V00-14-95
+---------
+12Sep18: A. De Silva
+rucio 1.17.8 testing (was 1.16.4)
+
+V00-14-94
+---------
+11Sep18: A. De Silva
+rucio 1.17.8 
+
+V00-14-93
+---------
+10Sep18: A. De Silva
+cmake 3.12.2 (testing, was 3.12.0)
+
+V00-14-92
+---------
+10Sep18: A. De Silva
+Panda 0.6.6 (default, was 0.6.2)
+
+V00-14-91
+---------
+08Sep18: A. De Silva
+ALRB V00-22-06
+
+V00-14-90
+---------
+07Sep18: A. De Silva
+ALRB V00-22-03 (revert)
+
+V00-14-89
+---------
+05Sep18: A. De Silva
+ALRB V00-22-04
+
+V00-14-88
+---------
+05Sep18: A. De Silva
+asetup 01-00-08 (testing, was 01-00-07)
+
+V00-14-87
+---------
+05Sep18: A. De Silva
+ALRB V00-22-03
+
+V00-14-86
+---------
+28Aug18: A. De Silva
+emi, eiclient, agis testing version defined
+ALRB V00-22-02
+
+V00-14-85
+---------
+27Aug18: A. De Silva
+added testing version links for git and panda
+ALRB V00-22-01
+
+V00-14-84
+---------
+26Aug18: A. De Silva
+asetup 00-08-04 (prod, was 00-08-03)
+
+V00-14-83
+---------
+24Aug18: A. De Silva
+ALRB V00-21-98
+
+V00-14-82
+---------
+24Aug18: A. De Silva
+asetup 01-00-07 (testing, was 00-01-06)
+ALRB V00-21-97
+
+V00-14-81
+---------
+20Aug18: A. De Silva
+davix 0.6.8 (default; was 0.6.7)
+rucio 1.17.7 
+ALRB V00-21-96
+
+V00-14-80
+---------
+17Aug18: A. De Silva
+davix 0.6.8 (testing)
+
+V00-14-79
+---------
+16Aug18: A. De Silva
+ALRB 00-21-94
+
+V00-14-77
+---------
+09Aug18: A. De Silva
+pyAMI 5.0.7.1 (default, was 5.0.7)
+motd for tcsh tells about Jan 1, 2019 deadline
+
+V00-14-76
+---------
+25Jul18: A. De Silva
+rucio-1.16.4 (testing, was 1.17.5)
+
+V00-14-75
+---------
+25Jul18: A. De Silva
+ALRB V00-21-92
+
+V00-14-74
+---------
+24Jul18: I. Trigger
+rucio-1.17.5 (testing)
+
+V00-14-73
+---------
+23Jul18: I. Trigger
+AtlasSetup-01-00-06 (testing)
+
+V00-14-72
+---------
+19Jul18: A. De Silva
+ALRB V00-21-91
+
+V00-14-71
+---------
+19Jul18: A. De Silva
+cleanup of obsolete versions of tools
+
+V00-14-70
+---------
+19Jul18: A. De Silva
+cleanup of obsolete versions of tools
+
+V00-14-69
+---------
+18Jul18: A. De Silva
+ALRB V00-21-90
+
+V00-14-68
+---------
+18Jul18: A. De Silva
+ALRB V00-21-89
+
+V00-14-67
+---------
+17Jul18: A. De Silva
+cmake 3.12.0 (testing, was 3.11.2)
+
+V00-14-66
+---------
+17Jul18: A. De Silva
+acm 0.1.16 (default, was 0.1.15)
+
+V00-14-65
+---------
+16Jul18: A. De Silva
+Panda 0.6.2 (prod, previous 0.6.1)
+asetup 01-00-05 (testing, was 01-00-04)
+
+V00-14-63
+---------
+14Jul18: A. De Silva
+ALRB V00-21-88
+
+V00-14-62
+---------
+13Jul18: A. De Silva
+panda 0.6.1 (default, was 0.6.0)
+
+V00-14-61
+---------
+12Jul18: A. De Silva
+rucio 1.17.4
+
+V00-14-60
+---------
+11Jul18: A. De Silva
+asetup 01-00-04 (testing, previous 01-00-03)
+
+V00-14-59
+---------
+11Jul18: A. De Silva
+Ganga 7.0.4 (default, was 6.7.4)
+
+V00-14-58
+---------
+10Jul18: A. De Silva
+rucio 1.17.3
+xrootd 4.8.4 (testing, was 4.8.3)
+panda 0.6.0 (default, was 0.5.99)
+ALRB V00-21-87
+
+V00-14-57
+---------
+09Jul18: A. De Silva
+rucio 1.17.2 
+Ganga 7.0.4
+ALRB V00-21-85
+
+V00-14-56
+---------
+28Jun18: A. De Silva
+ALRB V00-21-84
+
+V00-14-55
+---------
+25Jun18: A. De Silva
+ALRB V00-21-83
+
+V00-14-54
+---------
+22Jun18: A. De Silva
+rucio 1.17.0
+
+V00-14-53
+---------
+20Jun18: A. De Silva
+panda 0.5.99 (default, was 0.5.98)
+
+V00-14-52
+---------
+20Jun18: A. De Silva
+acm 0.1.15 (default, last was 0.1.14)
+
+V00-14-51
+---------
+19Jun18: A. De Silva
+acm 0.1.14 (default, last was 0.1.13)
+
+V00-14-50
+---------
+18Jun18: A. De Silva
+rucio 1.16.4 (testing and prod)
+ALRB V00-21-82
+
+V00-14-49
+---------
+07Jun18: A. De Silva
+ALRB V00-21-81
+
+V00-14-48
+---------
+07Jun18: A. De Silva
+setup 01-00-03 (testing, previos 01-00-02)
+ALRB V00-21-80
+
+V00-14-47
+---------
+07Jun18: A. De Silva
+rucio 1.16.3 made default (previous 1.14.11)
+
+V00-14-46
+---------
+05Jun18: A. De Silva
+motd changes
+ALRB 00-21-76
+
+V00-14-45
+---------
+04Jun18: A. De Silva
+gitlab 1.4.0 (previous prod 1.1.0)
+rucio 1.16.3 (testing, was 1.16.1)
+
+V00-14-44
+---------
+31May18: A. De Silva
+asetup 01-00-02 (testing; previous 00-01-01)
+ALRB V00-21-74
+cmake 3.11.3 (not made testing yet)
+
+V00-14-43
+---------
+30May18: A. De Silva
+ganga 7.0.3 (testing, was 7.0.2)
+
+V00-14-42
+---------
+24May18: A. De Silva
+ALRB V00-21-73  (really this time)
+
+V00-14-41
+---------
+23May18: A. De Silva
+ALRB V00-21-73
+
+V00-14-40
+---------
+23May18: A. De Silva
+ALRB V00-21-72
+cmake 3.11.2 (testing, previous was 3.11.1)
+
+V00-14-39
+---------
+17May18: A. De Silva
+ALRB V00-21-71
+asetup V01-00-01 (testing; previous was 01-00-00)
+
+V00-14-38
+---------
+16May18: A. De Silva
+ALRB V00-21-69
+asetup V01-00-00 (testing; previous was 00-08-03)
+acm 0.1.13
+
+V00-14-37
+---------
+15May18: A. De Silva
+ALRB V00-21-66
+
+V00-14-36
+---------
+11May18: A. De Silva
+acm 0.1.12
+
+V00-14-35
+---------
+09May18: A. De Silva
+ALRB V00-21-61
+
+V00-14-34
+---------
+09May18: A. De Silva
+ALRB V00-21-60
+
+V00-14-33
+---------
+08May18: A. De Silva
+ALRB V00-21-59
+
+V00-14-32
+---------
+08May18: A. De Silva
+rucio 1.16.1 testing (previous 1.16.0)
+
+V00-14-31
+---------
+07May18: A. De Silva
+panda default 0.5.98 (previous 0.5.97)
+
+V00-14-30
+---------
+03May18: A. De Silva
+panda default 0.5.97 (previous 0.5.96)
+
+V00-14-29
+---------
+01May18: A. De Silva
+Ganga 7.0.2 (testing)
+
+V00-14-28
+---------
+30Apr18: A. De Silva
+asetup 00-08-03 default (previous 00-08-02)
+
+V00-14-27
+---------
+30Apr18: A. De Silva
+acm 0.1.11 default (previous 0.1.10)
+
+V00-14-26
+---------
+27Apr18: A. De Silva
+xrooot 4.8.3 (testing; previous 4.8.2)
+
+V00-14-25
+---------
+26Apr18: A. De Silva
+rucio 1.14.11 default (was 1.15.5)
+
+V00-14-24
+---------
+25Apr18: A. De Silva
+asetup 00-08-03 (testing, was 00-08-02)
+
+V00-14-23
+---------
+24Apr18: A. De Silva
+rucio 1.15.5 default (was 1.14.11)
+rucio 1.16.0 testing (was 1.15.5)
+
+V00-14-22
+---------
+17Apr18: A. De Silva
+ALRB V00-21-58
+cmake 3.11.1 (testing)
+xrootd 4.8.2 (testing)
+
+V00-14-21
+---------
+16Apr18: A. De Silva
+ALRB V00-21-57
+
+V00-14-20
+---------
+13Apr18: A. De Silva
+rucio testing version 1.15.5 (was 1.15.4)
+
+V00-14-19
+---------
+10Apr18: A. De Silva
+rucio testing version 1.15.4 (was 1.14.11)
+
+V00-14-18
+---------
+09Apr18: A. De Silva
+ALRB V00-21-56
+
+V00-14-17
+---------
+09Apr18: A. De Silva
+asetup 00-08-02 default (was 00-07-94)
+cmake 3.11.0 default (was 3.10.2)
+
+V00-14-16
+---------
+06Apr18: A. De Silva
+asetup 00-08-02 (testing, previous testing 00-08-01)
+
+V00-14-15
+---------
+05Apr18: A. De Silva
+ALRB V00-21-55
+
+V00-14-14
+---------
+05Apr18: A. De Silva
+asetup 00-08-01 (testing, previous testing 00-08-00)
+
+V00-14-13
+---------
+04Apr18: A. De Silva
+asetup 00-08-00 (testing, previous testing 00-07-99)
+
+V00-14-12
+---------
+03Apr18: I. Trigger
+asetup 00-07-99 (testing)
+
+V00-14-11
+---------
+03Apr18: A. De Silva
+asetup 00-07-94 (default; was 00-07-97)
+cmake 3.11 (testing)
+
+V00-14-10
+---------
+30Mar18: A. De Silva
+asetup 00-07-98 (beta)
+
+V00-14-09
+---------
+28Mar18: A. De Silva
+asetup 00-07-97 (prod; last was 00-07-94)
+cmake 3.10.2 (prod, last was 3.8.2)
+
+V00-14-08
+---------
+22Mar18: A. De Silva
+asetup 00-07-97 (testing)
+
+V00-14-07
+---------
+15Mar18: A. De Silva
+ALRB V00-21-54
+
+V00-14-06
+---------
+13Mar18: A. De Silva
+ALRB V00-21-53
+
+V00-14-05
+---------
+13Mar18: A. De Silva
+ALRB V00-21-52
+
+V00-14-04
+---------
+12Mar18: A. De Silva
+emi 3.17.1-1.el6umd4v5 (testing)
+emi (3.17.1-1.el6umd4v5 default, was 3.17.1-1_v3.sl6umd4v2)
+emi (4.0.3-1_umd4v2 default, was 1.0.0_v3.centos7.preview)
+adctools 0.2.1
+
+V00-14-03
+---------
+09Mar18: A. De Silva
+asetup 00-07-96
+
+V00-14-02
+---------
+08Mar18: A. De Silva
+rucio 1.14.11 made default (previous 1.14.10)
+
+V00-14-01
+---------
+06Mar18: A. De Silva
+ALRB V00-21-51
+
+V00-14-00
+---------
+27Feb18: A. De Silva
+emi testing version for SL6  3.17.1-1.el6umd4v4
+emi testing version for SL7 centos7: 4.0.3-1_umd4v2
+ALRB V00-21-50
+boost 1.66 updated to prod version
+root 6.12.06
+
+V00-13-99
+---------
+26Feb18: A. De Silva
+davix 0.6.7 (gcc62 version)
+davix dependency pushed to 0.6.7 for gcc62 releases
+boost 1.66 gcc62 version
+ALRB V00-21-48
+
+V00-13-98
+---------
+23Feb18: A. De Silva
+ALRB V00-21-47
+
+V00-13-97
+---------
+22Feb18: A. De Silva
+ALRB V00-21-46
+
+V00-13-96
+---------
+22Feb18: A. De Silva
+rucio default changed to 1.14.10 (previous: 1.13.2)
+rucio testing version 1.14.11
+
+V00-13-95
+---------
+21Feb18: A. De Silva
+ALRB V00-21-45
+
+V00-13-94
+---------
+21Feb18: A. De Silva
+ALRB V00-21-44
+
+V00-13-93
+---------
+16Feb18: A. De Silva
+motd changed
+
+V00-13-92
+---------
+16Feb18: A. De Silva
+rucio 1.14.10 (testing, prev testing 1.14.8)
+
+V00-13-91
+---------
+15Feb18: A. De Silva
+asetup 00-07-94 (default; prev version was 00-07-92) 
+
+V00-13-90
+---------
+14Feb18: A. De Silva
+ALRB V00-21-43
+
+V00-13-88
+---------
+09Feb18: I. Trigger
+acm 0.1.10
+
+V00-13-87
+---------
+08Feb18: A. De Silva
+ALRB V00-21-42
+
+V00-13-86
+---------
+08Feb18: A. De Silva
+ALRB V00-21-41
+
+V00-13-85
+---------
+07Feb18: A. De Silva
+ALRB V00-21-39
+
+V00-13-84
+---------
+02Feb18: A. De Silva
+ALRB V00-21-38
+
+V00-13-83
+---------
+02Feb18: A. De Silva
+ALRB V00-21-37
+
+V00-13-82
+---------
+31Jan18: A. De Silva
+rucio 1.14.8 (testing)
+
+V00-13-81
+---------
+29Jan18: A. De Silva
+xrootd 4.8.1
+
+V00-13-80
+---------
+29Jan18: A. De Silva
+cmake 3.10.2
+
+
+V00-13-79
+---------
+26Jan18: A. De Silva
+boost 1.64.0
+tbb 2018_UI 
+root 6.12.04  (png dependency added in override file)
+xrootd 4.7.0_slc6_gcc62
+
+V00-13-78
+---------
+24Jan18: A. De Silva
+acm 0.1.9
+
+V00-13-77
+---------
+22Jan18: A. De Silva
+ALRB V00-21-36
+
+V00-13-76
+---------
+19Jan18: A. De Silva
+ALRB V00-21-35
+
+V00-13-75
+---------
+17Jan18: A. De Silva
+cmake 3.10.1 (testing)
+panda remove versions older than 0.5.95
+asetup 00-07-84 and 00-07-92 kept and others removed.
+ganga 6.7.1 and 6.7.2 removed
+alrb V00-21-34
+davix 0.6.7 (default; previous default was 0.6.6)
+
+V00-13-74
+---------
+16Jan18: A. De Silva
+rucio 1.14.7 (testing)
+
+V00-13-73
+---------
+15Jan18: A. De Silva
+ALRB V00-21-33
+
+V00-13-72
+---------
+15Jan18: A. De Silva
+asetup 00-07-92 made default (from 00-07-84)
+
+V00-13-71
+---------
+15Jan18: A. De Silva
+ALRB V00-21-32
+
+V00-13-70
+---------
+11Jan18: A. De Silva
+python 2.7.13 gcc44 native slc6 version
+ALRB V00-21-31
+rucio remove: 1.11.0 1.11.3 1.12.0 1.12.5 1.13.0
+gcc44 dummy 
+
+V00-13-69
+---------
+10Jan18: A. De Silva
+ALRB V00-21-28
+xcache 1.0.13
+
+V00-13-68
+---------
+09Jan18: A. De Silva
+ALRB V00-21-27
+
+V00-13-67
+---------
+04Jan18: A. De Silva
+ALRB V00-21-26
+
+V00-13-66
+---------
+18Dec17: I. Trigger
+rucio 1.14.5 (testing)
+
+V00-13-65
+--------
+15Dec17: A. De Silva
+acm 0.1.8
+
+V00-13-64
+--------
+15Dec17: A. De Silva
+xrootd 4.8.0 testing version
+ganga 6.7.4 default (was 6.7.1)
+
+V00-13-63
+--------
+14Dec17: A. De Silva
+ALRB V00-21-24
+ganga 6.7.4 (testing)
+
+V00-13-62
+--------
+13Dec17: A. De Silva
+ALRB V00-21-23
+
+V00-13-61
+--------
+12Dec17: A. De Silva
+rucio 1.14.4 (testing).  removed as itfails
+
+V00-13-60
+--------
+13Dec17: A. De Silva
+ALRB V00-21-22
+
+V00-13-59
+--------
+12Dec17: A. De Silva
+rucio 1.14.3 (testing).  Removed (this tag is not deployed)
+
+V00-13-58
+--------
+12Dec17: A. De Silva
+ALRB V00-21-21
+
+V00-13-57
+--------
+11Dec17: A. De Silva
+ALRB V00-21-20
+
+V00-13-56
+--------
+11Dec17: A. De Silva
+rucio 1.13.2 made default
+
+V00-13-55
+--------
+06Dec17: A. De Silva
+ALRB V00-21-15
+
+V00-13-54
+--------
+06Dec17: A. De Silva
+gitlab added
+ALRB V00-21-14
+rucio 1.14.2 (not made testing)
+cmake 3.10.0
+
+V00-13-53
+--------
+06Dec17: A. De Silva
+Ganga 6.7.3 (testing)
+
+V00-13-52
+---------
+01Dec17: I. Trigger
+revert asetup default from 00-07-92 back to 00-07-84
+
+V00-13-51
+--------
+30Nov17: A. De Silva
+xrootd 4.7.1 is now default (last default 4.5.0)
+
+V00-13-50
+--------
+30Nov17: A. De Silva
+asetup 00-07-92 made default (older default was 00-07-84)
+
+V00-13-49
+--------
+30Nov17: A. De Silva
+adctools 0.2.0
+
+V00-13-48
+--------
+28Nov17: A. De Silva
+acm 0.1.7 (and removed version older than 0.1.6)
+
+V00-13-47
+--------
+21Nov17: A. De Silva
+acm 0.1.6
+
+V00-13-46
+--------
+20Nov17: A. De Silva
+asetup 00-07-92 (testing)
+
+V00-13-45
+--------
+16Nov17: A. De Silva
+Changed rucio urls to https in tools/rucio config file.
+
+V00-13-44
+--------
+16Nov17: A. De Silva
+OS X bug fix
+
+V00-13-43
+--------
+16Nov17: A. De Silva
+asetup 00-07-91 (testing)
+
+V00-13-42
+--------
+16Nov17: A. De Silva
+cmake 3.9.6 (testing)
+acm 0.1.5
+
+V00-13-41
+--------
+14Nov17: A. De Silva
+asetup 00-07089 (testing)
+adctools
+alrb 00-21-11
+
+V00-13-40
+--------
+13Nov17: A. De Silva
+Panda 0.5.96
+pyAmi 5.0.7
+gcc62 reinstallaton without .la files
+
+V00-13-39
+--------
+09Nov17: A. De Silva
+xcache 1.0.12
+
+V00-13-38
+--------
+07Nov17: A. De Silva
+xcache 1.0.11
+alrb V00-21-09
+remove xrdcache
+
+V00-13-37
+--------
+03Nov17: A. De Silva
+xrdcache 1.0.4
+alrb V00-21-05
+
+V00-13-36
+--------
+03Nov17: A. De Silva
+alrb V00-21-03
+xrdcache tool added
+
+V00-13-35
+--------
+02Nov17: A. De Silva
+xrootd 4.7.1
+
+V00-13-34
+--------
+01Nov17: A. De Silva
+asetup 00-07-88 (testing)
+
+V00-13-33
+--------
+01Nov17: A. De Silva
+rucio 1.13.2 (testing)
+panda 0.5.95
+
+V00-13-32
+--------
+26Oct17: A. De Silva
+acm 0.1.4
+
+V00-13-31
+--------
+25Oct17: A. De Silva
+asetup 00-07-87
+
+V00-13-30
+--------
+25Oct17: A. De Silva
+acm 0.1.3
+
+V00-13-29
+--------
+24Oct17: A. De Silva
+rucio 1.13.0 made default
+
+V00-13-28
+--------
+19Oct17: A. De Silva
+Ganga 6.7.2 (testing)
+
+V00-13-27
+--------
+18Oct17: A. De Silva
+acm 0.1.2
+
+V00-13-26
+--------
+16Oct17: A. De Silva
+Panda 0.5.94
+
+V00-13-25
+--------
+12Oct17: A. De Silva
+xrootd 4.7.0 (testing)
+
+V00-13-24
+--------
+12Oct17: A. De Silva
+asetup 00-07-84 (prod)
+
+V00-13-23
+--------
+11Oct17: A. De Silva
+ALRB V00-20-98
+
+V0-13-22
+--------
+10Oct17: I. Trigger
+asetup 00-07-83 (default)
+
+V00-13-21
+---------
+05Oct17: A. De Silva
+asetup 00-07-83 (beta)
+
+V00-13-20
+---------
+05Oct17: A. De Silva
+asetup - all versions removed except 00-07-75 and 00-07-82
+panda 0.5.93
+cmake 3.9.4 (testing)
+
+V00-13-19
+---------
+03Oct17: I. Trigger
+asetup 00-07-82 default
+
+V00-13-18
+---------
+02Oct17: I. Trigger
+asetup 00-07-82 testing
+
+V00-13-17
+---------
+29Sep17: A. Desilva
+asetup 00-07-75 reverted default
+
+
+V00-13-16
+---------
+29Sep17: I. Trigger
+asetup 00-07-81 default
+
+V00-13-15
+---------
+27Sep17: A. De Silva
+Panda 0.5.92
+
+V00-13-14
+---------
+26Sep17: A. De Silva
+rucio 1.13.0 (testing), 1.12.5 (prod)
+root 6.10.04
+
+V00-13-13
+---------
+21Sep17: A. De Silva
+asetup 00-07-81
+
+V00-13-12
+---------
+21Sep17: A. De Silva
+asetup 00-07-80
+
+V00-13-11
+---------
+20Sep17: A. De Silva
+asetup 00-07-79
+
+V00-13-10
+---------
+18Sep17: A. De Silva
+ganga 6.7.1
+
+V00-13-09
+---------
+15Sep17: A. De Silva
+added acm 0.1.1
+ALRB 00-20-97
+
+V00-13-08
+---------
+15Sep17: A. De Silva
+asetup 00-07-78 (beta)
+
+V00-13-07
+---------
+14Sep17: A. De Silva
+ALRB V00-20-94
+
+V00-13-06
+---------
+12Sep17: A. De Silva
+root 6.10/04 made default
+panda 0.5.91
+
+V00-13-05
+---------
+11Sep17: A. De Silva
+ALRB V00-20-91
+
+V00-13-04
+---------
+06Sep17: A. De Silva
+ALRB V00-20-90
+asetup 00-07-77 (beta)
+
+V00-13-02
+---------
+01Sep17: A. De Silva
+stop removing panda 0.5.80 (by noe it should all be a sym link to 0.5.90)
+
+V00-12-99
+---------
+01Sep17: A. De Silva
+asetup 00-07-76 beta
+
+V00-12-98
+---------
+31Aug17: A. De Silva
+panda 0.5.80 removed; sym link to 0.5.90 as a test (temporary)
+
+V00-12-97
+---------
+31Aug17: A. De Silva
+panda 0.5.80 put back because Ganga may need it.
+
+V00-12-96
+---------
+30Aug17: A. De Silva
+cleanup of obsolete versions
+
+V00-12-95
+---------
+29Aug17: A. De Silva
+rucio 1.12.5 testing 1.12.0 prod
+
+V00-12-94
+---------
+28Aug17: A. De Silva
+Panda 0.5.90
+
+V00-12-93
+---------
+25Aug17: A. De Silva
+Panda 0.5.88
+
+V00-12-92
+---------
+23Aug17: A. De Silva
+removed rucio 1.12.4
+added png
+ALRB V00-20-89
+
+(somethign wrong with V00-12-91 ... so skip it)
+
+V00-12-90
+---------
+18Aug17: I. Trigger
+Panda 0.5.87
+
+V00-12-89
+---------
+17Aug17: A. De Silva
+ALRB V00-20-88
+
+V00-12-88
+---------
+16Aug17: A. De Silva
+ALRB V00-20-87
+
+V00-12-87
+---------
+11Aug17: A. De Silva
+ALRB V00-20-83
+
+V00-12-86
+---------
+09Aug17: A. De Silva
+ALRB V00-20-81
+
+V00-12-85
+---------
+07Aug17: A. De Silva
+cmake testing / default version intrioduced
+
+V00-12-84
+---------
+07Aug17: A. De Silva
+cmake 3.9.0 removed
+
+V00-12-83
+---------
+04Aug17: A. De Silva
+root 6.10.04
+xrootd 4.6.1 for gcc62
+cmake 3.9.0
+davix 0.6.6
+
+V00-12-82
+---------
+04Aug17: A. De Silva
+asetup 00-07-75 default
+
+V00-12-81
+---------
+03Aug17: A. De Silva
+Ganga 6.6.4
+
+V00-12-80
+---------
+31Jul17: A. De Silva
+ALRB V00-20-80
+
+V00-12-79
+---------
+31Jul17: A. De Silva
+ALRB V00-20-79
+
+V00-12-78
+---------
+29Jul17: A. De Silva
+Panda 0.5.86
+
+V00-12-77
+---------
+26Jul17: A. De Silva
+ALRB 00-20-78
+tbb added
+
+V00-12-76
+---------
+25Jul17: A. De Silva
+ALRB 00-20-77
+
+V00-12-75
+---------
+24Jul17: A. De Silva
+root 6.10.02
+xrootd 4.6.0 (for gcc62) - will be temporary until 4.6.1 overwrites it
+
+V00-12-74
+---------
+24Jul17: A. De Silva
+hdf5 1.10.0-x86_64-slc6-gcc62-opt
+ALRB V00-20-76
+
+V00-12-73
+---------
+19Jul17: A. De Silva
+ALRB V00-20-74
+
+
+V00-12-72
+---------
+17Jul17: A. De Silva
+motd changed
+
+V00-12-71
+---------
+11Jul17: A. De Silva
+ganga 6.6.3
+rucio 1.12.0 (testing)
+
+V00-12-70
+---------
+6Jul17: A. De Silva
+ganga 6.6.2 (6.6.1 removed)
+
+V00-12-69
+---------
+30Jun17: I. Trigger
+pands 0.5.85
+
+V00-12-68
+---------
+28Jun17: A. De Silva
+ganga 6.6.1 (testing version)
+
+V00-12-67
+---------
+20Jun17: A. De Silva
+asetup 00-07-75 (testing)
+
+V00-12-66
+---------
+20Jun17: A. De Silva
+rucio 1.11.3 made default
+
+V00-12-65
+---------
+19Jun17: A. De Silva
+Panda 0.5.84
+
+V00-12-64
+---------
+15Jun17: A. De Silva
+rcsetup 00-04-18
+
+V00-12-63
+---------
+13Jun17: A. De Silva
+rucio 1.11.3 (testing)
+rucio 1.11.0 (default)
+
+V00-12-62
+---------
+09Jun17: A. De Silva
+xrootd 4.5.0 gcc62 version
+davix 0.6.2 gcc62 version
+boost gcc62 version
+Ganga 6.6.0 removed
+alrb V00-20-73
+
+V00-12-61 (not deployed)
+---------
+02Jun17: A. De Silva
+Ganga 6.6.0 (not made default)
+alrb  V00-20-72
+
+V00-12-60
+---------
+01Jun17: A. De Silva
+emi centos7-preview-v03p1; older emi versions removed.
+
+V00-12-59
+V00-12-58 (not releases)
+---------
+31May17: A. De Silva
+ALRB V00-20-71
+
+V00-12-57
+---------
+29May17: A. De Silva
+ALRB V00-20-70
+
+V00-12-56
+---------
+24May17: A. De Silva
+reinstallation of 3.17.1-1_v3.sl6umd4v2 (patched)
+ALRB V00-20-69
+
+V00-12-55
+---------
+24May17: A. De Silva
+asetup 00-07-74 made default
+
+V00-12-54
+---------
+23May17: I. Trigger
+rucio 1.11.0 (as testing)
+rucio 1.10.7 (to default)
+
+V00-12-53
+---------
+18May17: A. De Silva
+Panda 0.5.83
+
+V00-12-52
+---------
+15May17: A. De Silva
+asetup 00-07-74
+
+V00-12-51
+---------
+12May17: A. De Silva
+cmake 3.8.1
+xrootd 4.6.1
+
+V00-12-50
+---------
+10May17: A. De Silva
+asetup 00-07-73
+alrb V00-20-63
+
+V00-12-49
+---------
+09May17: A. De Silva
+rucio 1.10.7 (testing)
+asetup 00-07-72 (default)
+
+V00-12-48
+---------
+08May17: A. De Silva
+Panda 0.5.82
+
+V00-12-47
+---------
+04May17: A. De Silva
+asetup 00-07-72 (beta)
+
+V00-12-46
+---------
+04May17: A. De Silva
+rucio 1.10.6 (testing)
+
+V00-12-45
+---------
+28Apr17: A. De Silva
+(testing) versions of emi (3.17.1-1.sl6umd4v2 and centos7-preview-v03)
+
+V00-12-44
+---------
+27Apr17: A. De Silva
+asetup 00-07-71 (beta)
+
+V00-12-43
+---------
+26Apr17: A. De Silva
+rucio 1.10.5 made default
+
+V00-12-42
+---------
+25Apr17: A. De Silva
+emi testing versions 3.17.1-1.sl6umd4v1 and centOS7-preview02
+panda 0.5.81
+
+V00-12-41
+---------
+24Apr17: A. De Silva
+AtlasSetup-00-07-70 (in prod)
+
+V00-12-40
+---------
+21Apr17: I. Trigger
+AtlasSetup-00-07-70 (beta)
+
+V00-12-39
+---------
+20Apr17: A. De Silva
+ALRB V00-20-62
+
+V00-12-38
+---------
+20Apr17: A. De Silva
+ALRB V00-20-61
+
+V00-12-37
+---------
+19Apr17: A. De Silva
+asetup 00-07-69 (beta)
+
+V00-12-36
+---------
+12Apr17: A. De Silva
+git 2.11.1.patch2 (reinstalled)
+
+V00-12-35
+---------
+11Apr17: A. De Silva
+ALRB V00-20-60
+git 2.11.1.patch1 (reinstalled)
+
+V00-12-34
+---------
+10Apr17: A. De Silva
+asetup 00-07-68 made default
+rucio testing 1.10.5
+
+V00-12-33
+---------
+07Apr17: A. De Silva
+6.08.06-HiggsComb-x86_64-slc6-gcc49-opt
+
+V00-12-32
+---------
+07Apr17: A. De Silva
+panda 0.5.80
+
+V00-12-31
+---------
+06Apr17: A. De Silva
+AtlasSetup 00-07-68 beta
+
+V00-12-30
+---------
+04Apr17: A. De Silva
+AtlasSetup 00-07-67 beta
+
+V00-12-29
+---------
+27Mar17: A. De Silva
+ALRB V00-20-59
+
+V00-12-28
+---------
+27Mar17: A. De Silva
+ALRB V00-20-58
+
+V00-12-26
+---------
+24Mar17: A. De Silva
+ALRB V00-20-57
+pyAmi 5.0.3.3
+xrootd 4.5.0 SL7 version
+
+V00-12-25
+---------
+22Mar17: A. De Silva
+ALRB V00-20-55
+
+V00-12-24
+---------
+21Mar17: A. De Silva
+ALRB V00-20-53
+
+V00-12-23
+---------
+20Mar17: A. De Silva
+root 6.08.06 (gcc49, gcc62 and MacOS)
+python 2.7.13
+
+V00-12-22
+---------
+16Mar17: A. De Silva
+Pands 0.5.79
+
+V00-12-21
+---------
+15Mar17: A. De Silva
+asetup 00-07-66 made default
+
+V00-12-20
+---------
+14Mar17: A. De Silva
+asetup 00-07-66
+rcsetup testing created
+
+V00-12-19
+---------
+13Mar17: A. De Silva
+rucio 1.10.1 made default
+
+V00-12-18
+---------
+10Mar17: A. De Silva
+ALRB V00-20-51
+
+V00-12-17
+---------
+10Mar17: A. De Silva
+ALRB V00-20-51
+
+V00-12-16
+---------
+10Mar17: A. De Silva
+ALRB V00-20-50
+
+V00-12-15
+---------
+09Mar17: A. De Silva
+ALRB V00-20-49
+
+V00-12-14
+---------
+09Mar17: A. De Silva
+ALRB V00-20-49
+
+V00-12-13
+---------
+09Mar17: A. De Silva
+ALRB V00-20-48
+
+V00-12-12
+---------
+09Mar17: A. De Silva
+ALRB V00-20-42
+asetup 00-07-65
+
+V00-12-11
+---------
+08Mar17: A. De Silva
+rcsetup 00-04-17
+
+V00-12-10
+---------
+07Mar17: A. De Silva
+ALRB V00-20-39
+
+V00-12-09
+---------
+06Mar17: A. De Silva
+root 6.08.02 and dependencies for gcc62 added (gcc, python and fftw)
+
+V00-12-08
+---------
+06Mar17: A. De Silva
+Panda 0.5.78
+
+V00-12-07
+---------
+02Mar17: A. De Silva
+rucio 1.9.4 default, 1.10.1 testing.
+
+
+V00-12-06
+---------
+01Mar17: A. De Silva
+Python 2.7.10 (gcc49,slc6)
+
+V00-12-05
+---------
+28Feb17: A. De Silva
+ALRB V00-20-38
+
+V00-12-04
+---------
+27Feb17: A. De Silva
+ALRB V00-20-37
+
+V00-12-03
+---------
+24Feb17: A. De Silva
+asetup 00-07-64 (beta)
+
+V00-12-02
+---------
+23Feb17: A. De Silva
+xroot 4.5.0 made default
+
+V00-12-01
+---------
+23Feb17: A. De Silva
+rucio 1.10.1 (not testing or prod)
+
+V00-12-00
+---------
+21Feb17: A. De Silva
+git 2.11.1-x86_64-centos7 and 2.11.1-x86_64-slc6 
+ALRB V00-20-36
+
+V00-11-99
+---------
+21Feb17: A. De Silva
+rucio 1.10.0 (not testing / current)
+
+V00-11-98
+---------
+20Feb17: A. De Silva
+asetup 00-07-62 made default
+
+V00-11-97
+---------
+17Feb17: A. De Silva
+ALRB V00-20-33
+
+V00-11-96
+---------
+16Feb17: A. De Silva
+ALRB V00-20-31
+
+V00-11-95
+---------
+14Feb17: A. De Silva
+ALRB V00-20-29
+
+V00-11-94
+---------
+14Feb17: A. De Silva
+asetup 00-07-62 (testing)
+
+V00-11-93
+---------
+10Feb17: A. De Silva
+ALRB V00-20-27
+asetup 00-07-61 (testing)
+
+V00-11-92
+---------
+09Feb17: A. De Silva
+emi 1.0.0_v1a.centos7.preview
+
+V00-11-91
+---------
+08Feb17: A. De Silva
+emi 1.0.0_v1a.centos7.preview (removed)
+pands 0.5.77
+
+V00-11-90
+---------
+07Feb17: A. De Silva
+ALRB V00-20-24
+
+V00-11-89
+---------
+06Feb17: A. De Silva
+ALRB V00-20-23
+
+V00-11-88
+---------
+03Feb17: A. De Silva
+ALRB V00-20-21
+Pod made defult : PoD-3.16p1-python2.7-x86_64-slc6-gcc49-boost1.60
+
+V00-11-87
+---------
+01Feb17: A. De Silva
+ALRB V00-20-17 (reverted temporarily to V00-20-15)
+panda 0.5.76
+
+V00-11-86
+---------
+31Jan17: A. De Silva
+asetup 00-07-59 (testing)
+
+V00-11-85
+---------
+31Jan17: A. De Silva
+ALRB V00-20-15
+Panda 0.5.75
+
+V00-11-84
+---------
+30Jan17: A. De Silva
+ALRB V00-20-13
+Asetup 00-07-57 (default)
+asetup V00-07-58 (testing)
+
+V00-11-83
+---------
+27Jan17: A. De Silva
+Atlantis updated to newer versions
+09-16-05-23 (default), 09-16-06-07 (testing)
+
+V00-11-82
+---------
+26Jan17: A. De Silva
+ALRB V00-20-10
+
+V00-11-81
+---------
+23Jan17: A. De Silva
+ALRB V00-20-09
+
+V00-11-80
+---------
+23Jan17: A. De Silva
+DQ2 removed
+removed obsolste code for installations
+ALRB V00-20-05
+
+V00-11-79
+---------
+23Jan17: A. De Silva
+root 6.04.16-HiggsComb-x86_64-slc6-gcc49-opt
+
+V00-11-78
+---------
+20Jan17: A. De Silva
+Asetup 00-07-56 default
+asetup V00-07-57 testing
+
+V00-11-77
+---------
+19Jan17: A. De Silva
+Panda 0.5.74
+
+V00-11-76
+---------
+19Jan17: A. De Silva
+rucio 1.9.4 (testing)
+
+V00-11-75
+---------
+18Jan17: A. De Silva
+Minor fix for gcc installation in new system.
+
+V00-11-74
+---------
+18Jan17: A. De Silva
+Minor fix for gcc installation in new system.
+
+V00-11-73
+---------
+18Jan17: A. De Silva
+rucio 1.9.4 testing (removed)
+
+V00-11-72
+---------
+16Jan17: A. De Silva
+ALRB V00-20-03
+new configs for installation
+
+V00-11-71
+---------
+12Jan17: A. De Silva
+ALRB V00-19-97
+pyami 5.0.3.2 made default.  5.0.3 removed.
+
+V00-11-70
+---------
+10Jan17: A. De Silva
+ALRB V00-19-87
+new installation configs
+pyami 5.0.3.2 (testing)
+
+V00-11-69
+---------
+09Jan17: A. De Silva
+ALRB V00-19-81
+
+V00-11-68
+---------
+06Jan17: A. De Silva
+ALRB V00-19-77
+more new installation configs
+Panda 0.5.73
+
+V00-11-67
+---------
+05Jan17: A. De Silva
+ALRB V00-19-73
+
+V00-11-66
+---------
+04Jan17: A. De Silva
+configs for new installation system
+
+V00-11-65
+---------
+03Jan17: A. De Silva
+new installation config files added
+ALRB V00-19-72
+
+V00-11-64
+---------
+12Dec16: A. De Silva
+new sw installation configs
+asetup 00-07-56 (testing)
+ALRB V00-19-70
+
+V00-11-63
+---------
+07Dec16: A. De Silva
+root 6.08.02
+
+V00-11-62
+---------
+05Dec16: A. De Silva
+ALRB V00-19-69
+
+V00-11-61
+---------
+05Dec16: A. De Silva
+asetup 00-07-55 made default
+
+V00-11-60
+---------
+01Dec16: A. De Silva
+asetup 00-07-55
+
+V00-11-59
+---------
+30Nov16: A. De Silva
+rucio-clients 1.8.3 made default
+ALRB V00-19-66
+
+V00-11-58
+---------
+29Nov16: A. De Silva
+PandaClient 0.5.72
+asetup 00-07-52 (prod)
+asetup 00-07-53 (beta)
+ALRB V00-19-64
+
+V00-11-57
+---------
+23Nov16: A. De Silva
+asetup 00-07-52
+
+V00-11-56
+---------
+23Nov16: A. De Silva
+davix 0.6.4 added (also for SL7 native support)
+xrootd 4.5.0
+asetup V00-19-63
+
+V00-11-55
+---------
+173Nov16: A. De Silva
+reverting asetup default to V00-07-47
+
+V00-11-54
+---------
+173Nov16: A. De Silva
+asetup 00-07-50 made default
+
+V00-11-53
+---------
+173Nov16: A. De Silva
+Ganga 6.2.3
+cmake 3.7.0
+
+V00-11-52
+---------
+093Nov16: A. De Silva
+fftw 3.3.4
+root 6.08.00
+
+V00-11-51
+---------
+033Nov16: A. De Silva
+asetup 00-07-50 (beta)
+
+V00-11-50
+---------
+02Nov16: A. De Silva
+ALRB V00-19-61
+
+V00-11-49
+---------
+31Oct16: A. De Silva
+cleanup of obsolete releases (many)
+
+V00-11-48
+---------
+26Oct16: A. De Silva
+AtlasSetup 00-07-49 made testing
+
+V00-11-47
+---------
+25Oct16: A. De Silva
+AtlasSetup 00-07-48 made testing
+
+V00-11-46
+---------
+25Oct16: A. De Silva
+AtlasSetup 00-07-47 made default
+
+V00-11-45
+---------
+24Oct16: A. De Silva
+xrootd 4.4.1 made default
+
+V00-11-44
+---------
+20Oct16: A. De Silva
+asetup 00-07-47
+
+V00-11-43
+---------
+19Oct16: A. De Silva
+rucio 1.8.3 (testing)
+
+V00-11-42
+---------
+17Oct16: A. De Silva
+ALRB V00-19-59
+xrootd 4.4.1
+
+V00-11-41
+---------
+11Oct16: I. Trigger
+Ganga 6.2.2
+
+V00-11-40
+---------
+06Oct16: A. De Silva
+emi centos7-preview-v01
+emi 3.17.1-1_v3.sl6
+AtlasSetup V00-07-46
+
+V00-11-39
+---------
+04Oct16: I. Trigger
+PandaClient 0.5.71
+
+V00-11-38
+---------
+03Oct16: A. De Silva
+ALRB V00-19-58
+
+V00-11-37
+---------
+29Sep16: A. De Silva
+eiclient 1.24.0
+
+V00-11-36
+---------
+28Sep16: A. De Silva
+git 2.10.0
+
+V00-11-35
+---------
+27Sep16: A. De Silva
+ALRB V00-19-57
+
+V00-11-34
+---------
+26Sep16: A. De Silva
+ALRB V00-19-56
+
+V00-11-33
+---------
+26Sep16: A. De Silva
+rucio 1.8.0 (testing)
+
+V00-11-32
+---------
+19Sep16: A. De Silva
+hdf5 1.8.17
+ALRB V00-19-54
+
+V00-11-31
+---------
+16Sep16: A. De Silva
+hdf5 added
+ALRB V00-19-52
+
+V00-11-30
+---------
+15Sep16: A. De Silva
+Alrb V00-19-49
+
+V00-11-29
+---------
+14Sep16: A. De Silva
+typo fix
+
+V00-11-28
+---------
+14Sep16: A. De Silva
+ALRB V00-19-48
+
+V00-11-27
+---------
+14Sep16: A. De Silva
+ALRB V00-19-47
+
+V00-11-26
+---------
+14Sep16: A. De Silva
+sw-mgr 0.253.0
+
+V00-11-25
+---------
+08Sep16: A. De Silva
+AtlasSetup-00-07-45 made default
+
+V00-11-24
+---------
+07Sep16: I. Trigger
+AtlasSetup-00-07-45 (testing)
+
+V00-11-23
+---------
+02Sep16: A. De Silva
+Ganga 6.2.0
+
+V00-11-22
+---------
+31Aug16: A. De Silva
+ALRB V00-19-46
+
+V00-11-21
+---------
+31Aug16: A. De Silva
+Panda 0.5.70
+
+V00-11-20
+---------
+30Aug16: A. De Silva
+asetup 00-07-42 (beta)
+
+V00-11-19
+---------
+30Aug16: A. De Silva
+rucio 1.7.3
+
+V00-11-18
+---------
+29Aug16: A. De Silva
+emi centos7-v02
+xrootd 4.4
+
+V00-11-17
+---------
+26Aug16: A. De Silva
+ALRB V00-19-45
+
+V00-11-16
+---------
+25Aug16: A. De Silva
+Ganga 6.1.25
+
+V00-11-15
+---------
+24Aug16: A. De Silva
+ALRB V00-19-44
+
+V00-11-14
+---------
+22Aug16: A. De Silva
+asetup 00-07-40 (beta)
+
+V00-11-13
+---------
+18Aug16: A. De Silva
+Ganga 6.1.24-patch1
+ALRB V00-19-43
+
+V00-11-12
+---------
+15Aug16: A. De Silva
+Ganga 6.1.24
+
+V00-11-11
+---------
+11Aug16: A. De Silva
+Ganga 6.1.23
+
+V00-11-10
+---------
+01Aug16: A. De Silva
+Panda 0.5.69
+
+V00-11-09
+---------
+27Jul16: A. De Silva
+ROOT 6.06 (gcc49 and MacOS)
+gsl 2.1 (root dependency)
+davix 0.6.3
+
+V00-11-08
+---------
+26Jul16: A. De Silva
+Panda 0.5.68
+
+V00-11-07
+---------
+22Jul16: A. De Silva
+asetuo V00-07-39 made default
+
+V00-11-06
+---------
+21Jul16: A. De Silva
+sw-mgr 0.252.0
+
+V00-11-05
+---------
+21Jul16: A. De Silva
+asetup 00-07-39 (beta)
+
+V00-11-04
+---------
+14Jul16: A. De Silva
+motd changed for dq2
+ALRB V00-19-41
+
+V00-11-03
+---------
+12Jul16: I. Trigger
+AtlasSetup-00-07-37 now default
+
+V00-11-02
+----------
+08Jul16: A. De Silva
+cmake 3.6.0
+
+V00-11-01
+----------
+7Jul16: A. De Silva
+Asetup 00-07-37
+
+V00-10-100
+----------
+7Jul16: I. Trigger
+Panda 0.5.66
+
+V00-10-99
+---------
+28Jun16: A. De Silva
+Panda 0.5.65
+Asetup 00-07-34 (beta)
+
+V00-10-98
+---------
+24Jun16: A. De Silva
+ALRB V00-19-40
+ROOT 6.04.18
+
+V00-10-97
+---------
+24Jun16: A. De Silva
+Panda 0.5.64
+
+V00-10-96
+---------
+23Jun16: A. De Silva
+ALRB V00-19-39
+
+V00-10-95
+---------
+22Jun16: A. De Silva
+ALRB V00-19-38
+
+V00-10-94
+---------
+13Jun16: A. De Silva
+rucio 1.5.11 (prod) 1.6.0 (testing)
+rucio 1.4.6 made default again (1.5.11, 1.6.0 fails); 1.5.3 (testing)
+asetup 00-07-33
+
+V00-10-93
+---------
+10Jun16: A. De Silva
+ALRB V00-19-37
+
+V00-10-92
+---------
+10Jun16: A. De Silva
+ALRB V00-19-36
+
+V00-10-91
+---------
+08Jun16: A. De Silva
+asetup 00-07-32 prod
+
+V00-10-90
+---------
+01Jun16: A. De Silva
+asetup 00-07-32 beta
+ALRB V00-19-35
+
+V00-10-89
+---------
+31May16: A. De Silva
+asetup 00-07-31 beta
+
+V00-10-88
+---------
+20May16: A. De Silva
+asetup 00-07-30 default
+
+V00-10-87
+---------
+18May16: A. De Silva
+centos7-v1 emi
+ALRB V00-19-34
+
+V00-10-86
+---------
+18May16: A. De Silva
+Ganga 6.1.20
+AtlasSetup 00-07-29 (prod) 00-07-30 (testing)
+removed installing obsolste CMT versions whioch fail anyway to install.
+
+V00-10-85
+---------
+13May16: A. De Silva
+Ganga 6.1.20-pre (testing)
+
+V00-10-84
+---------
+09May16: A. De Silva
+ALRB V00-19-33
+AtlasSetup 00-07-29 (beta)
+
+V00-10-83
+---------
+09May16: A. De Silva
+ALRB V00-19-31
+
+V00-10-82
+---------
+09May16: A. De Silva
+AtlasSetup 00-07-28 (beta)
+
+V00-10-81
+---------
+05May16: A. De Silva
+Ganga 6.1.19 (not made default and removed)
+ALRB V00-19-30
+
+V00-10-80
+---------
+05May16: A. De Silva
+AtlasSetup 00-07-25 (prod)
+
+V00-10-79
+---------
+04May16: A. De Silva
+AtlasSetup 00-07-25 (beta)
+
+V00-10-78
+---------
+02May16: A. De Silva
+ALRB V00-19-27
+emi 3.17.1-1_v2
+
+
+V00-10-77
+---------
+28Apr16: A. De Silva
+AtlasSetup 00-07-22 (testing)
+
+V00-10-76
+---------
+28Apr16: A. De Silva
+AtlasSetup 00-07-21 (testing)
+ALRB V00-19-25
+
+V00-10-75
+---------
+20Apr16: A. De Silva
+AtlasSetup 00-07-20 (testing)
+
+V00-10-74
+---------
+20Apr16: A. De Silva
+rucio 1.4.6 (prod), 1.5.3 (testing)
+
+V00-10-73
+---------
+14Apr16: A. De Silva
+AtlasSetup 00-07-19 (prod)
+
+V00-10-72
+---------
+14Apr16: A. De Silva
+ALRB V00-19-24
+
+V00-10-71
+---------
+06Apr16: A. De Silva
+ALRB V00-19-23
+
+V00-10-70
+---------
+06Apr16: A. De Silva
+AtlasSetup 00-07-19 (beta)
+
+V00-10-69
+---------
+06Apr16: A. De Silva
+AtlasSetup 00-07-18 (beta)
+
+V00-10-68
+---------
+06Apr16: A. De Silva
+dependencies added for special Higgs version of ROOT.
+
+V00-10-67
+---------
+06Apr16: A. De Silva
+dependencies added for special Higgs version of ROOT.
+
+V00-10-66
+---------
+05Apr16: A. De Silva
+AtlasSetup 00-07-17 made default
+
+V00-10-65
+---------
+31Mar16: A. De Silva
+ALRB V00-19-19
+
+V00-10-64
+---------
+31Mar16: A. De Silva
+panda 0.5.63
+
+V00-10-63
+---------
+31Mar16: A. De Silva
+davix 0.6.0
+
+V00-10-62
+---------
+31Mar: I. Trigger
+Rucio 1.4.5
+moved AtlasSetup-00-07-17 out of obsolete beta directory
+
+V00-10-61
+---------
+30Mar: I. Trigger
+AtlasSetup-00-07-17 beta (for testing)
+
+V00-10-60 (this tag is not deployed)
+---------
+24Mar16: A. De Silva
+eiclient 1.22.0 (reverted to 1.20.1 for now)
+
+V00-10-59
+---------
+18Mar16: A. De Silva
+atlasSetup 00-07-16 (beta)
+root 6.04.16
+
+V00-10-58
+---------
+17Mar16: A. De Silva
+Ganga 6.1.18  (reverted)
+
+V00-10-57
+---------
+16Mar16: A. De Silva
+emi-ui-3.17.1-1_v1a.sl6 (prod)
+ALRB V00-19-18
+
+V00-10-56
+---------
+16Mar16: A. De Silva
+Panda 0.5.62
+emi-ui-3.17.1-1_v1a.sl6 (testing)
+
+V00-10-55
+---------
+15Mar16: A. De Silva
+ALRB V00-19-16
+
+V00-10-54
+---------
+15Mar16: A. De Silva
+asetup 00-07-15 made default
+
+V00-10-53
+---------
+14Mar16: A. De Silva
+boost 1.60
+pod 3.16 (gcc49 version)
+ALRB V00-19-15
+
+V00-10-52
+---------
+14Mar16: A. De Silva
+ALRB V00-19-14
+
+V00-10-51
+---------
+14Mar16: A. De Silva
+git 2.7.2
+ALRB V00-19-13
+
+V00-10-50
+---------
+11Mar16: A. De Silva
+Ganga 6.1.17 (removed)
+root 6.06.02
+
+V00-10-49
+---------
+09Mar16: A. De Silva
+ALRB V00-19-12
+xrootd 4.3.0
+
+V00-10-48
+---------
+09Mar16: A. De Silva
+rucio 1.4.1 testing
+
+V00-10-47
+---------
+08Mar16: A. De Silva
+ALRB V00-19-11
+added git (suppressed)
+rucio 1.30-post2 made default
+rucio 1.40-post1 for testing
+
+V00-10-46
+---------
+08Mar16: A. De Silva
+AtlasSetup 00-07-15 (beta)
+
+V00-10-45
+---------
+07Mar16: A. De Silva
+ALRB V00-19-08
+
+V00-10-44
+---------
+07Mar16: A. De Silva
+AtlasSetup 00-07-14
+ALRB V00-19-07
+
+V00-10-43
+---------
+03Mar16: A. De Silva
+AtlasSetup 00-07-14 (beta)
+
+V00-10-42
+---------
+01Mar16: A. De Silva
+Ganga 6.1.16  (removed)
+AtlasSetup 00-07-13 (beta)
+
+V00-10-41
+---------
+29Feb16: A. De Silva
+ALRB V00-19-06
+
+V00-10-40
+---------
+29Feb16: A. De Silva
+ALRB V00-19-04
+
+V00-10-39
+---------
+29Feb16: A. De Silva
+AtlasSetup 00-07-12 (prod)
+
+V00-10-38
+---------
+26Feb16: A. De Silva
+AtlasSetup 00-07-12 (beta)
+
+V00-10-37
+---------
+26Feb16: A. De Silva
+Panda 0.5.61
+
+V00-10-36
+---------
+23Feb16: A. De Silva
+ALRB V00-19-03
+sw-mgr 0.249.0
+
+V00-10-35
+---------
+18Feb16: A. De Silva
+AtlasSetup 00-07-10 (prod)
+
+V00-10-34
+---------
+16Feb16: A. De Silva
+AtlasSetup 00-07-10 (beta)
+
+V00-10-33
+---------
+15Feb16: A. De Silva
+ALRB V00-19-02
+
+V00-10-32
+---------
+11Feb16: A. De Silva
+ALRB V00-19-01
+
+V00-10-31
+---------
+09Feb16: I. Trigger
+PandaClient 0.5.60
+
+V00-10-30
+---------
+04Feb16: A. De Silva
+root 6.04.14
+
+V00-10-29
+---------
+03Feb16: A. De Silva
+AtlasSetup 00-07-09 (testing)
+
+V00-10-28
+---------
+02Feb16: A. De Silva
+ALRB V00-19-00
+
+V00-10-27
+---------
+01Feb16: A. De Silva
+FAXTools 00-00-36
+
+V00-10-26
+---------
+01Feb16: A. De Silva
+ALRB V00-18-99
+FAXTools 00-00-35 (testing)
+
+V00-10-25
+---------
+28Jan16: A. De Silva
+AtlasSetup 00-07-08 (beta)
+
+V00-10-24
+---------
+27Jan16: A. De Silva
+new emi made default
+
+V00-10-23
+---------
+26Jan16: A. De Silva
+alrb V00-18-98
+
+V00-10-22
+---------
+26Jan16: A. De Silva
+AtlasSetup 00-07-07 (beta) 
+alrb V00-18-97
+
+V00-10-21
+---------
+25Jan16: A. De Silva
+Panda 0.5.59
+
+V00-10-20
+---------
+22Jan16: A. De Silva
+alrb V00-18-96
+
+V00-10-19
+---------
+21Jan16: A. De Silva
+alrb V00-18-94
+
+V00-10-18
+---------
+20Jan16: A. De Silva
+emi 3.17.1-1_v1.sl6 (testing)
+
+V00-10-17
+---------
+20Jan16: A. De Silva
+rucio 1.2.4 made default
+rucio 1.3.0.post2 made testing
+eiclient 1.20.1
+ 
+V00-10-16
+---------
+19Jan16: A. De Silva
+Panda 0.5.58
+dq2 2.6.1_rc19 made default
+alrb V00-18-93
+
+V00-10-15
+---------
+13Jan16: A. De Silva
+cmake 3.3.2 added
+alrb V00-18-91
+
+V00-10-14
+---------
+12Jan16: A. De Silva
+ganga 6.1.14 (removed)
+asetup 00-07-06 (beta)
+
+V00-10-13
+---------
+12Jan16: A. De Silva
+root 6.04.12 (gcc49 and MacOS versions)
+fftw gsl gcc49 versions
+gcc493
+ganga 6.1.14  (not made default yet)
+
+V00-10-12
+---------
+06Jan16: A. De Silva
+ALRB V00-18-90
+
+V00-10-11
+---------
+04Jan16: A. De Silva
+ALRB V00-18-89
+
+V00-10-10
+---------
+16Dec15: A. De Silva
+ALRB V00-18-88
+
+V00-10-09
+---------
+16Dec15: I. Trigger
+AtlasSetup-00-06-09 moved to production
+
+V00-10-08
+---------
+15Dec15: I. Trigger
+eiclient TagConvertor-1.20.0
+
+V00-10-07
+---------
+14Dec15: A. De Silva
+xrootd 4.2.3 made default
+
+V00-10-06
+---------
+11Dec15: A. De Silva
+asetup 00-06-09 (testing)
+
+V00-10-05
+---------
+02Dec15: A. De Silva
+asetup 00-07-01 (testing)
+
+V00-10-04
+---------
+01Dec15: A. De Silva
+asetup 00-06-08
+
+V00-10-03
+---------
+30Nov15: A. De Silva
+eiclient 1.19.0
+
+V00-10-02
+---------
+27Nov15: A. De Silva
+rucio 1.2.4 (testing)
+
+V00-10-01
+---------
+24Nov15: A. De Silva
+AtlasSetup 00-06-07 (testing)
+
+V00-10-00
+---------
+23Nov15: A. De Silva
+ROOT 6.04.10
+
+V00-09-99
+---------
+20Nov15: A. De Silva
+ALRB V00-18-87
+
+V00-09-98
+---------
+20Nov15: A. De Silva
+Panda 0.5.57
+
+V00-09-97
+---------
+19Nov15: A. De Silva
+ALRB V00-18-83
+
+V00-09-96
+---------
+19Nov15: A. De Silva
+ALRB V00-18-82
+
+V00-09-95
+---------
+19Nov15: A. De Silva
+ALRB V00-18-81
+
+V00-09-94
+---------
+18Nov15: A. De Silva
+AtlasSetup 00-06-06 
+
+V00-09-93
+---------
+13Nov15: A. De Silva
+AtlasSetup 00-06-06 (beta)
+
+V00-09-92
+---------
+04Nov15: A. De Silva
+Ganga 6.1.13
+AtlasSetup 00-06-03 
+
+V00-09-91
+---------
+02Nov15: A. De Silva
+Ganga 6.1.12 (removed)
+roll back rucio from 1.1.3 to 1.0.1
+rucio 1.2.0 for testing
+
+V00-09-90
+---------
+30Oct15: A. De Silva
+AtlasSetup 00-06-03 (beta)
+
+V00-09-89
+---------
+30Oct15: A. De Silva
+ALRB V00-18-79
+
+V00-09-88
+---------
+29Oct15: A. De Silva
+AtlasSetup 00-06-02 (beta)
+rucio 1.1.3
+
+V00-09-87
+---------
+21Oct15: A. De Silva
+ALRB V00-18-78
+
+V00-09-86
+---------
+21Oct15: A. De Silva
+root 6.04.06
+
+V00-09-85
+---------
+19Oct15: A. De Silva
+ALRB V00-18-77
+python 2.7.9
+
+V00-09-84
+---------
+19Oct15: A. De Silva
+rucio-clients 1.1.3
+
+V00-09-83
+---------
+15Oct15: A. De Silva
+ALRB V00-18-74
+
+V00-09-82
+---------
+13Oct15: I. Trigger
+PandaClient 0.5.56
+
+V00-09-81
+---------
+12Oct15: A. De Silva
+ALRB V00-18-73
+
+V00-09-80
+---------
+08Oct15: A. De Silva
+AtlasSetup 00-05-05
+ALRB V00-18-72
+
+V00-09-79
+---------
+07Oct15: A. De Silva
+rcsetup 00-04-16
+Ganga 6.1.10  (installed and removed)
+Ganga 6.1.11
+
+V00-09-78
+---------
+06Oct15: A. De Silva
+ALRB V00-18-67
+
+V00-09-77
+---------
+06Oct15: A. De Silva
+ALRB V00-18-66
+
+V00-09-76
+---------
+05Oct15: A. De Silva
+dependencies file fixed
+
+V00-09-75
+---------
+05Oct15: A. De Silva
+ALRB V00-18-64
+
+V00-09-74
+---------
+02Oct15: A. De Silva
+Ganga 6.1.9
+ALRB V00-18-63
+
+V00-09-73
+---------
+30Sep15: A. De Silva
+motd changes
+
+V00-09-72
+---------
+30Sep15: A. De Silva
+ALRB V00-18-61
+
+V00-09-71
+---------
+29Sep15: A. De Silva
+AtlasSetup 00-05-05 (beta)
+
+V00-09-70
+---------
+21Sep15: A. De Silva
+FAXTools V00-00-34
+
+V00-09-69
+---------
+21Sep15: A. De Silva
+emi 3.14.0-1_v4c.sl6
+ALRB V00-18-59
+
+V00-09-68
+---------
+18Sep15: A. De Silva
+ALRB V00-18-56
+rcSetup 00-04-15
+
+V00-09-67
+---------
+16Sep15: A. De Silva
+ALRB V00-18-48
+
+V00-09-66
+---------
+13Sep15: A. De Silva
+ALRB V00-18-46
+
+V00-09-65
+---------
+10Sep15: A. De Silva
+ASetup 00-05-03
+xrootd 4.2.3
+
+V00-09-64
+---------
+10Sep15: I. Trigger
+ASetup 00-05-03-beta
+PandaClient 0.5.55
+
+V00-09-63
+---------
+07Sep15: A. De Silva
+ASetup 00-05-02
+
+V00-09-62
+---------
+04Sep15: A. De Silva
+ASetup 00-05-02 (beta)
+
+V00-09-61
+---------
+03Sep15: A. De Silva
+rcSetup 00-04-14
+
+V00-09-60
+---------
+02Sep15: A. De Silva
+ALRB V00-18-37
+Ganga 6.1.18
+
+V00-09-59
+---------
+02Sep15: A. De Silva
+rucio-clients 1.1.0 (testing)
+
+V00-09-58
+---------
+26Aug15: A. De Silva
+ALRB V00-18-36
+AtlasSetup 00-05-00
+
+V00-09-57
+---------
+24Aug15: A. De Silva
+ALRB V00-18-11
+ganga 6.1.6-hotfix1
+rcsetup 00-04-13
+
+V00-09-56
+---------
+21Aug15: A. De Silva
+ALRB V00-17-77
+AtlasSetup 00-05-00 (beta)
+
+V00-09-55
+---------
+15Aug15: A. De Silva
+ALRB V00-17-68
+Ganga 6.1.5-hotfix1
+Panda 0.5.54
+
+V00-09-54
+---------
+13Aug15: A. De Silva
+rucio-clients 1.0.1 made default
+
+V00-09-53
+---------
+12Aug15: A. De Silva
+Panda 0.5.53
+Ganga 6.1.5
+
+V00-09-52
+---------
+07Aug15: A. De Silva
+ALRB V00-17-62
+rucio-clients 1.0.1 (not made default or testing)
+
+V00-09-51
+---------
+31Jul15: A. De Silva
+ALRB V00-17-60
+xrootd 4.2.2 (slc5,64-bit version)
+python 2.74 made default (was 2.54p2) for SL6
+
+V00-09-50 (not deployed)
+---------
+31Jul15: A. De Silva
+ALRB V00-17-60
+xrootd 4.2.2 (slc5,64-bit version)
+
+V00-09-49
+---------
+29Jul15: A. De Silva
+ALRB V00-17-60
+xrootd 4.2.2
+
+V00-09-48
+---------
+28Jul15: A. De Silva
+Removed current-SL5 links
+PoD gcc48 version made default (was gcc47 version before). 
+Pands 0.5.2
+
+V00-09-47
+---------
+24Jul15: A. De Silva
+ALRB V00-17-56
+Ganga 6.1.3
+rucio-clients 1.0.0
+root 5.34.32-HiggsComb-p1-x86_64-slc6-gcc48-opt 
+
+V00-09-46
+---------
+22Jul15: A. De Silva
+ALRB V00-17-52
+revert to emi 3.14.0-1_v4b.sl6
+
+V00-09-45
+---------
+22Jul15: A. De Silva
+root 5.34.32-HiggsComb-x86_64-slc6-gcc48-opt 
+#I'm probably the best first contact (tim.adye@cern.ch) for technical questions
+#about the ROOT build. More general user questions can be addressed to the Higgs
+#combination list, atlas-phys-higgs-comb-wg@cern.ch (I read that too).
+#Documentation is here:
+#https://twiki.cern.ch/twiki/bin/view/AtlasProtected/HSG7RootBuild (that will
+#updated for the last version).
+
+V00-09-44
+---------
+20Jul15: A. De Silva
+ALRB V00-17-51
+
+V00-09-43
+---------
+16Jul15: A. De Silva
+ALRB V00-17-46
+
+V00-09-42
+---------
+16Jul15: A. De Silva
+Root 6.04.02
+
+V00-09-41
+---------
+14Jul15: A. De Silva
+Panda 0.5.51
+
+V00-09-40
+---------
+10Jul15: A. De Silva
+ALRB V00-17-44
+Panda 0.5.50
+
+V00-09-39
+---------
+09Jul15: A. De Silva
+Atlantis 09-16-05-22
+
+V00-09-38
+---------
+09Jul15: A. De Silva
+root 6.02.12 made default
+emi 3.15.3-1_v1.sl6 made default
+swmgr 0.247.0 
+ganga 6.1.2-hotfix1
+
+V00-09-37
+---------
+08Jul15: A. De Silva
+AtlasSetup 00-04-25
+
+V00-09-36
+---------
+03Jul15: A. De Silva
+Ganga 6.1.2
+
+V00-09-35
+---------
+03Jul15: A. De Silva
+root 6.02.10 made default
+
+V00-09-34
+---------
+02Jul15: A. De Silva
+emi 3.15.3-1_v1.sl6
+root 6.02.12
+
+V00-09-33
+---------
+01Jul15: A. De Silva
+emi 3.14.0-1_v4b.sl6
+
+V00-09-32
+---------
+01Jul15: A. De Silva
+rucio-clients 0.3.9 made default
+
+V00-09-31
+---------
+30Jun15: A. De Silva
+asetup 00-04-25 (beta)
+emi 3.14.0-1_v4a
+
+V00-09-30
+---------
+29Jun15: I. Trigger
+Ganga 6.1.1-hotfix1
+
+V00-09-29
+---------
+25Jun15: A. De Silva
+ALRB V00-17-43
+
+V00-09-28
+---------
+23Jun15: A. De Silva
+ALRB V00-17-42
+Ganga 6.1.1
+
+V00-09-27
+---------
+23Jun15: A. De Silva
+ALRB V00-17-41
+
+V00-09-26
+---------
+22Jun15: A. De Silva
+ALRB V00-17-38
+gcc 484, 492
+root 6.02.10 reinstalled for Linux
+gcc472 reinstalled
+
+V00-09-25
+---------
+19Jun15: A. De Silva
+rucio-clients 0.3.9
+
+V00-09-24
+---------
+19Jun15: A. De Silva
+motd changes
+
+V00-09-23
+---------
+09Jun15: A. De Silva
+ALRB V00-17-35
+root 6.02.10
+
+V00-09-22
+---------
+05Jun15: A. De Silva
+ALRB V00-17-34
+root 6.02.10 (MacOSX)
+
+V00-09-22
+---------
+05Jun15: A. De Silva
+ALRB V00-17-30
+
+V00-09-21
+---------
+05Jun15: A. De Silva
+ALRB V00-17-26
+eiclient 1.17.4
+
+V00-09-20
+---------
+04Jun15: A. De Silva
+EIClient 1.17.3
+
+V00-09-19
+---------
+03Jun15: A. De Silva
+EIClient 1.17.1
+
+V00-09-18
+---------
+26May15: A. De Silva
+ALRB V00-17-24
+Ganga 6.1.0-hotfix2
+AtlasSetup 00-04-22 (beta)
+
+V00-09-17
+---------
+26May15: A. De Silva
+Panda 0.5.49
+
+V00-09-16
+---------
+22May15: A. De Silva
+ALRB V00-17-21
+Panda 0.5.48
+
+V00-09-15
+---------
+21May15: A. De Silva
+xrootd 4.2.0 (no python bindings)
+
+V00-09-14
+---------
+18May15: A. De Silva
+FAXTools 00-00-32
+
+V00-09-13
+---------
+18May15: A. De Silva
+FAXTools 00-00-31
+
+V00-09-12
+---------
+14May15: A. De Silva
+ALRB V00-17-19
+
+V00-09-11
+---------
+13May15: A. De Silva
+eiclient 1.17.0
+
+V00-09-10
+---------
+12May15: A. De Silva
+ALRB V00-17-15
+
+V00-09-09
+---------
+12May15: A. De Silva
+ALRB V00-17-14
+rucio-clients 0.3.4
+
+V00-09-08
+---------
+11May15: A. De Silva
+rcSetup 00-04-11
+ALRB V00-17-12
+
+V00-09-07
+---------
+08May15: A. De Silva
+ALRB V00-17-11
+
+V00-09-06
+---------
+08May15: A. De Silva
+Ganga 6.1.0-hotfix1
+
+V00-09-05
+---------
+06May15: A. De Silva
+ALRB V00-17-10
+dq2 2.6.1_rc19 (test)
+
+V00-09-04
+---------
+29Apr15: A. De Silva
+ALRB V00-17-08
+Ganga 6.1.0
+
+V00-09-03
+---------
+22Apr15: A. De Silva
+xrootd 4.1.2
+
+V00-09-02
+---------
+21Apr15: A. De Silva
+asetup 00-04-20 (also beta)
+
+V00-09-01
+---------
+13Apr15: A. De Silva
+asetup 00-04-19
+
+V00-09-00
+---------
+10Apr15: A. De Silva
+asetup 00-04-19-beta
+
+V00-08-99
+---------
+04Apr15: A. De Silva
+Panda 0.5.47
+
+V00-08-98
+---------
+02Apr15: A. De Silva
+AtlasSetup 00-04-17-beta
+ALRB V00-16-68
+
+V00-08-97
+---------
+31Mar15: A. De Silva
+Panda 0.5.46
+
+V00-08-96
+---------
+30Mar15: A. De Silva
+Ganga 6.0.44
+
+V00-08-95
+---------
+24Mar15: A. De Silva
+Panda 0.5.45
+
+V00-08-94
+---------
+19Mar15: A. De Silva
+ALRB V00-16-67
+
+V00-08-93
+---------
+18Mar15: A. De Silva
+pyami 5.0.3.1
+
+V00-08-92
+---------
+18Mar15: A. De Silva
+rucio-clients 0.3.1
+dq2 2.6.1_rc17
+pandaclient 0.5.44
+
+V00-08-91
+---------
+17Mar15: A. De Silva
+pyami 5.0.3
+
+V00-08-90
+---------
+13Mar15: A. De Silva
+AtlasSetup 00-04-13
+
+V00-08-89
+---------
+12Mar15: A. De Silva
+AtlasSetup 00-04-13-beta
+ALRB V00-16-66
+
+V00-08-88
+---------
+06Mar15: A. De Silva
+AtlasSetup 00-04-12-beta
+
+V00-08-87
+---------
+05Mar15: A. De Silva
+gcc491
+
+V00-08-86
+---------
+05Mar15: A. De Silva
+ALRB 00-16-65
+
+V00-08-85
+---------
+04Mar15: A. De Silva
+rucio-clients 0.3.0
+
+V00-08-84
+---------
+03Mar15: A. De Silva
+FAXTools 00-00-30
+
+V00-08-83
+---------
+02Mar15: A. De Silva
+Panda 0.5.43
+
+V00-08-82
+---------
+26Feb15: A. De Silva
+AtlasSetup 00-04-10 (beta)
+
+V00-08-81
+---------
+26Feb15: A. De Silva
+AtlasSetup 00-04-09
+
+V00-08-80
+---------
+24Feb15: A. De Silva
+ALRB V00-16-62
+removed glite installations
+
+V00-08-79
+---------
+20Feb15: A. De Silva
+ALRB 00-16-59
+root ovrerides for xrootd added
+
+V00-08-78
+---------
+19Feb15: A. De Silva
+eiclient 1.14.0
+
+V00-08-77
+---------
+18Feb15: A. De Silva
+AtlasSetup 00-04-09-beta
+xrootd 3.3.6.p1-x86_64-slc6-gcc48-opt (patched LCG version)
+ALRB 00-16-57
+
+V00-08-76
+---------
+17Feb15: A. De Silva
+ALRB 00-16-55
+
+V00-08-75
+---------
+16Feb15: A. De Silva
+ALRB 00-16-54
+AtlasSetup 00-04-08-beta
+
+V00-08-74
+---------
+16Feb15: A. De Silva
+pyAmi 5.0.2
+emi 3.14.0-1_v4.sl6 default
+
+V00-08-73
+---------
+12Feb15: A. De Silva
+root 6.02.05
+
+V00-08-72
+---------
+05Feb15: A. De Silva
+ALRB V00-16-50
+
+V00-08-71
+---------
+04Feb15: A. De Silva
+ALRB V00-16-49
+
+V00-08-70
+---------
+03Feb15: A. De Silva
+emi 3.14.0-1_v4.sl6 for testing
+rucio-clients 0.2.13
+
+V00-08-69
+---------
+02Feb15: A. De Silva
+Ganga 6.0.43
+FAXTools 00-00-29
+
+V00-08-68
+---------
+02Feb15: A. De Silva
+rucio-clients 0.2.11 made default
+
+V00-08-67
+---------
+30Jan15: A. De Silva
+rucio-clients 0.2.11
+
+V00-08-66
+---------
+28Jan15: A. De Silva
+ALRB V00-16-48
+
+V00-08-65
+---------
+26Jan15: A. De Silva
+root 5.34.25 made default
+
+V00-08-64
+---------
+20Jan15: A. De Silva
+AtlasSetup V00-04-03
+
+V00-08-63
+---------
+19Jan15: A. De Silva
+root 6.02.04
+
+V00-08-62
+---------
+16Jan15: A. De Silva
+root 5.34.25
+
+V00-08-61
+---------
+14Jan15: A. De Silva
+Ganga 6.0.42-hotfix1
+rucio-clients 0.2.10
+
+V00-08-60
+---------
+13Jan15: A. De Silva
+Ganga 6.0.42
+root 6.02.03
+
+V00-08-59
+---------
+08Jan15: A. De Silva
+dq2 2.6.1_rc15 
+
+V00-08-58
+---------
+06Jan15: A. De Silva
+dq2 2.6.1_rc14 
+root 5.34.24 made default
+
+V00-08-57
+---------
+19Dec14: I. Trigger
+PandaClient 0.5.42
+AtlasSetup-00-04-03-beta
+
+V00-08-56
+---------
+16Dec14: I. Trigger
+dq2 2.6.1_rc13 (made default)
+
+V00-08-55
+---------
+11Dec14: A. De Silva
+dq2 2.6.1_rc11 and rucio 0.2.8 made default
+
+V00-08-54
+---------
+11Dec14: A. De Silva
+Panda 0.5.40
+xrootd 4.1.1 made default
+
+V00-08-53
+---------
+10Dec14: I. Trigger
+correct default and option tags for both rucio- and dq2-clients
+
+V00-08-52
+---------
+10Dec14: I. Trigger
+made new DQ2 Client NOT the default
+but notice both older and newer DQ2 Client are using the new rucio
+
+V00-08-51
+---------
+10Dec14: I. Trigger
+rucio clients 0.2.8
+DQ2 client 2.6.1_rc11
+
+V00-08-50
+---------
+08Dec14: I. Trigger
+AtlasSetup-00-04-02 installed (as default)
+davix-0.4.0 installed (as default)
+
+V00-08-49
+---------
+06Dec14: I. Trigger
+change mac110 to mac1010, add keep versions of mac root
+
+V00-08-48
+---------
+05Dec14: I. Trigger
+fix error in default root version
+
+V00-08-47
+---------
+05Dec14: I. Trigger
+update dependencies.txt for root 5.34/24
+
+V00-08-46
+---------
+05Dec14: I. Trigger
+root 5.34/24 LCG version (not default yet)
+motd updated
+
+V00-08-45
+---------
+05Dec14: I. Trigger
+AtlasSetup-00-04-02-beta (for testing)
+xrootd 4.1.1 (for testing)
+ROOT 6.02/02 for MacOSX 10.10
+ROOT 5.34/24 for MacOSX 10.9
+ROOT 5.34/24 for MacOSX 10.10
+
+V00-08-44
+---------
+04Dec14: I. Trigger
+updated motd to mention Root 6.02/02 for MacOSX
+
+V00-08-43
+---------
+04Dec14: I. Trigger
+ROOT 6.02/02 for MacOSX (not default)
+
+V00-08-42
+---------
+03Dec14: A. De Silva
+Ganga 6.0.41-hotfix2
+
+V00-08-41
+---------
+02Dec14: A. De Silva
+FAXTools 00-00-28
+
+V00-08-40
+---------
+02Dec14: A. De Silva
+ALRB V00-16-45
+
+V00-08-39
+---------
+02Dec14: A. De Silva
+revert xrootd default to 4.0.3
+
+V00-08-38
+---------
+01Dec14: A. De Silva
+Panda 0.5.39
+
+V00-08-37
+---------
+01Dec14: A. De Silva
+root 6.02.02 
+ganga 6.41-hotfix1
+xroot 4.10 made default
+
+V00-08-36
+---------
+30Nov14: A. De Silva
+remove old panda versions
+
+V00-08-35
+---------
+27Nov14: A. De Silva
+xrootd 4.1.0
+
+V00-08-34
+---------
+27Nov14: A. De Silva
+Ganga 6.0.41
+
+V00-08-33
+---------
+27Nov14: A. De Silva
+rucio-clients 0.2.7 and dq2 2.6.1_rc9 made default
+
+V00-08-32
+---------
+26Nov14: A. De Silva
+rucio-clients 0.2.7
+
+V00-08-31
+---------
+26Nov14: A. De Silva
+dq2 2.6.1_rc9
+rucio-clients 0.2.6
+(all testing-SL6)
+
+V00-08-30
+---------
+24Nov14: A. De Silva
+removed obsolete dq2 versions
+
+V00-08-29
+---------
+24Nov14: A. De Silva
+dq2 2.6.1_rc6 made default
+rucio-clients 0.2.5 made default
+FAXTools 00-00-27
+
+V00-08-28
+---------
+21Nov14: A. De Silva
+Panda 0.5.38
+
+V00-08-27
+---------
+20Nov14: A. De Silva
+dq2 2.6.1_rc6
+rucio-client 0.2.5
+
+V00-08-26
+---------
+20Nov14: A. De Silva
+eiclient 1.13.10
+
+V00-08-25
+---------
+19Nov14: A. De Silva
+Panda 0.5.37
+ALRB V00-16-44
+
+V00-08-24
+---------
+17Nov14: A. De Silva
+ALRB V00-16-43
+
+V00-08-23
+---------
+17Nov14: A. De Silva
+dq2 2.6.1_rc5
+
+V00-08-22
+---------
+14Nov14: A. De Silva
+rucioclients 0.2.1 
+dq2 2.6.1_rc4 
+ALRB V00-16-42
+
+V00-08-21
+---------
+14Nov14: A. De Silva
+rucioclients 0.2.1  (removed)
+dq2 2.6.1_rc4 (removed)
+ganga 6.0.40-hotfix1
+gsl and fftw added
+ALRB V00-16-39
+
+V00-08-20
+---------
+13Nov14: A. De Silva
+FAXTools 00-00-26
+motd for rootcore message
+
+V00-08-19
+---------
+13Nov14: A. De Silva
+Panda 0.5.36
+made root 5.34.22 default
+removed 5.34.23 Linux
+
+V00-08-18
+---------
+12Nov14: I. Trigger
+rcSetup 00-04-09
+
+V00-08-17
+---------
+12Nov14: I.Trigger
+Ganga 6.0.40
+
+V00-08-16
+---------
+10Nov14: I.Trigger
+root 5.34.23 slc6 (tested) and MacOSX (untested)
+rcSetup-00-04-08 
+
+V00-08-15
+---------
+07Nov14: A. De Silva
+ALRB V00-16-38
+
+V00-08-14
+---------
+06Nov14: A. De Silva
+ALRB V00-16-35
+
+V00-08-13
+---------
+06Nov14: A. De Silva
+root 5.34.22 MacOSX
+cleanup of davix R&D root versions
+
+V00-08-12
+---------
+31Oct14: A. De Silva
+ALRB V00-16-34
+davix 0.3.6
+
+V00-08-11
+---------
+29Oct14: A. De Silva
+pyAMI 5.0.0
+ALRB V00-16-32
+
+V00-08-10
+---------
+29Oct14: A. De Silva
+ALRB V00-16-31
+
+V00-08-09
+---------
+29Oct14: A. De Silva
+Panda 0.5.35
+
+V00-08-08
+---------
+29Oct14: A. De Silva
+ALRB V00-16-30
+
+V00-08-07
+---------
+28Oct14: A. De Silva
+ALRB V00-16-29
+root 5.34.22 and 6.02.01 (gcc48 versions only)
+
+V00-08-06
+---------
+27Oct14: A. De Silva
+dq2 2.6.1_rc1
+
+V00-08-05
+---------
+24Oct14: A. De Silva
+LRB V00-16-27
+rcSetup 00-04-07
+
+V00-08-04
+---------
+23Oct14: A. De Silva
+xrootd 4.0.4
+
+V00-08-03
+---------
+23Oct14: A. De Silva
+rcSetup 00-04-06
+
+V00-08-02
+---------
+22Oct14: A. De Silva
+ALRB V00-16-26
+
+V00-08-01
+---------
+20Oct14: A. De Silva
+Panda 0.5.32
+ALRB V00-16-24
+rcSetup 00-02-05
+
+V00-08-00
+---------
+17Oct14: A. De Silva
+Panda 0.5.31
+Ganga 6.0.39
+
+V00-07-99
+---------
+16Oct14: A. De Silva
+dq2 2.6.0
+
+V00-07-98
+---------
+10Oct14: A. De Silva
+Ganga 6.0.38
+
+V00-07-97
+---------
+09Oct14: A. De Silva
+rcSetup 00-04-04
+
+V00-07-96
+---------
+09Oct14: A. De Silva
+dq2 2.6.0_rc15
+rucio-clients 0.1.35
+
+V00-07-95
+---------
+09Oct14: A. De Silva
+ALRB V00-16-19
+
+V00-07-94
+---------
+08Oct14: A. De Silva
+rcSetup 00-04-02
+AtlasSetup 00-03-84
+
+V00-07-93
+---------
+07Oct14: A. De Silva
+ALRB V00-16-18
+
+V00-07-92
+---------
+03Oct14: A. De Silva
+rcSetuo 00-04-01
+
+V00-07-91
+---------
+02Oct14: A. De Silva
+Panda 0.5.30
+
+V00-07-90
+---------
+01Oct14: A. De Silva
+ALRB V00-16-16
+rcSetup 00-04-00
+
+V00-07-89
+---------
+30Sep14: A. De Silva
+ROOT 6.02.00 (not made default)
+
+V00-07-88
+---------
+30Sep14: A. De Silva
+ALRB V00-16-13
+
+V00-07-87
+---------
+29Sep14: A. De Silva
+FAXTools 00-00-24
+
+V00-07-86
+---------
+29Sep14: A. De Silva
+root 5.34.21 made default
+
+V00-07-85
+---------
+29Sep14: A. De Silva
+FAXTools 00-00-23
+Panda 0.5.29
+Ganga 6.0.37-hotfix3
+
+V00-07-84
+---------
+25Sep14: A. De Silva
+ALRB V00-16-11
+
+V00-07-83
+---------
+25Sep14: A. De Silva
+ALRB V00-16-10
+rcSetup 00-03-00
+
+V00-07-82
+---------
+22Sep14: A. De Silva
+Panda 0.5.28
+ALRB V00-16-09
+
+V00-07-81
+---------
+19Sep14: A. De Silva
+Panda 0.5.27
+
+V00-07-80
+---------
+17Sep14: A. De Silva
+dependencies.txt file
+ALRB V00-16-08
+Ganga 6.0.37-hotfix2
+
+V00-07-79
+---------
+16Sep14: A. De Silva
+ROOT 5.34.21 (MacOSX)
+
+V00-07-78
+---------
+12Sep14: A. De Silva
+ALRB V00-16-06
+
+V00-07-77
+---------
+12Sep14: A. De Silva
+Panda 0.5.26
+
+V00-07-76
+---------
+11Sep14: A. De Silva
+AtlasSetup 00-03-84-beta
+
+V00-07-75
+---------
+10Sep14: A. De Silva
+ALRB V00-16-05
+ROOT 5.34.21 (SL6 versions only)
+
+V00-07-74
+---------
+10Sep14: A. De Silva
+Ganga 6.0.37-hotfix1
+
+V00-07-73
+---------
+10Sep14: A. De Silva
+Panda 0.5.25
+
+V00-07-72
+---------
+09Sep14: A. De Silva
+ALRB V00-16-01
+FAXTools 00-00-22
+
+V00-07-71
+---------
+09Sep14: A. De Silva
+ALRB V00-15-99
+
+V00-07-70
+---------
+09Sep14: A. De Silva
+gccxml added
+ALRB V00-15-98
+PandaClient 0.5.24
+
+V00-07-69
+---------
+09Sep14: A. De Silva
+Panda 0.5.23
+
+V00-07-68
+---------
+07Sep14: A. De Silva
+ALRB V00-15-97
+
+V00-07-67
+---------
+07Sep14: A. De Silva
+ALRB V00-15-95
+
+V00-07-66
+---------
+05Sep14: A. De Silva
+Pands 0.5.22
+rucio-clients 0.1.32
+ALRB V00-15-94
+
+V00-07-65
+---------
+04Sep14: A. De Silva
+ALRB V00-15-93
+
+V00-07-64
+---------
+04Sep14: A. De Silva
+ALRB V00-15-92
+
+V00-07-63
+---------
+04Sep14: A. De Silva
+ALRB V00-15-91
+
+V00-07-62
+---------
+04Sep14: A. De Silva
+ALRB V00-15-90
+
+V00-07-61
+---------
+03Sep14: A. De Silva
+Panda 0.5.21
+
+V00-07-60
+---------
+03Sep14: A. De Silva
+Panda 0.5.20
+
+V00-07-59
+---------
+02Sep14: A. De Silva
+ALRB V00-15-89
+
+V00-07-58
+---------
+02Sep14: A. De Silva
+ALRB V00-15-89
+
+V00-07-57
+---------
+02Sep14: A. De Silva
+ALRB V00-15-88
+
+V00-07-56
+---------
+01Sep14: A. De Silva
+ALRB V00-15-87
+
+V00-07-55
+---------
+01Sep14: A. De Silva
+Ganga 6.0.36
+
+V00-07-54
+---------
+31Aug14: A. De Silva
+ALRB V00-15-83
+
+V00-07-53
+---------
+29Aug14: A. De Silva
+ALRB V00-15-82
+rcSetup 00-02-06
+PandaClient 0.5.19
+
+V00-07-52
+---------
+28Aug14: A. De Silva
+Panda 0.5.18
+
+V00-07-51
+---------
+28Aug14: A. De Silva
+dq2 2.6.0_rc12
+
+V00-07-50
+---------
+27Aug14: A. De Silva
+dq2 2.6.0_rc11
+Panda 0.5.17
+
+V00-07-49
+---------
+26Aug14: A. De Silva
+ALRB V00-15-76
+
+V00-07-48
+---------
+26Aug14: A. De Silva
+dq2 2.6.0_rc10
+
+V00-07-47
+---------
+23Aug14: A. De Silva
+xrootd 4.0.3 made default
+
+V00-07-46
+---------
+23Aug14: A. De Silva
+FAXTools 00-00-21
+
+V00-07-45
+---------
+22Aug14: A. De Silva
+FAXTools 00-00-21  (removed)
+Panda 0.5.16
+
+V00-07-44
+---------
+21Aug14: A. De Silva
+ALRB V00-15-75
+
+V00-07-43
+---------
+21Aug14: A. De Silva
+Ganga 6.0.35-hotfix2
+
+V00-07-42
+---------
+21Aug14: A. De Silva
+DQ2 2.6.0_rc7
+rucio-clients 0.1.31-p1 
+Atlantis 09-16-05-08 (dev), 09-16-04-07 (prod)
+
+V00-07-41
+---------
+20Aug14: A. De Silva
+Panda 0.5.15
+
+V00-07-40
+---------
+18Aug14: A. De Silva
+Panda 0.5.14
+
+V00-07-39
+---------
+17Aug14: A. De Silva
+Panda 0.5.13
+
+V00-07-38
+---------
+17Aug14: A. De Silva
+rcSetup 00-02-05
+
+V00-07-37
+---------
+15Aug14: A. De Silva
+rcSetup 00-02-04 (tested and removed, fail tcsh)
+root 5.34.20 (slc6 and MacOS versions) (removed, incomplete)
+panda 0.5.12
+
+V00-07-36
+---------
+14Aug14: A. De Silva
+Panda 0.5.11
+
+V00-07-35
+---------
+13Aug14: A. De Silva
+Panda 0.5.10
+
+V00-07-34
+---------
+12Aug14: A. De Silva
+Panda 0.5.9 made default
+
+V00-07-33
+---------
+12Aug14: A. De Silva
+Panda 0.5.8 made default
+
+V00-07-32
+---------
+12Aug14: A. De Silva
+Panda 0.5.7 made default
+
+V00-07-31
+---------
+11Aug14: A. De Silva
+Panda 0.5.6 made default
+Ganga 6.0.35-hotfix1 
+
+V00-07-30
+---------
+08Aug14: A. De Silva
+Ganga 6.0.35
+
+V00-07-29
+---------
+05Aug14: A. De Silva
+motd changed
+
+V00-07-28
+---------
+05Aug14: A. De Silva
+motd changed
+
+V00-07-27
+---------
+01Aug14: A. De Silva
+rcSetup 00-02-03
+
+V00-07-26
+---------
+30Jul14: A. De Silva
+xrootd 4.0.3
+
+V00-07-25
+---------
+29Jul14: A. De Silva
+native SL6 davix version made default
+
+V00-07-24
+---------
+29Jul14: A. De Silva
+Panda 0.5.6
+rcSetup 00-02-02
+
+V00-07-23
+---------
+25Jul14: A. De Silva
+ALRB V00-15-70
+AtlasSetup 00-03-83
+davix (native slc6) 0.3.4
+Sylvain's 0.3.4 renamed to 0.3.4_p1
+
+V00-07-22
+---------
+23Jul14: A. De Silva
+ALRB V00-15-67
+
+V00-07-21
+---------
+23Jul14: A. De Silva
+AtlasSetup 00-03-81
+ALRB V00-15-66
+
+V00-07-20
+---------
+22Jul14: A. De Silva
+davix v0.3.4-x86_64-slc6-gcc48-opt
+root 5.34.19-davix_p1-x86_64-slc6-gcc48-opt
+
+V00-07-19
+---------
+21Jul14: A. De Silva
+ALRB V00-15-65
+
+V00-07-18
+---------
+21Jul14: A. De Silva
+xrootd 4.0.2 made default
+
+V00-07-17
+---------
+21Jul14: A. De Silva
+AtlasSetup 00-03-80 (beta)
+
+V00-07-16
+---------
+18Jul14: A. De Silva
+ALRB 00-15-63
+Added several CMT versions
+pre_removeAbsPath.sh patch added
+
+V00-07-15
+---------
+16Jul14: A. De Silva
+ALRB 00-15-62
+root 5.34.19 made default
+xrootd 4.0.2 installed
+
+V00-07-14
+---------
+16Jul14: A. De Silva
+backout ALRB  00-15-60 for ALRB V00-15-58 (copied as V00-15-58-01)
+emi 3.9.0-1_v2a.sl6
+
+V00-07-13
+---------
+16Jul14: A. De Silva
+ALRB 00-15-60
+
+V00-07-12
+---------
+16Jul14: A. De Silva
+Cmake 3.0.0
+emi 3.9.0-1_v2 made default
+AtlasSetup 00-03-76 made defaut
+Ganga 6.0.34 
+
+V00-07-11
+---------
+15Jul14: A. De Silva
+Cmake added
+ALRB V00-15-58
+
+V00-07-10
+---------
+15Jul14: A. De Silva
+rcSetup 00-02-01
+
+V00-07-09
+---------
+14Jul14: A. De Silva
+Fixed testingEmi link
+
+V00-07-08
+---------
+14Jul14: A. De Silva
+ALRB V00-15-53
+xrootd 4.0.1
+AtlasSetup 00-03-76 (beta)
+
+V00-07-07
+---------
+11Jul14: A. De Silva
+ALRB V00-15-52
+emi 3.9.0-1_v2 (testing)
+
+V00-07-06
+---------
+10Jul14: A. De Silva
+ROOT 5.34/19
+
+V00-07-05
+---------
+08Jul14: A. De Silva
+PoD 3.16.1.g43df
+fixed MacOS root 5.34/18 version
+
+V00-07-04
+---------
+07Jul14: A. De Silva
+ALRB V00-15-51
+root 6.00/02
+ganga 6.0.33
+emi-ui-3.7.3-1_v1e.sl6-relocatable.tgz
+root 5.34/18 (official Mac build, reinstalled Attila's one as a test build)
+
+
+V00-07-03
+---------
+02Jul14: A. De Silva
+ALRB V00-15-47
+
+V00-07-02
+---------
+30Jun14: A. De Silva
+root-5.34.18-davix_p8-x86_64-slc6-gcc4.8
+
+V00-07-01
+---------
+27Jun14: A. De Silva
+ALRB V00-15-45
+davix 0.3.1
+root 5.34.18-davix_p7
+
+V00-07-00
+---------
+26Jun14: A. De Silva
+rcSetup 00-02-00
+
+V00-06-99
+---------
+26Jun14: A. De Silva
+Ganga 6.0.32-hotfix1
+rcSetup 00-02-00
+
+V00-06-98
+---------
+25Jun14: A. De Silva
+ALRB V00-15-38
+PoD PoD-3.16p1
+
+V00-06-97
+---------
+20Jun14: A. De Silva
+pyAMI-5.0.0-beta4 (not made default)
+Ganga 6.0.32
+ALRB V00-15-36
+
+V00-06-96
+---------
+19Jun14: A. De Silva
+PoD 3.16
+
+V00-06-95
+---------
+18Jun14: A. De Silva
+rcSetup 00-01-08
+root 6.00/01 (Linux only)
+PandaClient 0.4.41
+
+V00-06-94
+---------
+17Jun14: A. De Silva
+ALRB V00-15-31
+emi 3.7.3-1_v1d.sl6
+
+V00-06-93
+---------
+17Jun14: A. De Silva
+ALRB V00-15-30
+
+V00-06-92
+---------
+12Jun14: A. De Silva
+removed testing root version on MacOS
+motd to invite users to test JEDI
+
+V00-06-91
+---------
+11Jun14: A. De Silva
+Ganga 6.0.31-hotfix1
+
+V00-06-90
+---------
+10Jun14: A. De Silva
+emi 3.7.3-1_v1c.sl6
+
+V00-06-89
+---------
+10Jun14: A. De Silva
+root 5.34.18-davix_p6a-x86_64-slc6-gcc48-opt
+
+V00-06-88
+---------
+09Jun14: A. De Silva
+xrootd 4.0.0 32-bit
+
+V00-06-87
+---------
+09Jun14: A. De Silva
+emi 3.7.3-1_v1b.sl6
+xrootd 4.0.0
+root 5.34.18-davix_p6
+
+V00-06-86
+---------
+09Jun14: A. De Silva
+Panda 0.5.5 (not default, for jedi)
+rcSetup 00-01-06
+
+V00-06-85
+---------
+05Jun14: A. De Silva
+rcSetup 00-01-05
+
+V00-06-84
+---------
+04Jun14: A. De Silva
+root 5.34.18-x86_64-mac109-clang51-opt
+
+V00-06-83
+---------
+02Jun14: A. De Silva
+Root 6.00.00
+
+V00-06-82
+---------
+28May14: A. De Silva
+root 5.34.18-davix_p5-x86_64-slc6-gcc48-opt
+
+V00-06-81
+---------
+27May14: A. De Silva
+Ganga 6.0.30
+ALRB V00-15-29
+
+V00-06-80
+---------
+22May14: A. De Silva
+root 5.34.18-davix_p5-x86_64-slc6-gcc4.8
+
+V00-06-79
+---------
+20May14: I. Trigger
+FAXTools-00-00-20
+
+V00-06-78
+---------
+16May14: A. De Silva
+Panda 0.4.40
+
+V00-06-77
+---------
+15May14: A. De Silva
+ALRB V00-15-27
+Atlantis dev 09-16-05-06
+
+V00-06-76
+---------
+13May14: A. De Silva
+FaxTools 00-00-19
+
+V00-06-75
+---------
+12May14: A. De Silva
+Added Atlantis
+ALRB V00-15-26
+
+V00-06-74
+---------
+09May14: A. De Silva
+ALRB V00-15-24
+Ganga 6.0.29
+
+V00-06-73
+---------
+08May14: A. De Silva
+emi bug fix for gfal2 env variables.
+
+V00-06-72
+---------
+06May14: A. De Silva
+put back current-SL6 links for root and xrootd for Fred
+
+V00-06-71
+---------
+05May14: A. De Silva
+ALRB 00-15-21
+root 5.34.18 macos (test)
+FAXTools 00-00-18
+
+V00-06-70
+---------
+05May14: A. De Silva
+rcSetup 00-01-04
+
+V00-06-69
+---------
+02May14: A. De Silva
+Changes for multiple platform installation
+Removed current_SL6, defaults are now for SL6.  
+removed emi testing flags
+ALRB V00-15-17
+Ganga 6.0.28
+
+V00-06-68
+---------
+01May14: A. De Silva
+ALRB V00-15-07
+
+V00-06-67
+---------
+30Apr14: A. De Silva
+(removed) root 5.34.18-davix_p4-x86_64-slc6-gcc4.8
+ALRB V00-15-06
+sw-mgr 0.242.0
+root 5.99.06-davix_p1-x86_64-slc6-gcc4.8
+
+V00-06-66
+---------
+29Apr14: A. De Silva
+(removed) root 5.34.18-davix_p4-x86_64-slc6-gcc4.8
+Panda 0.4.39
+
+V00-06-65
+---------
+28Apr14: A. De Silva
+(removed) root 5.34.18-davix_p4-x86_64-slc6-gcc4.8
+ALRB 00-15-05
+
+V00-06-64
+---------
+24Apr14: A. De Silva
+ALRB 00-15-04
+
+V00-06-62
+---------
+17Apr14: A. De Silva
+rcSetup 00-01-02
+
+V00-06-61
+---------
+17Apr14: A. De Silva
+root 5.34.18-davix_p3a
+
+V00-06-60
+---------
+16Apr14: A. De Silva
+root 5.34.18-davix_p3
+
+V00-06-59
+---------
+15Apr14: A. De Silva
+Panda 0.4.38
+
+V00-06-58
+---------
+14Apr14: A. De Silva
+root 5.34.18-davix_p2
+
+V00-06-57
+---------
+11Apr14: A. De Silva
+Ganga 6.0.27
+root 5.34.18-davix_p1
+ALRB V00-14-18
+
+V00-06-56
+---------
+09Apr14: A. De Silva
+ALRB V00-14-17
+emi-ui 3.7.3-1_v1.sl6
+
+V00-06-55
+---------
+08Apr14: A. De Silva
+ALRB V00-14-13
+
+V00-06-54
+---------
+08Apr14: A. De Silva
+root 5.99.06
+
+V00-06-53
+---------
+07Apr14: A. De Silva
+Panda 0.4.37
+
+V00-06-52
+---------
+31Mar14: A. De Silva
+emi 3.7.2-1_v3.sl6
+ALRB 00-14-12
+Ganga 6.0.26
+rucio-clients 0.1.12-2-p1 (default), 0.1.19-p1 (testing)
+
+
+V00-06-51
+---------
+31Mar14: A. De Silva
+FAXTools 00-00-17
+
+V00-06-50
+---------
+27Mar14: A. De Silva
+rucio-clients 0.1.19 (not made default)
+
+V00-06-49
+---------
+26Mar14: A. De Silva
+root 5.34/18 made default
+
+V00-06-48
+---------
+20Mar14: A. De Silva
+Ganga 6.0.25
+
+V00-06-47
+---------
+19Mar14: A. De Silva
+FAXTools 00-00-16
+ALRB V00-14-08
+motd
+
+V00-06-46
+---------
+17Mar14: A. De Silva
+motd
+
+V00-06-45
+---------
+17Mar14: A. De Silva
+root 5.34/18 (not made default)
+
+V00-06-44
+---------
+13Mar14: A. De Silva
+ALRB V00-14-05
+
+
+V00-06-43
+---------
+13Mar14: A. De Silva
+PandaClient 0.5.4
+removed hwaf,mana,git
+
+V00-06-42
+---------
+11Mar14: A. De Silva
+FAXTools 00-00-15
+
+V00-06-41
+---------
+11Mar14: A. De Silva
+Ganga 6.0.24
+Panda 0.5.3
+
+V00-06-40
+---------
+06Mar14: A. De Silva
+ALRB V00-13-69
+rcSetup 00-01-01
+Panda new link currentJedi 
+
+V00-06-39
+---------
+06Mar14: A. De Silva
+rcSetup 00-01-00
+
+V00-06-38
+---------
+03Mar14: A. De Silva
+rcSetup 00-00-07
+
+V00-06-37
+---------
+27Feb14: A. De Silva
+Panda 0.4.36
+
+V00-06-36
+---------
+26Feb14: A. De Silva
+boost-1.55.0-python2.7-x86_64-slc6-gcc48 
+PoD-3.14-python2.7-x86_64-slc6-gcc48-boost1.55
+
+V00-06-35
+---------
+25Feb14: A. De Silva
+ROOT 5.34/17
+
+V00-06-34
+---------
+25Feb14: A. De Silva
+ALRB V00-13-67
+rcSetup 00-00-04
+
+V00-06-33
+---------
+20Feb14: A. De Silva
+ALRB V00-13-66
+
+V00-06-32
+---------
+19Feb14: A. De Silva
+PandaClient 0.4.35
+
+V00-06-31
+---------
+18Feb14: A. De Silva
+rucio-clients 0.1.12-2
+
+V00-06-30
+---------
+18Feb14: A. De Silva
+PandaClient 0.5.2
+python 2.7.4 (gcc48, slc6, 64-bit version only for ROOT)
+
+V00-06-29
+---------
+17Feb14: A. De Silva
+DQ2 2.5.0
+gcc 481
+root 5.34/14 gcc48,slc6 
+
+V00-06-28
+---------
+15Feb14: A. De Silva
+dq2-clients-2.5.0_rc6 and rucio-clients-0.1.12 
+
+V00-06-27
+---------
+14Feb14: A. De Silva
+ALRB V00-13-65
+
+V00-06-26
+---------
+12Feb14: A. De Silva
+rucio-clients 0.1.11 (and introduce testing sym link)
+
+V00-06-25
+---------
+07Feb14: A. De Silva
+ALRB V00-13-64
+sw-mgr 0.240.0
+
+V00-06-24
+---------
+04Feb14: A. De Silva
+FAXTools 00-00-11
+xrootd 3.3.6 made default
+
+V00-06-23
+---------
+28Jan14: A. De Silva
+GANGA 6.0.23
+
+V00-06-22
+---------
+27Jan14: A. De Silva
+ALRB V00-13-56
+
+V00-06-21
+---------
+24Jan14: A. De Silva
+emi-ui 2.10.5-1_v3
+
+V00-06-20
+---------
+23Jan14: A. De Silva
+emi-ui 2.10.5-1_v2.sl6  (backed out because of problems)
+dq2 2.5.0_rc4
+
+V00-06-19
+---------
+22Jan14: A. De Silva
+ALRB V00-13-52
+rucio-clients 0.1.7
+
+V00-06-18
+---------
+22Jan14: A. De Silva
+ALRB V00-13-50
+DQ2 2.5.0_rc3
+
+V00-06-17
+---------
+17Jan14: A. De Silva
+xrootd 3.3.6 (not made default)
+
+V00-06-16 (not deployed)
+---------
+17Jan14: A. De Silva
+SL5 and SL6 current sym links removed for emi; 2.10.5-1_v1 preserved if installed but not made default.  Fix this for next version.  (Waiting for new emi versions).
+rucio-clients reinstalled for 0.1.6 (ev made changes)
+ALRB V00-13-48
+mana is depreciated
+
+V00-06-15 (not deployed - last tag cand-V00-06-15-v6)
+---------
+16Jan14: A. De Silva
+emi-ui 2.10.5-1_v1 installed for both sl5 and 6 and relocatable versions.
+ALRB V00-13-45
+
+V00-06-14
+---------
+15Jan14: A. De Silva
+ALRB V00-13-42
+faxtools 00-00-09 
+
+
+V00-06-13
+---------
+15Jan14: A. De Silva
+Ganga 6.0.22-hotfix1
+
+V00-06-12
+---------
+14Jan14: A. De Silva
+Panda 0.4.34
+
+V00-06-11
+---------
+10Jan14: A. De Silva
+motd chged
+ALRB V00-13-41
+
+V00-06-10
+---------
+09Jan14: A. De Silva
+motd chged
+ALRB V00-13-40 (no change from 00-13-39)
+ROOT 5.34/14 made default (slc6 versionn default on SL6)
+
+V00-06-09
+---------
+06Jan14: A. De Silva
+FAXTools 00-00-08
+
+V00-06-08
+---------
+02Jan14: A. De Silva
+FAXTools 00-00-06
+
+V00-06-07
+---------
+18Dec13: I. Trigger
+Ganga-6.0.21-hotfix2
+
+V00-06-06
+---------
+17Dec13: I. Trigger
+Ganga-6.0.21
+xRootD 3.3.5 becomes default
+
+V00-06-05
+---------
+16Dec13: A. De Silva
+reinstalled AtlasSetup 00-03-73 to avoid disrupting current users
+
+V00-06-04
+---------
+16Dec13: I. Trigger
+Ganga 6.0.20-hotfix3
+AtlasSetup V00-03-74
+ROOT 5.34/14 (not default yet, for testing)
+
+V00-06-03
+---------
+13Dec13: A. De Silva
+PandaClient 0.4.33
+
+V00-06-02
+---------
+11Dec13: A. De Silva
+ALRB V00-13-39
+FAXTools 00-00-05
+AtlasSetup 00-03-73
+
+V00-06-01
+---------
+10Dec13: A. De Silva
+ALRB V00-13-38
+
+V00-06-00
+---------
+10Dec13: A. De Silva
+Asetup 00-03-72
+FAXTools 00-00-04
+
+V00-05-99
+---------
+09Dec13: A. De Silva
+ROOT 5.34/13 made default
+
+V00-05-98
+---------
+05Dec13: A. De Silva
+AtlasSetup 00-03-71 (beta)
+
+V00-05-97
+---------
+04Dec13: A. De Silva
+ALRB V00-13-37
+Cleaned up PoD versions
+
+V00-05-96
+---------
+03Dec13: A. De Silva
+Ganga 6.0.20-hotfix2
+boost 1.55
+PoD 3.14
+
+V00-05-95
+---------
+02Dec13: A. De Silva
+ALRB V00-13-35
+
+V00-05-94
+---------
+02Dec13: A. De Silva
+Ganga 6.0.20-hotfix1
+ROOT 5.34/13
+ALRB V00-13-34
+xrootd 3.3.5
+
+V00-05-93
+---------
+28Nov13: A. De Silva
+ALRB V00-13-30
+rucio-clients 0.1.0-rc6
+
+V00-05-92
+---------
+28Nov13: A. De Silva
+Ganga 6.0.20
+AtlasSetup 00-03-70 (beta)
+
+V00-05-91
+---------
+27Nov13: A. De Silva
+ALRB V00-13-22
+pre_fixXRootD.sh
+ROOT 5.34/12 made default (hey it is after midnight in Europe ;- )
+
+V00-05-90
+---------
+27Nov13: A. De Silva
+FaxTools 00-00-03
+ALRB V00-13-21
+
+V00-05-89
+---------
+26Nov13: A. De Silva
+rcSetup 00-00-03
+AtlasSetup 00-03-68 (beta)
+
+V00-05-88
+---------
+21Nov13: A. De Silva
+ROOT 5.34/12
+rcSetup 00-00-02
+
+V00-05-87
+---------
+18Nov13: A. De Silva
+ALRB V00-13-16
+
+V00-05-86
+---------
+18Nov13: A. De Silva
+AtlasSetup 00-03-66 (beta)
+rcSetup 00-00-01
+ALRB V00-13-14
+
+V00-05-85
+---------
+15Nov13: A. De Silva
+AtlasSetup 00-03-64 (beta)
+
+V00-05-84
+---------
+14Nov13: A. De Silva
+AtlasSetup 00-03-63 (beta)
+
+V00-05-83
+---------
+13Nov13: A. De Silva
+ALRB V00-13-10
+
+V00-05-82
+---------
+13Nov13: A. De Silva
+Ganga 6.0.19-hotfix1
+
+V00-05-81
+---------
+13Nov13: A. De Silva
+AtlasSetup 00-03-62 (beta)
+Panda 0.4.32
+ALRB V00-13-09
+reinstall patch2 glite and emi versions for BNL fix.
+Root 5.34/11 made default
+
+V00-05-80
+---------
+31Oct13: A. De Silva
+AtlasSetup 00-03-59
+gcc435 installed for slc5 (for asetup none)
+Root 5.34/11
+ALRB V00-13-08
+
+V00-05-79
+---------
+29Oct13: A. De Silva
+ALRB V00-13-06
+pyAMI 4.1.3a
+
+V00-05-78
+---------
+22Oct13: A. De Silva
+ALRB V00-13-04
+
+V00-05-77
+---------
+18Oct13: A. De Silva
+ALRB V00-13-03
+
+V00-05-76
+---------
+18Oct13: A. De Silva
+xrootd 33.4
+
+V00-05-75
+---------
+17Oct13: A. De Silva
+ALRB V00-13-02
+
+V00-05-74
+---------
+16Oct13: A. De Silva
+Removed obsolete root versions
+
+V00-05-73
+---------
+09Oct13: A. De Silva
+ALRB V00-13-01
+
+V00-05-72
+---------
+08Oct13: A. De Silva
+ALRB V00-13-00
+Reinstall grid middleware (may as well since we have to rerun yaim ...).  
+  New versions are suffixed as _patch1 (glite 32-bit and emi 64-bit).
+Ganga 6.0.19
+
+V00-05-71
+---------
+02Oct13: A. De Silva
+gcc 472p1 installed  
+
+V00-05-70
+---------
+01Oct13: A. De Silva
+Root 5.34/10 made default
+
+V00-05-69
+---------
+25Sep13: A. De Silva
+motd
+
+V00-05-68
+---------
+25Sep13: A. De Silva
+AtlasSetup 00-03-57 beta
+Root 5.34/10
+
+V00-05-67
+---------
+23Sep13: A. De Silva
+Panda 0.4.31
+
+V00-05-66
+---------
+19Sep13: A. De Silva
+agis clients 1.2.8 (installed only for 64-bit OS)
+
+V00-05-65
+---------
+19Sep13: A. De Silva
+pyAMI 4.1.2 is default
+pyAMI 4.1.3 is also available for testing
+
+V00-05-64
+---------
+17Sep13: A. De Silva
+PoD 3.12 for sl6
+ALRB V00-12-99
+boost 1.54 for SL6 (PoD)
+pyAMI 4.1.3
+
+V00-05-63
+---------
+16Sep13: A. De Silva
+DQ2 2.4.1
+
+V00-05-62
+---------
+12Sep13: A. De Silva
+Ganga 6.0.18
+motd changed
+ALRB V00-12-97
+
+V00-05-61
+---------
+03Sep13: I. Trigger
+PandaClient 0.4.30 (also tested on sl6 with CMTUSERCONTEXT=/cvmfs/atlas.cern.ch/repo/tools/slc6/cmt)
+
+V00-05-60
+---------
+29Aug13: A. De Silva
+motd change
+
+V00-05-59
+---------
+29Aug13: A. De Silva
+AtlasSetup 00-03-56
+
+V00-05-58
+---------
+29Aug13: A. De Silva
+motd
+
+V00-05-57
+---------
+29Aug13: A. De Silva
+ALRB V00-12-96
+
+V00-05-56
+---------
+29Aug13: A. De Silva
+AtlasSetup removing 00-03-56 (beta) - just making sure AtlasSetup is 00-03-55.
+
+V00-05-55
+---------
+27Aug13: A. De Silva
+#slc6 versions of boost 1.54 (not deployed)
+#slc6 version of PoD 3.12 (not deployed)
+ALRB V00-12-95
+
+V00-05-54
+---------
+27Aug13: A. De Silva
+ALRB V00-12-92  (CMTUSERXONTEXT made default)
+
+V00-05-53
+---------
+26Aug13: A. De Silva
+sym link removal implemented
+remove SL6 link for DQ2Clients (no longer needed)
+
+V00-05-52
+---------
+20Aug13: A. De Silva
+AtlasSetup V00-03-56-beta
+AGIS implementation
+ALRB V00-12-91
+
+V00-05-51
+---------
+19Aug13: A. De Silva
+ALRB V00-12-86
+
+V00-05-50
+---------
+15Aug13: A. De Silva
+asetup 00-03-55
+sw-mgr v0.237.0
+dq2 2.4.1_rc5 (not made default)
+
+
+V00-05-49
+---------
+08Aug13: I. Trigger
+Ganga 6.0.17
+
+V00-05-48
+---------
+07Aug13: I. Trigger
+Ganga 6.0.13 (removed 6.0.16 as not well-defined tag?)
+PandaClient 0.4.29
+
+V00-05-47
+---------
+02Aug13: A. De Silva
+Ganga 6.0.16 (not made default)
+AtlasSetup 00-03-54 beta (not made default)
+
+V00-05-46
+---------
+01Aug13: A. De Silva
+Asetup 00-03-53 (beta testing)
+hwaf 20130731 made default
+mana 20130628-x86_64-slc6-gcc44-opt-python2.6 default for SL6
+
+V00-05-45
+---------
+31Jul13: A. De Silva
+hwaf 20130731 (not made default)
+mana 20130628 (sl6,gcc44 only)
+
+V00-05-44
+---------
+30Jul13: A. De Silva
+motd change
+ALRB 00-12-85
+Panda 0.4.28
+
+V00-05-43
+---------
+29Jul13: A. De Silva
+motd change
+
+V00-05-42
+---------
+25Jul13: A. De Silva
+(00-05-41 not deployed)
+revert to Ganga 6.0.13
+asetup 00-03052-beta installed
+ALRB V00-12-84
+motd changed
+
+V00-05-41
+---------
+19Jul13: A. De Silva
+Ganga 6.0.14
+
+V00-05-40
+---------
+18Jul13: A. De Silva
+ALRB V00-12-77
+Panda 0.4.27
+
+V00-05-39
+---------
+11Jul13: A. De Silva
+ALRB V00-12-76
+
+V00-05-38
+---------
+09Jul13: A. De Silva
+ALRB V00-12-75
+AtlasSetup 00-03-49 (default) 00-03-50-beta
+
+V00-05-37
+---------
+09Jul13: A. De Silva
+ALRB V00-12-73
+
+V00-05-36
+---------
+08Jul13: A. De Silva
+motd commented out now.
+Panda 0.4.26
+Ganga 6.0.13
+hwaf 20130704
+ALRB V00-12-71
+
+V00-05-35
+---------
+2Jul13: I. Trigger
+motd update (Root 5.34/09 not ready for prime time)
+
+V00-05-34
+---------
+28Jun13: A. De Silva
+Root 5.34/09
+hwaf 20130627
+
+V00-05-33
+---------
+25Jun13: A. De Silva
+Ganga 6.0.12 (not made default)
+ALRB V00-12-70
+
+V00-05-32
+---------
+19Jun13: A. De Silva
+Ganga 6.0.11 not made default
+sw-mgr 0.234.0
+ALRB V00-12-69
+
+V00-05-31
+---------
+18Jun13: A. De Silva
+updated motd
+DQ2 2.4.0 reinstalled as 2.4.0-patch1; looks like pacman repo was 
+  updated after DQ2 was installed on cvmfs
+
+V00-05-30
+---------
+17Jun13: A. De Silva
+updated motd
+ALRB V00-12-68
+AtlasSetup 00-03-49-beta
+
+V00-05-29
+---------
+11Jun13: A. De Silva
+ALRB V00-12-66
+ROOT 5.34/08 for both Sl6 and SL6
+gcc47 for slc6
+python 2.7 for slc6
+
+V00-05-28
+---------
+04June13: A. De Silva
+PandaClient 0.4.25
+
+V00-05-27
+---------
+30May13: A. De Silva
+ALRB V00-12-63
+
+V00-05-26
+---------
+28May13: A. De Silva
+Ganga 6.0.10
+
+V00-05-25
+---------
+27May13: A. De Silva
+ALRB V00-12-62
+
+V00-05-24
+---------
+24May13: A. De Silva
+pyAMI-4.1.2-x86_64-slc6-python2.6 made SL6 default
+ALRB V00-12-61
+
+V00-05-23
+---------
+23May13: A. De Silva
+pyAMI-4.1.2-x86_64-slc6-python2.6
+
+V00-05-22
+---------
+23May13: A. De Silva
+ALRB V00-12-59
+
+V00-05-21
+---------
+23May13: A. De Silva
+post_fixGcc.sh added
+ALRB V00-12-58
+
+V00-05-20
+---------
+16May13: A. De Silva
+ALRB V00-12-56
+
+V00-05-19
+---------
+13May13: A. De Silva
+ALRB V00-12-55
+
+V00-05-18
+---------
+13May13: A. De Silva
+PandaClient 0.4.22
+sw-mgr 0.232.0
+ALRB V00-12-54
+
+V00-05-17
+---------
+10May13: A. De Silva
+AtlasSetup 00-03-48
+
+V00-05-16
+---------
+08May13: A. De Silva
+AtlasSetup 00-03-48 instaleld for beta testing.
+ALRB V00-12-52
+
+V00-05-15
+---------
+06May13: A. De Silva
+Made Root 5.34.07 default
+
+V00-05-14
+---------
+03May13: A. De Silva
+ALRB V00-12-50
+
+V00-05-13
+---------
+01May13: A. De Silva
+ALRB V00-12-48
+
+V00-05-12
+---------
+30Apr13: A. De Silva
+ALRB V00-12-47
+
+V00-05-11
+---------
+29Apr13: A. De Silva
+Root 5.34/07
+AtasSetup 00-03-46  (not made default)
+ALRB V00-12-46
+
+V00-05-10
+---------
+25Apr13: A. De Silva
+motd updated
+
+V00-05-09
+---------
+23Apr13: A. De Silva
+Ganga 6.0.9
+
+V00-05-08
+---------
+22Apr13: A. De Silva
+ROOT 5.34/06
+
+V00-05-07
+---------
+17Apr13: A. De Silva
+removed dq2 2.4.0_rc9
+
+V00-05-06
+---------
+17Apr13: A. De Silva
+Ganga 6.0.8
+AtlasSetup 00-03-42
+ALRB V00-12-45
+
+V00-05-05
+---------
+11Apr13: A. De Silva
+DQ2 2.4.0
+
+V00-05-04
+---------
+09Apr13: A. De Silva
+Ganga 6.0.7
+
+V00-05-03
+---------
+02Apr13: A. De Silva
+Ganga 6.0.6
+
+V00-05-02
+---------
+25Mar13: A. De Silva
+Ganga 6.0.5
+
+V00-05-01
+---------
+21Mar13: A. De Silva
+Panda 0.4.20
+
+V00-05-00
+---------
+19Mar13: A. De Silva
+ALRB V00-12-43
+DQ2 has sl6 sym link
+
+V00-04-99
+---------
+18Mar13: A. De Silva
+Panda 0.4.19
+Ganga 6.0.4
+
+V00-04-98
+---------
+14Mar13: A. De Silva
+Panda 0.4.18
+
+V00-04-97
+---------
+14Mar13: A. De Silva
+ALRB V00-12-40
+
+V00-04-96
+---------
+11Mar13: A. De Silva
+Ganga 6.0.3
+
+V00-04-95
+---------
+07Mar13: A. De Silva
+emi-ui-2.6.1-1_v4
+ALRB V00-12-39
+
+V00-04-94
+---------
+04Mar13: A. De Silva
+emi-ui-2.6.1-1_v3
+ALRB V00-12-34
+AtlasSetup 00-03-41
+
+V00-04-93
+---------
+04Mar13: A. De Silva
+Panda 0.4.17
+Ganga 6.0.2
+ALRB V00-12-32
+
+V00-04-92
+---------
+01Mar13: A. De Silva
+mana and hwaf 20130301
+emi-ui-2.6.1-1_v2
+ALRB V00-12-30
+
+V00-04-91
+---------
+28Feb13: A. De Silva
+new pyAMI 4.1.2 made default (requiring python 2.6)
+ALRB V00-12-28
+CMT v1r26
+
+V00-04-90
+---------
+28Feb13: A. De Silva
+pyAMI 4.0.4 made default
+
+V00-04-89
+---------
+27Feb13: A. De Silva
+ROOT 5.34.05 made default
+pyAMI 4.1.2
+ALRB V00-12-27
+
+V00-04-88
+---------
+26Feb13: A. De Silva
+git 1.7.4.1-x86_64-slc5 (new)
+ALRB V00-12-26
+DQ2Clients 2.4.0_rc9
+
+V00-04-87
+---------
+25Feb13: A. De Silva
+ALRB V00-12-24
+mana 20130225 
+hwaf 20130225 
+
+V00-04-86
+---------
+21Feb13: A. De Silva
+emi-ui 2.6.0-1_v2.sl5 
+
+V00-04-85
+---------
+20Feb13: A. De Silva
+ALRB V00-12-23
+
+V00-04-84 (not deployed)
+---------
+20Feb13: A. De Silva
+ALRB V00-12-22
+
+V00-04-83
+---------
+20Feb13: A. De Silva
+ROOT 5.34/05
+hwaf 20130220
+Ganga 6.0.1
+xrootd 3.2.7
+
+V00-04-82
+---------
+19Feb13: A. De Silva
+ALRB V00-12-21
+mana 20130219-x86_64-slc5-gcc43-opt-python2.6
+hwaf 20130219
+
+V00-04-81
+---------
+18Feb13: A. De Silva
+ALRB V00-12-20
+
+V00-04-80
+---------
+14Feb13: A. De Silva
+ALRB V00-12-19
+
+V00-04-79
+---------
+13Feb13: A. De Silva
+mana 20130208-x86_64-slc5-gcc43-opt-python2.6
+hwaf 20130208
+ALRB V00-12-18
+
+V00-04-78
+---------
+12Feb13: A. De Silva
+Ganga 6.0.0
+AtlasSetup 00-03-40
+
+V00-04-77
+---------
+07Feb13: A. De Silva
+gcc 436
+AtlasSetup 00-03-39
+EMI 2.6.0-1.v1
+ALRB V00-12-12
+
+V00-04-76
+---------
+06Feb13: A. De Silva
+ALRB V00-12-10
+
+V00-04-75
+---------
+06Feb13: A. De Silva
+AtlasSetup 00-03-38
+
+V00-04-74
+---------
+29Jan13: A. De Silva
+Added gcc 4.6.2 for slc6 (64-bit version only)
+
+V00-04-73
+---------
+28Jan13: A. De Silva
+Panda 0.4.16
+
+V00-04-72
+---------
+24Jan13: A. De Silva
+Panda 0.4.15
+
+V00-04-71
+---------
+21Jan13: A. De Silva
+ROOT 5.34/04 made default.
+
+V00-04-70
+---------
+18Jan13: A. De Silva
+ALRB V00-12-09
+mana 20130114-x86_64-slc6-gcc44-opt
+hwaf 20130115
+
+V00-04-69
+---------
+15Jan13: A. De Silva
+ALRB V00-12-04
+Remove gcc-atlas installation
+Panda 0.4.14
+
+V00-04-68
+---------
+11Jan13: A. De Silva
+Panda 0.4.12
+sw-mgr 0.223
+ROOT 5.34/04 (not made default)
+removed gcc-atlas installation
+
+V00-04-67
+---------
+04Jan13: A. De Silva
+ALRB V00-12-02
+
+V00-04-66
+---------
+04Jan13: A. De Silva
+ALRB V00-12-02
+Migration away from pacman (no local Athena / DBReleases)
+
+V00-04-65
+---------
+02Jan13: A. De Silva
+ALRB V00-11-29
+
+V00-04-64
+---------
+07Dec12: A. De Silva
+sw-mgr 0.220
+
+V00-04-63
+---------
+03Dec12: A. De Silva
+Ganga 5.8.19
+
+V00-04-62
+---------
+26Nov12: A. De Silva
+Panda 0.4.11
+
+V00-04-61
+---------
+19Nov12: I. Trigger
+Ganga 5.8.18-hotfix1 (skipping 5.8.18, sorry)
+
+V00-04-60
+---------
+09Nov12: A. De Silva
+ROOT 5.34/03 made default
+
+V00-04-59
+---------
+02Nov12: A. De Silva
+motd
+
+V00-04-58
+---------
+02Nov12: A. De Silva
+ALRB V00-11-28
+emi-ui 2.3.0-1-rpm02a
+ROOT 5.34.02 and 5.34.03
+
+V00-04-57
+---------
+220Oct12: A. De Silva
+PandaClient 0.4.10
+
+V00-04-56
+---------
+29Oct12: A. De Silva
+ALRB V00-11-26
+Ganga 5.8.17
+sw-mgr 0.218.0
+
+V00-04-55
+---------
+24Oct12: A. De Silva
+ALRB V00-11-25
+
+V00-04-54
+---------
+24Oct12: A. De Silva
+ALRB V00-11-24
+pyAMI 4.0.4
+
+V00-04-53
+---------
+24Oct12: A. De Silva
+ALRB V00-11-21
+
+V00-04-52
+---------
+22Oct12: A. De Silva
+AtlasSetup 00-03-27
+ALRB V00-11-20
+
+V00-04-51
+---------
+15Oct12: A. De Silva
+Ganga 5.8.16
+ALRB V00-11-19
+
+V00-04-50
+---------
+13Oct12: A. De Silva
+ALRB V00-11-17
+
+V00-04-49
+---------
+10Oct12: A. De Silva
+ALRB V00-11-15
+Remove beta version of PoD 3.11
+emi 2.3.0-1-rpm02
+
+V00-04-48
+---------
+09Oct12: A. De Silva
+ALRB V00-11-14
+PoD 3.12
+
+V00-04-47
+---------
+04Oct12: A. De Silva
+ALRB V00-11-13
+emi installed
+
+V00-04-46
+---------
+03Oct12: A. De Silva
+root 5.34/02 not deployed (commented out for now)
+Ganga 5.8.15
+
+V00-04-45
+---------
+01Oct12: A. De Silva
+Root 5.34/02 (not made default)
+Xrootd 3.2.4
+motd
+
+V00-04-44
+---------
+15Sep12: I. Trigger
+Ganga 5.8.14
+
+V00-04-43
+---------
+12Sep12: A. De Silva
+Do not install 5.34.01.xrd3.2.2 (the placeholder)
+
+V00-04-42
+---------
+11Sep12: A. De Silva
+ALRB V00-10-18
+
+V00-04-41
+---------
+07Sep12: A. De Silva
+Ganga 5.8.13
+reinstall root 5.34/01 from CERN.  (work with manageTier3SW precleanup.)
+
+V00-04-40
+---------
+05Sep12: A. De Silva
+Ganga 5.8.12
+
+V00-04-39
+---------
+31Aug12: A. De Silva
+root 5.34.01.xrd3.2.2 (migration of 5.34/01)
+rucio 0.0.5
+ALRB V00-10-17
+
+V00-04-38
+---------
+23Aug12: A. De Silva
+Ganga 5.8.11
+Download root 5.34/01 from TRIUMF instead.  (CERN versions use python 2.7)
+remove root 5.34.01tmp
+ALRB V00-10-15
+
+V00-04-37
+---------
+22Aug12: A. De Silva
+ALRB V00-10-14
+Undo 5.34.01tmp as default.
+
+V00-04-36
+---------
+21Aug12: A. De Silva
+root 5.34.01 installed as ew version 5.34.01tmp (first step in reinstallation)
+ALRB V00-10-13
+
+V00-04-35
+---------
+20Aug12: A. De Silva
+Ganga 5.8.10
+
+V00-04-34
+---------
+13Aug12: A. De Silva
+Ganga 5.8.9
+
+V00-04-33
+---------
+13Aug12: A. De Silva
+Ganga 5.8.8
+
+V00-04-32
+---------
+08Aug12: A. De Silva
+Panda 0.4.8
+
+V00-04-31
+---------
+01Aug12: A. De Silva
+ALRB V00-10-12
+
+V00-04-30
+---------
+26Jul12: A. De Silva
+Ganga 5.8.7
+
+V00-04-29
+---------
+23Jul12: A. De Silva
+ROOT 5.34/01 made default
+
+V00-04-28
+---------
+19Jul12: A. De Silva
+Panda 0.4.7
+ALRB V00-10-11
+
+V00-04-27
+---------
+18Jul12: A. De Silva
+Panda 0.4.6
+
+V00-04-26
+---------
+17Jul12: A. De Silva
+xrootd 3.2.2 (default 3.1.1)
+
+V00-04-25
+---------
+12Jul12: A. De Silva
+ALRB V00-10-09
+Ganga 5.8.6
+ROOT 5.34.01, 5.32.04  (none made default)
+xrootd 3.1.1 (sl5 and sl6)
+
+V00-04-24
+---------
+12Jul12: A. De Silva
+CMTv1r25
+
+V00-04-23
+---------
+11Jul12: A. De Silva
+ALRB V00-10-08
+
+V00-04-22
+---------
+05Jul12: A. De Silva
+Panda 0.4.5
+
+V00-04-21
+---------
+03Jul12: A. De Silva
+ALRB V00-10-07
+
+V00-04-20
+---------
+29Jun12: I. Trigger
+PandaClient 0.4.4
+
+V00-04-19
+---------
+28Jun12: I. Trigger
+AtlasSetup-00-03-24 is now default
+
+V00-04-18
+---------
+25Jun12: I. Trigger
+Ganga 5.8.5
+AtlasSetup-00-03-24 (not made default yet)
+
+V00-04-17
+---------
+21Jun12: A. De Silva
+Panda 0.4.3
+
+V00-04-16
+---------
+19Jun12: A. De Silva
+Ganga 5.8.4
+
+V00-04-15
+---------
+13Jun12: A. De Silva
+ALRB V00-10-06
+PandaClient 0.4.2
+root 5.34 made default
+AtlasSetup 00-03-22  (not made default)
+
+V00-04-14
+---------
+12Jun12: A. De Silva
+ALRB V00-10-05
+
+V00-04-13
+---------
+11Jun12: A. De Silva
+Panda 0.4.1
+Ganga 5.8.3
+
+V00-04-12
+---------
+06Jun12: A. De Silva
+ROOT 5.34/00
+
+V00-04-11
+---------
+05Jun12: A. De Silva
+AtlasSetup 00-03-21
+#ROOT 5.34/00  (commented out because binaries unavailable).
+
+V00-04-10
+---------
+04Jun12: A. De Silva
+Ganga 5.8.2 (default)
+
+V00-04-09
+---------
+04Jun12: A. De Silva
+Ganga 5.8.2 (not made default)
+PoD 3.11.40.g5e7 (not made default)
+
+V00-04-08
+---------
+01Jun12: A. De Silva
+Panda 0.4.0
+sw-mgr 0.210.0
+
+V00-04-07
+---------
+31May12: A. De Silva
+Ganga 5.8.1-hotfix1
+(not deployed 5.8.2)
+
+V00-04-06
+---------
+31May12: A. De Silva
+Ganga 5.8.2
+(not deployed)
+
+V00-04-05
+---------
+22May12: A. De Silva
+PandaClient 0.3.99
+ALRB V00-10-04
+
+V00-04-04
+---------
+16May12: A. De Silva
+ROOT 5.32/03 made default.
+
+V00-04-03
+---------
+15May12: A. De Silva
+ALRB V00-10-02
+
+V00-04-02
+---------
+14May12: A. De Silva
+sw-mgr 208
+Ganga 5.8.1-hotfix1
+
+V00-04-01
+---------
+11May12: A. De Silva
+post svn fix script added
+
+V00-04-00
+---------
+11May12: A. De Silva
+ALRB V00-10-01
+
+V00-03-26
+---------
+10May12: A. De Silva
+Ganga 5.8.1
+
+V00-03-25
+---------
+09May12: A. De Silva
+Panda 0.3.98
+ALRB V00-09-40
+
+V00-03-24
+---------
+09May12: A. De Silva
+root 5.32/03 (not made default)
+Panda 0.3.97
+
+V00-03-23
+---------
+08May12: A. De Silva
+Made Ganga 5.8.0 default
+
+V00-03-22
+---------
+08May12: A. De Silva
+DQ2Client 2.3.0
+
+V00-03-21
+---------
+04May12: A. De Silva
+Ganga 5.8.0
+Made Ganga 5.7.12 the default.
+
+V00-03-20
+---------
+02May12: I. Trigger
+Rucio 0.0.4
+
+V00-03-19
+---------
+25Apr12: A. De Silva
+ALRB V00-09-37
+Panda 0.3.96
+
+V00-03-18
+---------
+24Apr12: A. De Silva
+AtlasSetup 00-03-19
+ALRB V00-09-37
+
+V00-03-17
+---------
+19Apr12: A. De Silva
+Ganga 5.7.12
+ALRB V00-09-36
+
+V00-03-16
+---------
+18Apr12: A. De Silva
+ALRB V00-09-34
+
+V00-03-15
+---------
+18Apr12: A. De Silva
+pyAMI 4.0.0a3
+
+V00-03-14
+---------
+17Apr12: A. De Silva
+ALRB V00-09-33
+
+V00-03-13
+---------
+16Apr12: A. De Silva
+ALRB V00-09-32
+
+V00-03-12
+---------
+16Apr12: A. De Silva
+root 5.32.02 (not default)
+ALRB V00-09-31
+
+V00-03-11
+---------
+13Apr12: A. De Silva
+ALRB V00-09-29
+Asetup 00-03-12 and 00-03-15
+
+V00-03-10
+---------
+12Apr12: A. De Silva
+ALRB V00-09-28
+
+V00-03-09
+---------
+12Apr12: A. De Silva
+ALRB V00-09-27
+
+V00-03-08
+---------
+11Apr12: A. De Silva
+identical to V00-03-07
+
+V00-03-07
+---------
+11Apr12: A. De Silva
+pyAMI-4.0.0a2
+
+V00-03-06
+---------
+04Apr12: A. De Silva
+remove current_3.1 sym link from glite.
+ALRB V00-09-25
+
+V00-03-05
+---------
+04Apr12: A. De Silva
+ALRB V00-09-24
+
+V00-03-04
+---------
+02Apr12: A. De Silva
+xroot installed before root.
+ALRB V00-09-23
+
+V00-03-03
+---------
+30Mar12: A. De Silva
+ALRB V00-09-22
+Ganga 5.7.11-hotfix1
+
+V00-03-02
+---------
+29Mar12: A. De Silva
+ALRB V00-09-20
+pyAMI-4.0.0a1
+
+V00-03-01
+---------
+28Mar12: A. De Silva
+ALRB V00-09-17
+
+V00-03-00
+---------
+28Mar12: A. De Silva
+pyAmi added, atlasmeta 0.4.0 installed.
+ALRB V00-09-15
+
+V00-02-99
+---------
+27Mar12: A. De Silva
+rucio 0.0.3
+python 2.6.5p1 (32-bit version)
+
+V00-02-98
+---------
+26Mar12: A. De Silva
+rucio, cmt installed.
+ALRB V00-09-08
+
+V00-02-97
+---------
+NOT released.  (mistake)
+
+V00-02-96
+---------
+23Mar12: A. De Silva
+Ganga 5.7.11
+AtlasSetup 00-03-05 (not made default)
+ALRB V00-09-02
+python 2.6.5p1
+Panda 0.3.95
+
+V00-02-95
+---------
+20Mar12: A. De Silva
+Ganga 5.7.10
+sw-mgr 0.202.0
+
+V00-02-94
+---------
+20Mar12: A. De Silva
+ALRB V00-08-37
+
+V00-02-93
+---------
+18Mar12: A. De Silva
+ALRB V00-08-36
+
+V00-02-92
+---------
+12Mar12: A. De Silva
+PandaClient 0.3.94
+ROOT 5.32.01 made default
+ROOT 5.30.06 installed
+
+V00-02-91
+---------
+06Mar12: A. De Silva
+ALRB V00-08-34
+PandaClient 0.3.91
+Ganga 5.7.9
+
+V00-02-90
+---------
+06Mar12: A. De Silva
+AtlasSetup 00-03-02
+
+V00-02-89
+---------
+05Mar12: A. De Silva
+PandaClient 0.3.89
+
+V00-02-88
+---------
+05Mar12: A. De Silva
+PandaClient 0.3.88  (backed out - warning in tests; 0.3.87 is default)
+ROOT 5.32.01 (not made default until 12 Mar)
+
+V00-02-87
+---------
+02Mar12: A. De Silva
+ALRB V00-08-33
+added motd
+
+V00-02-86
+---------
+02Mar12: A. De Silva
+PandaClient 0.3.87
+
+V00-02-85
+---------
+29Feb12: A. De Silva
+AtlasSetup 00-03-01
+
+V00-02-84
+---------
+28Feb12: A. De Silva
+PoD 3.10
+
+V00-02-83
+---------
+27Feb12: A. De Silva
+PandaClient 0.3.86
+
+V00-02-82
+---------
+24Feb12: A. De Silva
+Ganga 5.7.8
+
+V00-02-81
+---------
+15Feb12: A. De Silva
+PandaClient 0.3.85
+
+V00-02-80
+---------
+13Feb12: A. De Silva
+DQ2Client 1.0.0
+
+V00-02-79
+---------
+09Feb12: A. De Silva
+PandaClient 0.3.84
+
+V00-02-78
+---------
+03Feb12: A. De Silva
+PandaClient 0.3.83
+
+V00-02-77
+---------
+01Feb12: A. De Silva
+PandaClient 0.3.82
+
+V00-02-76
+---------
+31Jan12: A. De Silva
+Ganga 5.7.7
+
+V00-02-75
+---------
+30Jan12: A. De Silva
+PandaClient 0.3.81
+
+V00-02-74
+---------
+26Jan12: A. De Silva
+PandaClient 0.3.80
+
+V00-02-73
+---------
+23Jan12: A. De Silva
+PandaClient 0.3.79
+Ganga 5.7.6
+
+V00-02-72
+---------
+19Jan12: A. De Silva
+PandaClient 0.3.78
+
+V00-02-71
+---------
+18Jan12: A. De Silva
+PandaClient 0.3.76
+
+V00-02-70
+---------
+18Jan12: A. De Silva
+PandaClient 0.3.75
+
+V00-02-69
+---------
+17Jan12: A. De Silva
+Ganga 5.7.5
+
+V00-02-68
+---------
+16Jan12: A. De Silva
+PandaClient 0.3.74
+
+V00-02-67
+---------
+09Jan12: A. De Silva
+ALRB V00-08-32
+Removed gLite 3.1 from being installed on 64-bit platforms.
+
+V00-02-66
+---------
+03Jan12: A. De Silva
+Ganga 5.7.4
+sw-mgr 197.0
+
+V00-02-65
+---------
+13Dec11: I. Trigger
+PandaClient 0.3.73
+
+V00-02-64
+---------
+08Dec11: I. Trigger
+PandaClient 0.3.72
+
+V00-02-63
+---------
+05Dec11: A. De Silva
+ALRB V00-08-31
+
+V00-02-62
+---------
+05Dec11: A. De Silva
+ALRB V00-08-30
+
+V00-02-61
+---------
+28Nov11: A. De Silva
+Root 5.32/00
+Ganga 5.7.2-hotfix1
+Added xroot package
+ALRB V00-08-29
+
+V00-02-60
+---------
+28Nov11: I. Trigger & A. De Silva
+AtlasSetup 00-02-93
+Panda 0.3.71
+gLite 3.2.11-1-patch1.sl5
+
+V00-02-59
+---------
+22Nov11: I. Trigger
+Ganga 5.7.1
+Did not touch gLite (see note below, still commented out)
+
+(not tagged but in trunk)
+18Nov11: A. De Silva
+GLite 3.2.11-1-patch1.sl5 information inserted.
+(Note that this is a version I patched and is only available from TRIUMF.)
+
+V00-02-58
+---------
+17Nov11: A. De Silva
+AtlasSetup 00-02-92
+
+V00-02-57
+---------
+15Nov11: A. De Silva
+ALRB V00-08-26
+
+V00-02-56
+---------
+15Nov11: A. De Silva
+ALRB V00-08-25
+
+V00-02-55
+---------
+15Nov11: A. De Silva
+ROOT 5.30/04 installed (made default)
+gLite 3.2.11-1.sl5 installed. (backed out because it fails on zsh)
+PoD 3.8
+
+V00-02-54
+---------
+14Nov11: A. De Silva
+Ganga 5.7.0-hotfix3
+
+V00-02-53
+---------
+10Nov11: A. De Silva
+ROOT on 64-bit OS is default x86_64 5.30/03.
+
+V00-02-52
+---------
+(this was not released)
+08Nov11: A. De Silva
+Ganga 5.7.0-hotfix2
+No longer install root 5.28, default root is 5.30/03.
+
+V00-02-51
+---------
+08Nov11: A. De Silva
+Panda 0.3.69
+
+V00-02-50
+---------
+08Nov11: A. De Silva
+Panda 0.3.68
+
+V00-02-49
+---------
+06Nov11: A. De Silva
+ALRB V00-08-24
+
+V00-02-48
+---------
+04Nov11: A. De Silva
+Ganga 5.7.0
+ROOT 5.30/03
+ALRB V00-08-23
+
+V00-02-47
+---------
+03Nov11: A. De Silva
+ALRB V00-08-22
+DQ2Client 0.1.37
+
+V00-02-46
+---------
+01Nov11: A. De Silva
+ALRB V00-08-19
+
+V00-02-45
+---------
+01Nov11: A. De Silva
+Panda 0.3.67
+AtlasSetup 00-02-89
+ALRB V00-08-18
+
+V00-02-44
+---------
+26Oct11: A. De Silva
+Panda 0.3.66
+
+V00-02-43
+---------
+25Oct11: A. De Silva
+AtlasSetup 00-02-86
+Panda 0.3.65
+
+V00-02-42
+---------
+24Oct11: A. De Silva
+AtlasSetup 00-02-85
+
+V00-02-41
+---------
+12Oct11: A. De Silva
+ALRB V00-08-15
+Added boost and PoD for installations.
+
+V00-02-40
+---------
+11Oct11: A. De Silva
+Panda 0.3.64
+
+V00-02-39
+---------
+07Oct11: A. De Silva
+Ganga 5.6.11
+
+V00-02-38
+---------
+03Oct11: A. De Silva
+Panda 0.3.62
+AtlasSetup 00-02-82
+
+V00-02-37
+---------
+28Sep11: A. De Silva
+Panda 0.3.61
+
+V00-02-36
+---------
+27Sep11: A. De Silva
+Panda 0.3.60
+
+V00-02-35
+---------
+23Sep11: A. De Silva
+root 5.28.00g
+root 5.30.02
+
+V00-02-34
+---------
+19Sep11: A. De Silva
+AtlasSetup 00-02-80
+Ganga 5.6.10
+
+V00-02-33
+---------
+16Sep11: A. De Silva
+AtlasSetup 00-02-79
+
+V00-02-32
+---------
+16Sep11: A. De Silva
+ALRB V00-08-05
+
+V00-02-31
+---------
+15Sep11: A. De Silva
+sw-mgr 0.192
+
+V00-02-30
+---------
+13Sep11: A. De Silva
+PandaClient 0.3.59
+proof link to 5.30.01
+
+V00-02-29
+---------
+12Sep11: A. De Silva
+AtlasSetup 00-02-76
+
+V00-02-28
+---------
+09Sep11: A. De Silva
+ALRB V00-08-04
+
+V00-02-27
+---------
+09Sep11: A. De Silva
+ALRB V00-08-03
+
+V00-02-26
+---------
+08Sep11: A. De Silva
+Ganga 5.6.9
+
+V00-02-25
+---------
+06Sep11: A. De Silva
+PandaClient 0.3.57
+
+V00-02-24
+---------
+02Sep11: A. De Silva
+sw-mgr 0.189.0
+
+V00-02-23
+---------
+31Aug11: A. De Silva
+Panda 0.3.55
+
+V00-02-22
+---------
+29Aug11: A. De Silva
+ALRB V00-08-02
+Ganga 5.6.8
+root 5.30.01
+
+V00-02-21
+---------
+26Aug11: A. De Silva
+AtlasSetup 00-02-68
+
+V00-02-20
+---------
+25Aug11: A. De Silva
+AtlasSetup 00-02-65
+
+V00-02-19
+---------
+24Aug11: A. De Silva
+AtlasSetup 00-02-63
+
+V00-02-18
+---------
+23Aug11: A. De Silva
+ALRB V00-08-01
+
+V00-02-17
+---------
+17Aug11: A. De Silva
+Panda 0.3.54
+
+V00-02-16
+---------
+15Aug11: A. De Silva
+AtlasSetup 00-02-55
+Ganga 5.6.7
+
+V00-02-15
+---------
+10Aug11: A. De Silva
+ALRB V00-08-00
+AtlasSetup 00-02-54
+
+V00-02-14
+---------
+10Aug11: A. De Silva
+ALRB V00-07-66
+
+V00-02-13
+---------
+10Aug11: A. De Silva
+AtlasSetup 00-02-23-01 (reverted default)
+
+V00-02-12
+---------
+08Aug11: A. De Silva
+Ganga 5.6.6-hotfix2
+root 5.28/00f
+AtlasSetup 00-02-46
+ALRB V00-07-65
+
+V00-02-11
+---------
+05Aug11: I. Trigger
+PandaClient 0.3.53
+
+V00-02-10
+---------
+01Aug11: I. Trigger
+Ganga 5.6.6
+PandaClient 0.3.51
+
+V00-02-09
+---------
+26Jul11: I. Trigger
+PandaClient 0.3.50
+
+V00-02-08
+---------
+22Jul11: A. De Silva
+V00-07-64
+
+V00-02-07
+---------
+18Jul11: A. De Silva
+sw-mgr 0.187.0
+
+V00-02-06
+---------
+14Jul11: A. De Silva
+PandaClient 0.3.49
+Ganga 5.6.5
+
+V00-02-05
+---------
+13Jul11: A. De Silva
+PandaClient 0.3.48
+
+V00-02-04
+---------
+11Jul11: A. De Silva
+ALRB V00-07-63
+
+V00-02-03
+---------
+08Jul11: A. De Silva
+Ganga 5.6.4-hotfix1
+
+V00-02-02
+---------
+05Jul11: A. De Silva
+Ganga 5.6.4
+
+V00-02-01
+---------
+30Jun11: A. De Silva
+Panda 0.3.47
+Ganga 5.6.3  (rolled back for the moment)
+
+V00-02-00
+---------
+28Jun11: A. De Silva
+ROOT 5.30/00
+
+V00-01-99
+---------
+23Jun11: A. De Silva
+ALRB V00-07-62
+
+V00-01-98
+---------
+22Jun11: A. De Silva
+ALRB V00-07-61
+gcc 34 not installed.  gcc435 installed (432 not except for Athena)
+python old versions removed.
+
+V00-01-97
+---------
+22Jun11: I. Trigger / A. De Silva
+ROOT 5.30 rc2 
+AtlasSetup-V00-02-23-01
+sw-mgr v0.185.0
+PandaClient 0.3.45
+
+V00-01-96
+---------
+16Jun11: I. Trigger
+Ganga 5.6.2
+
+V00-01-95
+---------
+07Jun11: A. De Silva
+PandaClient 0.3.44
+
+V00-01-94
+---------
+01Jun11: A. De Silva
+sw-mgr v0.179.0
+ROOT 5.30.00-rc1
+
+V00-01-93
+---------
+31May11: A. De Silva
+Panda 00-03-43
+
+V00-01-92
+---------
+31May11: A. De Silva
+AtlasSetup 00-02-23
+
+V00-01-91
+---------
+30May11: A. De Silva
+ALRB V00-07-60
+
+V00-01-90
+---------
+27May11: A. De Silva
+AtlasSetup 00-02-22 - reverted to 00-02-17 after in trunk.
+
+V00-01-89
+---------
+24May11: A. De Silva
+ALRB V00-07-59
+
+V00-01-88
+---------
+24May11: A. De Silva
+ALRB V00-07-58
+
+V00-01-87
+---------
+24May11: A. De Silva
+ALRB V00-07-57
+
+V00-01-86
+---------
+20May11: A. De Silva
+Ganga 5.6.1
+ALRB V00-07-54
+
+V00-01-85
+---------
+18May11: A. De Silva
+ALRB V00-07-53
+PandaClient 0.3.42
+sw-mgr v0.177.0
+AtlasSetup 00-02-17
+
+V00-01-84
+---------
+18May11: A. De Silva
+ALRB V00-07-52
+
+V00-01-83
+---------
+17May11: A. De Silva
+ALRB V00-07-51
+remove wlcg-client-lite
+
+V00-01-82
+---------
+17May11: A. De Silva
+ALRB V00-07-48
+
+V00-01-81
+---------
+17May11: A. De Silva
+ALRB V00-07-48
+(not deployed correctly)
+
+V00-01-80
+---------
+16May11: A. De Silva
+ALRB V00-07-47
+
+V00-01-79
+---------
+16May11: A. De Silva
+ALRB V00-07-46
+
+V00-01-78
+---------
+13May11: A. De Silva
+ALRB V00-07-45
+AtlasSetupp 00-02-16
+
+V00-01-77
+---------
+13May11: A. De Silva
+AtlasSetup 0-02-15
+
+V00-01-76
+---------
+11May11: A. De Silva
+Panda 0.3.41
+ALRB V00-07-43
+AtlasSetup 0-02-13
+
+V00-01-75
+---------
+09May11: A. De Silva
+ALRB V00-07-42
+
+V00-01-74
+---------
+06May11: A. De Silva
+Panda 0.3.40
+ALRB V00-07-41
+
+V00-01-73
+---------
+04May11: A. De Silva
+Ganga 5.6.0-hotfix1
+ALRB V00-07-40
+
+V00-01-72
+---------
+28Apr11: A. De Silva
+PandaClient 0.3.38
+sw-mgr v0.174.0
+ROOT 5.28/00c
+
+V00-01-71
+---------
+20Apr11: A. De Silva
+Ganga 5.6.0
+
+V00-01-70
+---------
+18Apr11: A. De Silva
+DQ2Client 0.1.36.2
+
+V00-01-69
+---------
+18Apr11: A. De Silva
+Panda 0.3.37
+
+V00-01-68
+---------
+15Apr11: A. De Silva
+Panda 0.3.36
+
+V00-01-67
+---------
+14Apr11: A. De Silva
+ALRB V00-07-36
+
+V00-01-66
+---------
+11Apr11: A. De Silva
+dq2 0.1.36.1 is now default
+
+V00-01-65
+---------
+07Apr11: A. De Silva
+ALRB V00-07-35
+dq2 0.1.36 is now default
+(not deployed because 0.1.36 disappeared from pacman mirror)
+
+V00-01-64
+---------
+07Apr11: A. De Silva
+ROOT 5.28.00b added and is default (32-bit); all others not installed anymnore.
+
+V00-01-63
+---------
+06Apr11: A. De Silva
+DQ2Client 0.1.36  (not yet made default)
+fixed bug in python installation (affects i686)
+ALRB V00-07-33
+
+V00-01-62
+---------
+05Apr11: A. De Silva
+Ganga 5.5.27
+
+V00-01-61
+---------
+01Apr11: A. De Silva
+Panda 0.3.35
+
+V00-01-60
+---------
+30Mar11: A. De Silva
+Panda 0.3.34
+
+V00-01-59
+---------
+21Mar11: A. De Silva
+Ganga 5.5.26
+
+V00-01-58
+---------
+14Mar11: A. De Silva
+Ganga 5.5.25
+ALRB V00-07-32
+
+V00-01-57
+---------
+02Mar11: A. De Silva
+Ganga 5.5.24
+ALRB V00-07-26
+
+V00-01-56
+---------
+28Feb11: A. De Silva
+Panda 0.3.32
+
+V00-01-55
+---------
+25Feb11: A. De Silva
+Panda 0.3.30
+AtlasSetup 00-01-96
+
+V00-01-54
+---------
+22Feb11: A. De Silva
+ALRB V00-07-25
+AtlasSetup V00-01-95
+
+V00-01-53
+---------
+22Feb11: A. De Silva
+ALRB V00-07-24
+Bug fix in config for ROOT.
+
+V00-01-52
+---------
+21Feb11: A. De Silva
+ALRB V00-07-23
+
+V00-01-51
+---------
+15Feb11: A. De Silva
+ALRB V00-07-22
+
+V00-01-50
+---------
+15Feb11: A. De Silva
+ALRB V00-07-21
+
+V00-01-49
+---------
+14Feb11: A. De Silva
+ALRB V00-07-20
+
+V00-01-48
+---------
+10Feb11: A. De Silva
+Ganga 5.5.23
+Panda 0.3.29
+
+V00-01-47
+---------
+08Feb11: A. De Silva
+Ganga 5.5.22-hotfix2
+
+V00-01-46
+---------
+06Feb11: A. De Silva
+ALRB V00-07-19
+
+V00-01-45
+---------
+03Feb11: A. De Silva
+ALRB V00-07-18
+install from pacman mirror python instead of local compilations.
+
+V00-01-44
+---------
+03Feb11: A. De Silva
+ALRB V00-07-16
+
+V00-01-43
+---------
+03Feb11: A. De Silva
+ALRB V00-07-15
+(not deployed)
+
+V00-01-42
+---------
+02Feb11: A. De Silva
+ALRB V00-07-14
+
+V00-01-41
+---------
+02Feb11: A. De Silva
+Panda 0.3.28
+Ganga 5.5.22-hotfix1
+
+V00-01-40
+---------
+01Feb11: A. De Silva
+AtlasSetup 00-01-94
+Ganga 5.5.22
+
+V00-01-39
+---------
+27Jan11: A. De Silva
+ALRB V00-07-13
+
+V00-01-38
+---------
+26Jan11: A. De Silva
+ALRB V00-07-12
+
+V00-01-37
+---------
+26Jan11: A. De Silva
+ALRB V00-07-11
+
+V00-01-36
+---------
+26Jan11: A. De Silva
+ALRB V00-07-10
+
+V00-01-35
+---------
+25Jan11: A. De Silva
+ALRB V00-07-07
+
+V00-01-34
+---------
+25Jan11: A. De Silva
+Panda 0.3.27
+included pre_fixGLite patch.
+ALRB V00-07-06
+
+V00-01-33
+---------
+21Jan11: A. De Silva
+Panda 0.3.25
+AtlasSetup 00-01-90
+
+V00-01-32
+---------
+18Jan11: A. De Silva
+Removal of old patching scripts from list.  (old ones commented out for now.)
+
+V00-01-31
+---------
+17Jan11: A. De Silva
+Ganga 5.5.21
+ALRB V00-07-05
+
+V00-01-30
+---------
+14Jan11: A. De Silva
+Ganga 5.5.20-hotfix1
+AtlasSetup 00-01-88
+
+V00-01-29
+---------
+12Jan11: A. De Silva
+Ganga 5.5.20
+
+V00-01-28
+---------
+10Jan11: A. De Silva
+Panda 0.3.24
+
+V00-01-27
+---------
+06Jan11: A. De Silva
+Panda 0.3.22
+
+V00-01-26
+---------
+04Jan11: A. De Silva
+Ganga 5.5.19
+AtlasSetup 00-01-85
+ROOT 5.28
+
+V00-01-25
+---------
+10Dec10: A. De Silva
+Ganga 5.5.18-hotfix1
+
+V00-01-24
+---------
+08Dec10: A. De Silva
+Ganga 5.5.18
+ALRB V00-07-04
+post fix for gLite 3.2
+
+V00-01-23
+---------
+08Dec10: A. De Silva
+ALRB V00-07-03
+
+V00-01-22
+---------
+07Dec10: A. De Silva
+AtlasSetup 00-01-71
+
+V00-01-21
+---------
+06Dec10: A. De Silva
+PandaClient 0.3.20
+
+V00-01-20
+---------
+30Nov10: A. De Silva
+ALRB V00-07-01
+AtlasSetup 00-01-70
+
+V00-01-19
+---------
+29Nov10: A. De Silva
+Undo changes of V00-01-18
+
+V00-01-18
+---------
+29Nov10: A. De Silva
+Make 64-bit ROOT default on 64-bit platforms.
+(not deployed)
+
+V00-01-17
+---------
+26Nov10: A. De Silva
+ALRB V00-07-00
+AtlasSetup 00-01-67
+
+V00-01-16
+---------
+24Nov10: A. De Silva
+PandaClient 0.3.19
+
+V00-01-15
+---------
+24Nov10: A. De Silva
+PandaClient 0.3.18
+
+V00-01-14
+---------
+22Nov10: A. De Silva
+AtlasSetup V00-01-63
+PandaClient 0.3.17
+
+V00-01-13
+---------
+19Nov10: A. De Silva
+gLite 3.2 deployed for 64-bit platforms.
+
+V00-01-12
+---------
+18Nov10: A. De Silva
+Panda 0.3.16
+Ganga 5.5.17-hotfix1
+
+V00-01-11
+---------
+17Nov10: A. De Silva
+pre_fixDQ2Client.sh added.
+
+V00-01-10
+---------
+16Nov10: A. De Silva
+PandaClient 0.3.15
+ALRB V00-06-97
+
+V00-01-09
+---------
+15Nov10: A. De Silva
+PandaClient 0.3.14
+ALRB V00-06-96
+added secondary links
+
+V00-01-08
+---------
+10Nov10: A. De Silva
+ALRB V00-06-93
+
+V00-01-07
+---------
+09Nov10: A. De Silva
+bug fix.
+
+V00-01-06
+---------
+09Nov10: A. De Silva
+Panda 0.3.12
+ALRB V00-06-90
+
+V00-01-05
+---------
+08Nov10: A. De Silva
+Ganga 5.5.17
+implement auto-cleanup versioning.
+ALRB V00-06-89
+
+V00-01-04
+---------
+04Nov10: A. De Silva
+AtlasSetup V00-01-57
+
+V00-01-03
+---------
+03Nov10: A. De Silva
+PandaClient 0.3.10
+
+V00-01-02
+---------
+01Nov10: A. De Silva
+PandaClient 0.3.8
+
+V00-01-01
+---------
+29Oct10: A. De Silva
+ALRB V00-06-86
+
+V00-01-00
+---------
+29Oct10: A. De Silva
+ALRB V00-06-85
+
+V00-00-99
+---------
+28Oct10: A. De Silva
+PandaClient 0.3.7
+
+V00-00-98
+---------
+27Oct10: A. De Silva
+ALRB V00-06-82
+
+V00-00-97
+---------
+26Oct10: A. De Silva
+ALRB V00-06-80
+
+V00-00-96
+---------
+21Oct10: A. De Silva
+AtlasSetup 00-01-54
+sw-mgr 0.156
+Added post_RemoveObsolete.sh
+
+V00-00-95
+---------
+20Oct10: A. De Silva
+ALRB V00-06-79
+
+V00-00-94
+---------
+20Oct10: A. De Silva
+ALRB V00-06-78
+
+V00-00-93
+---------
+20Oct10: A. De Silva
+PandaClient 0.3.6
+install python 2.6.6
+ALRB V00-06-75
+
+V00-00-92
+---------
+14Oct10: A. De Silva
+Removed xrootd and wlcg-client.
+ALRB V00-06-74
+sw-mgr 0.153
+PandaClient 0.3.5
+
+V00-00-91
+---------
+14Oct10: A. De Silva
+Ganga 5.5.16
+
+V00-00-90
+---------
+13Oct10: A. De Silva
+ALRB V00-06-72
+
+V00-00-89
+---------
+13Oct10: A. De Silva
+ALRB V00-06-71
+
+V00-00-88
+---------
+12Oct10: A. De Silva
+ALRB V00-06-70
+
+V00-00-87
+---------
+12Oct10: A. De Silva
+AtlasSetup V00-01-46
+ALRB V00-06-69
+Panda 0.3.4
+
+V00-00-86
+---------
+04Oct10: A. De Silva
+Panda 0.3.2
+Removed installation of ROOT 5.22.
+Install 5.27.06 for PROOF users.
+Default root version is now 5.26.
+
+V00-00-85
+---------
+04Oct10: A. De Silva
+Panda 0.3.1
+
+V00-00-84
+---------
+30Sep10: A. De Silva
+AtlasSetup V00-01-35
+Panda 0.3.0
+Ganga 5.5.15-hotfix4
+
+V00-00-83
+---------
+28Sep10: A. De Silva
+AtlasSetup V00-01-32
+Panda 0.2.99
+ALRB V00-06-65
+
+V00-00-82
+---------
+24Sep10: A. De Silva
+Ganga 5.5.15-hotfix3
+
+V00-00-81
+---------
+23Sep10: A. De Silva
+Panda 0.2.98
+
+V00-00-80
+---------
+21Sep10: A. De Silva
+Ganga 5.5.15-hotfix2
+
+V00-00-79
+---------
+20Sep10: A. De Silva
+Ganga 5.5.15-hotfix1
+AtlasSetup 00-01-28
+ALRB V00-06-63
+
+V00-00-78
+---------
+17Sep10: I. Trigger
+PandaClient 0.2.96
+Ganga 5.5.15
+
+V00-00-77
+---------
+16Sep10: I. Trigger
+fixes typo in 76 which should never have been released
+
+V00-00-76
+---------
+16Sep10: I. Trigger
+Revert to revision 691 (the original V00-00-74, sorry about the horrible
+accident with the svn switch command) then update PandaClient to 95 as 90 
+no longer exists and also update Ganga to 14.
+
+V00-00-75
+---------
+03Sep10: A. De Silva
+(ALRB V00-06-62
+AtlasSetup V00-01-12
+Note: 
+  This is not deployed - I ran out of time.  
+  The svn head is reverted to V0-00-74.
+  Do not deploy ALRB V00-06-62 without testing with 
+    AtlasSetup V00-01-12 or newer first.
+)
+
+
+V00-00-74
+---------
+03Sep10: A. De Silva
+Panda 0.2.90
+
+V00-00-73
+---------
+02Sep10: A. De Silva
+AtlasSetup V00-01-07
+
+V00-00-72
+---------
+01Sep10: A. De Silva
+ALRB V00-06-60
+Changed options to use downloadURL.
+
+V00-00-71
+---------
+30Aug10: A. De Silva
+Panda 0.2.89
+
+V00-00-70
+---------
+27Aug10: A. De Silva
+ALRB V00-06-59
+Panda 0.2.88
+Ganga 5.5.13
+DQ2Client 0.1.35
+
+V00-00-69
+---------
+26Aug10: A. De Silva
+ALRB V00-06-58
+
+V00-00-68
+---------
+25Aug10: A. De Silva
+Panda 0.2.86
+ALRB V00-06-57
+Added AtlasSetup
+
+V00-00-67
+---------
+23Aug10: A. De Silva
+Panda 0.2.85
+
+V00-00-66
+---------
+20Aug10: A. De Silva
+Panda 0.2.84
+
+V00-00-65
+---------
+19Aug10: A. De Silva
+Panda 0.2.83
+
+V00-00-64
+---------
+12Aug10: A. De Silva
+Panda 0.2.82
+Ganga 5.5.12
+
+V00-00-63
+---------
+11Aug10: A. De Silva
+Panda 0.2.80
+
+V00-00-62
+---------
+09Aug10: A. De Silva
+Panda 0.2.79
+
+V00-00-61
+---------
+06Aug10: A. De Silva
+Panda 0.2.76
+
+V00-00-60
+---------
+05Aug10: A. De Silva
+Ganga 5.5.11
+
+V00-00-59
+---------
+03Aug10: A. De Silva
+Panda 0.2.73
+
+V00-00-58
+---------
+30Jul10: A. De Silva
+Panda 0.2.72
+
+V00-00-57
+---------
+26Jul10: A. De Silva
+Panda 0.2.71
+
+V00-00-56
+---------
+23Jul10: A. De Silva
+Panda 0.2.70
+
+V00-00-55
+---------
+22Jul10: A. De Silva
+Panda 0.2.67
+Ganga 5.5.10-hotfix2
+
+V00-00-54
+---------
+20Jul10: A. De Silva
+Panda 0.2.65
+
+V00-00-53
+---------
+19Jul10: A. De Silva
+Ganga 5.5.10-hotfix1
+
+V00-00-52
+---------
+15Jul10: A. De Silva
+Panda 0.2.64
+ALRB V00-06-51
+
+V00-00-51
+---------
+08Jul10: A. De Silva
+Panda 0.2.61
+
+V00-00-50
+---------
+07Jul10: A. De Silva
+ALRB V00-06-50
+
+V00-00-49
+---------
+05Jul10: A. De Silva
+Panda 0.2.60
+
+V00-00-48
+---------
+30Jun10: A. De Silva
+Just tagging latest version (forgot earlier)
+
+V00-00-47
+---------
+30Jun10: A. De Silva
+Ganga 5.5.9
+ALRB V00-06-48
+
+V00-00-46
+---------
+25Jun10: A. De Silva
+Panda 0.2.59
+
+V00-00-45
+---------
+24Jun10: A. De Silva
+Panda 0.2.57
+
+V00-00-44
+---------
+23Jun10: A. De Silva
+Panda 0.2.56
+
+V00-00-43
+---------
+21Jun10: A. De Silva
+ALRB V00-06-45
+
+V00-00-42
+---------
+18Jun10: A. De Silva
+ALRB V00-06-40
+
+V00-00-41
+---------
+18Jun10: A. De Silva
+PandaClient 0.2.55
+ALRB V00-06-39
+
+V00-00-40
+---------
+15Jun10: I. Trigger
+PandaClient 0.2.53
+Ganga 5.5.8
+
+V00-00-39
+---------
+11Jun10: A. De Silva
+PandaClient 0.2.52
+ALRB V00-06-37
+
+V00-00-38
+---------
+09Jun10: A. De Silva
+PandaClient 0.2.51
+Ganga 5.5.7
+
+V00-00-37
+---------
+04Jun10: A. De Silva
+PandaClient 0.2.50
+
+V00-00-36
+---------
+01Jun10: A. De Silva
+PandaClient 0.2.48
+
+V00-00-35
+---------
+31May10: I. Trigger
+Ganga 5.5.6-hotfix2
+
+V00-00-34
+---------
+26May10: I. Trigger
+Panda 0.2.47
+Ganga 5.5.6-hotfix1
+
+V00-00-33
+---------
+25May10: I. Trigger
+Panda 0.2.46
+Ganga 5.5.6
+
+V00-00-32
+---------
+21May10: I. Trigger
+Panda 0.2.45
+
+V00-00-31
+---------
+20May10: I. Trigger
+Panda 0.2.42
+(sorry, tested as V00-00-29-v1) 
+
+V00-00-30
+---------
+18May10: A. De Silva
+ALRB V00-06-36
+
+V00-00-29
+---------
+17May10: A. De Silva
+ALRB V00-06-34
+
+V00-00-28
+---------
+14May10: A. De Silva
+Ganga 5.5.5
+Panda 0.2.40
+
+V00-00-27
+---------
+13May10: A. De Silva
+ALRB V00-06-33
+Added xrootd - dummy version used for now.
+
+V00-00-26
+---------
+12May10: A. De Silva
+Panda 0.2.39
+
+V00-00-25
+---------
+10May10: A. De Silva
+Panda 0.2.37
+ALRB V00-06-28
+
+V00-00-24
+---------
+10May10: A. De Silva
+Panda 0.2.36
+
+V00-00-23
+---------
+07May10: A. De Silva
+Panda 0.2.35
+ALRB V00-06-27
+
+V00-00-22
+---------
+06May10: A. De Silva
+Panda 0.2.34
+ALRB V00-06-26
+
+V00-00-21
+---------
+03May10: A. De Silva
+ALRB V00-06-23
+
+V00-00-20
+---------
+30Apr10: A. De Silva
+Panda 0.2.33
+
+V00-00-19
+---------
+29Apr10: A. De Silva
+Panda 0.2.32
+ALRB V00-06-20
+Included wlcg-client-lite (not installed by default).
+
+V00-00-18
+---------
+28Apr10: A. De Silva
+Panda 0.2.30
+Ganga 5.5.4
+ALRB V00-06-18
+
+V00-00-17
+---------
+28Apr10: A. De Silva
+ALRB V00-06-17.
+
+V00-00-16
+---------
+26Apr10: A. De Silva
+ALRB V00-06-16.
+
+V00-00-15
+---------
+23Apr10: A. De Silva
+New post update patch to fix Athena sl5 gcc43 for compiler.
+ALRB V00-06-15.
+
+V00-00-14
+---------
+21Apr10: A. De Silva
+PandaClient 0.2.29
+
+V00-00-13
+---------
+test and commit 16Apr10: I. Trigger
+PandaClient 0.2.28
+and
+ALRB V00-06-10
+15Apr10: A. De Silva
+Additional information for setting up PandaClient without athena.
+bug fix for runKV where no special DBRelease is required.
+Fixed pool cond location (local)
+
+
+V00-00-12
+---------
+12Apr10: A. De Silva
+PandaClient 0.2.27
+ALRB V00-06-09
+installed sw-mgr and gcc-atlas
+
+V00-00-11
+---------
+07Apr10: A. De Silva
+ALRB V00-06-08
+
+V00-00-10
+---------
+07Apr10: A. De Silva
+ALRB V00-06-07
+Ganga 5.5.3-hotfix2
+
+V00-00-09
+---------
+06Apr10: A. De Silva
+Panda 0.2.26
+Ganga 5.5.3-hotfix1
+ALRB V00-06-05
+
+V00-00-08
+---------
+31Mar10: A. De Silva
+Panda 0.2.24
+Ganga 5.5.3
+ALRB V00-06-02
+
+V00-00-07
+---------
+30Mar10: A. De Silva
+Added post migration cleanup script.
+
+V00-00-06
+---------
+30Mar10: A. De Silva
+Reversed order of migration (manageTier3SW first and then ALRB).
+
+V00-00-05
+---------
+29Mar10: A. De Silva
+Added the post migration scripts for svn in case it is needed after the 
+svn migration.
+
+V00-00-04
+---------
+29Mar10: A. De Silva
+ALRB V00-06-00
+PandaClient 0.2.23
+
+V00-00-03
+---------
+26Mar10: A. De Silva
+ALRB V00-05-10
+
+V00-00-02
+---------
+25Mar10: A. De Silva
+First version.	
